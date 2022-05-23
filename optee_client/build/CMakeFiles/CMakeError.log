@@ -1,0 +1,56 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9bd9b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9bd9b.dir/build.make CMakeFiles/cmTC_9bd9b.dir/build
+make[1]: Entering directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9bd9b.dir/CheckSymbolExists.c.o
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc     -o CMakeFiles/cmTC_9bd9b.dir/CheckSymbolExists.c.o   -c /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9bd9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bd9b.dir/link.txt --verbose=1
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc       CMakeFiles/cmTC_9bd9b.dir/CheckSymbolExists.c.o  -o cmTC_9bd9b 
+CMakeFiles/cmTC_9bd9b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9bd9b.dir/build.make:97: recipe for target 'cmTC_9bd9b' failed
+make[1]: *** [cmTC_9bd9b] Error 1
+make[1]: Leaving directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9bd9b/fast' failed
+make: *** [cmTC_9bd9b/fast] Error 2
+
+File /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89d7e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89d7e.dir/build.make CMakeFiles/cmTC_89d7e.dir/build
+make[1]: Entering directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89d7e.dir/CheckFunctionExists.c.o
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_89d7e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_89d7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89d7e.dir/link.txt --verbose=1
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_89d7e.dir/CheckFunctionExists.c.o  -o cmTC_89d7e -lpthreads 
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_89d7e.dir/build.make:97: recipe for target 'cmTC_89d7e' failed
+make[1]: *** [cmTC_89d7e] Error 1
+make[1]: Leaving directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_89d7e/fast' failed
+make: *** [cmTC_89d7e/fast] Error 2
+
+

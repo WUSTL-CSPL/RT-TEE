@@ -1,0 +1,6 @@
+export RTTEE_PATH=/home/osboxes/rttee_qemu
+export HOST_CROSS_COMPILE=$RTTEE_PATH/toolchains/aarch64/bin/aarch64-linux-gnu-
+export CROSS_COMPILE=$RTTEE_PATH/toolchains/aarch64/bin/aarch64-linux-gnu-
+export TA_CROSS_COMPILE=$RTTEE_PATH/toolchains/aarch64/bin/aarch64-linux-gnu-
+export TEEC_EXPORT=$RTTEE_PATH/optee_client/out
+export TA_DEV_KIT_DIR=$RTTEE_PATH/optee_os/out/arm/export-ta_arm64

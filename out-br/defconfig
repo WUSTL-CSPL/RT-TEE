@@ -1,0 +1,33 @@
+# Architecture
+BR2_aarch64=y
+BR2_CCACHE=y
+BR2_TARGET_GENERIC_ISSUE="Welcome to Buildroot, type root or test to login"
+
+BR2_TARGET_ROOTFS_CPIO=y
+BR2_TARGET_ROOTFS_CPIO_GZIP=y
+BR2_PACKAGE_HOST_E2FSPROGS=y
+BR2_PACKAGE_OPTEE_CLIENT=y
+BR2_TOOLCHAIN_EXTERNAL=y
+BR2_TOOLCHAIN_EXTERNAL_CUSTOM=y
+BR2_TOOLCHAIN_EXTERNAL_PATH="/home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64"
+BR2_TOOLCHAIN_EXTERNAL_CUSTOM_PREFIX="aarch64-linux-gnu"
+BR2_TOOLCHAIN_EXTERNAL_GCC_8=y
+BR2_TOOLCHAIN_EXTERNAL_HEADERS_4_18=y
+BR2_TOOLCHAIN_EXTERNAL_CUSTOM_GLIBC=y
+BR2_TOOLCHAIN_EXTERNAL_CXX=y
+
+BR2_TARGET_GENERIC_GETTY_PORT="ttyAMA0"
+BR2_ROOTFS_OVERLAY="/home/osboxes/RT-TEE_PRE_RELEASE/build/../build/br-ext/board/qemu/overlay"
+BR2_PACKAGE_OPTEE_TEST_CROSS_COMPILE="/usr/bin/ccache /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-"
+BR2_PACKAGE_OPTEE_EXAMPLES_CROSS_COMPILE="/usr/bin/ccache /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-"
+BR2_PACKAGE_OPTEE_TEST_SDK="/home/osboxes/RT-TEE_PRE_RELEASE/build/../optee_os/out/arm/export-ta_arm64"
+BR2_PACKAGE_OPTEE_EXAMPLES_SDK="/home/osboxes/RT-TEE_PRE_RELEASE/build/../optee_os/out/arm/export-ta_arm64"
+BR2_PACKAGE_OPTEE_CLIENT_SITE="/home/osboxes/RT-TEE_PRE_RELEASE/build/../optee_client"
+BR2_PACKAGE_OPTEE_TEST_SITE="/home/osboxes/RT-TEE_PRE_RELEASE/build/../optee_test"
+BR2_PACKAGE_OPTEE_EXAMPLES_SITE="/home/osboxes/RT-TEE_PRE_RELEASE/build/../optee_examples"
+BR2_PACKAGE_OPTEE_BENCHMARK_SITE="/home/osboxes/RT-TEE_PRE_RELEASE/build/../optee_benchmark"
+BR2_PACKAGE_OPTEE_TEST=y
+BR2_PACKAGE_OPTEE_EXAMPLES=y
+BR2_PACKAGE_STRACE=y
+BR2_PACKAGE_OPENSSL=y
+BR2_PACKAGE_LIBOPENSSL=y

@@ -1,0 +1,4 @@
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/OvmfPkg/VirtioGpuDxe/VirtioGpu/OUTPUT/Commands.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/OvmfPkg/VirtioGpuDxe/VirtioGpu/OUTPUT/DriverBinding.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/OvmfPkg/VirtioGpuDxe/VirtioGpu/OUTPUT/Gop.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/OvmfPkg/VirtioGpuDxe/VirtioGpu/OUTPUT/AutoGen.obj

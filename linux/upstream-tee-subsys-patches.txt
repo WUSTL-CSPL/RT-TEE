@@ -1,0 +1,57 @@
+Patches relating to the TEE subsystem
+=====================================
+
+This is a list of all the patches that relates to the TEE subsystem. The
+text inside the brackets are the kernel version where it was introduced,
+followed by the sha1 hash in the upstream kernel tree.
+
+
+[v4.20-rc1] 25559c22cef8 tee: add kernel internal client interface
+[v4.20-rc1] db878f76b9ff tee: optee: take DT status property into account
+[v4.19] 3249527f19d6 tee: optee: making OPTEE_SHM_NUM_PRIV_PAGES configurable via Kconfig
+[v4.19] cf89fe88a676 tee: replace getnstimeofday64() with ktime_get_real_ts64()
+[v4.17] ab9d3db5b320 tee: check shm references are consistent in offset/size
+[v4.17] bb765d1c331f tee: shm: fix use-after-free via temporarily dropped reference
+[v4.16] 5c5f80307ab2 tee: optee: report OP-TEE revision information
+[v4.16] 6e112de04278 tee: optee: GET_OS_REVISION: document a2 as a build identifier
+[v4.16] 7dd003aec201 correct max value for id allocation
+[v4.16] ded4c39e93f3 arm/arm64: smccc: Make function identifiers an unsigned quantity
+[v4.16] 2490cdf6435b tee: shm: Potential NULL dereference calling tee_shm_register()
+[v4.16] c94f31b526fe tee: shm: don't put_page on null shm->pages
+[v4.16] 80ec6f5de60b tee: shm: make function __tee_shm_alloc static
+[v4.16] cdbcf83d29c1 tee: optee: check type of registered shared memory
+[v4.16] 95ffe4ca4387 tee: add start argument to shm_register callback
+[v4.16] f681e08f671a tee: optee: fix header dependencies
+[v4.16] ef8e08d24ca8 tee: shm: inline tee_shm_get_id()
+[v4.16] 217e0250cccb tee: use reference counting for tee_context
+[v4.16] f58e236c9d66 tee: optee: enable dynamic SHM support
+[v4.16] abd135ba215c tee: optee: add optee-specific shared pool implementation
+[v4.16] d885cc5e0759 tee: optee: store OP-TEE capabilities in private data
+[v4.16] 53a107c812de tee: optee: add registered buffers handling into RPC calls
+[v4.16] 64cf9d8a672e tee: optee: add registered shared parameters handling
+[v4.16] 06ca79179c4e tee: optee: add shared buffer registration functions
+[v4.16] 3bb48ba5cd60 tee: optee: add page list manipulation functions
+[v4.16] de5c6dfc43da tee: optee: Update protocol definitions
+[v4.16] e0c69ae8bfb5 tee: shm: add page accessor functions
+[v4.16] b25946ad951c tee: shm: add accessors for buffer size and page offset
+[v4.16] 033ddf12bcf5 tee: add register user memory
+[v4.16] e2aca5d8928a tee: flexible shared memory pool creation
+[v4.16] 1647a5ac1754 optee: support asynchronous supplicant requests
+[v4.16] f2aa97240c84 tee: add TEE_IOCTL_PARAM_ATTR_META
+[v4.16] 84debcc53533 tee: add tee_param_is_memref() for driver use
+[v4.15] f044113113dd optee: fix invalid of_node_put() in optee_driver_init()
+[v4.14] 39e6519a3f13 tee: optee: sync with new naming of interrupts
+[v4.14] 059cf566e123 tee: indicate privileged dev in gen_caps
+[v4.14] a9980e947ec9 tee: optee: interruptible RPC sleep
+[v4.14] 96e72ddeec45 tee: optee: add const to tee_driver_ops and tee_desc structures
+[v4.14] 53e3ca5cee24 tee: tee_shm: Constify dma_buf_ops structures.
+[v4.14] 999616b8536c tee: add forward declaration for struct device
+[v4.14] efb14036bd7f tee: optee: fix uninitialized symbol 'parg'
+[v4.12] e84188852a72 tee: add ARM_SMCCC dependency
+[v4.12] 4fb0a5eb364d tee: add OP-TEE driver
+[v4.12] 967c9cca2cc5 tee: generic TEE subsystem
+[v4.5] 14457459f9ca ARM: 8480/2: arm64: add implementation for arm-smccc
+[v4.5] b329f95d70f3 ARM: 8479/2: add implementation for arm-smccc
+[v4.5] 98dd64f34f47 ARM: 8478/2: arm/arm64: add arm-smccc
+
+

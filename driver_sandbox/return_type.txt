@@ -1,0 +1,38 @@
+1. (jump_insn 18 13 17 2 (simple_return) core/arch/arm/pta/pta_spi_transfer_one.c:377 -1
+     (nil)
+ -> simple_return)
+enforce lr
+
+2. (jump_insn 78 3 79 2 (set (pc)
+        (label_ref:DI 91)) core/arch/arm/pta/pta_spi_transfer_one.c:385 2 {jump}
+     (nil)
+ -> 91)
+enforce lr
+
+3. (jump_insn 13 12 14 2 (parallel [
+            (set (pc)
+                (if_then_else (lt (reg:SI 1 x1 [orig:79 spi_2(D)->cs_gpio ] [79])
+                        (const_int 0 [0]))
+                    (label_ref:DI 71)
+                    (pc)))
+            (clobber (reg:CC 66 cc))
+        ]) core/arch/arm/pta/pta_spi_transfer_one.c:429 37 {*cbltsi1}
+     (int_list:REG_BR_PROB 3666 (nil))
+ -> 71)
+
+4. (jump_insn 84 83 85 4 (return) core/arch/arm/pta/pta_spi_transfer_one.c:454 -1
+     (nil)
+ -> return)
+
+
+ /home/osboxes/devel/optee/toolchains/aarch64/bin/aarch64-linux-gnu-gcc -std=gnu99 -fdiagnostics-show-option -pedantic -Os -ffunction-sections -fdata-sections -pipe -g3 -mstrict-align -mgeneral-regs-only -fplugin=/home/osboxes/Desktop/raspbian-tee/driver_sandbox/walk_gimple.so -MD -MF out/arm/core/arch/arm/pta/.pta_spi_transfer_one.o.d -MT out/arm/core/arch/arm/pta/pta_spi_transfer_one.o -nostdinc -isystem /home/osboxes/devel/optee/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/6.2.1/include -Ilib/libutils/isoc/include -Ilib/libutils/ext/include -Ilib/libmbedtls/include -Ilib/libmbedtls/mbedtls/include -Icore/lib/libtomcrypt/include -Icore/arch/arm/plat-rpi3/. -Iout/arm/core/arch/arm/pta -D__KERNEL__ -Icore/include -include out/arm/include/generated/conf.h -Iout/arm/core/include -Icore/arch/arm/include -DARM64=1 -D__LP64__=1 -DTRACE_LEVEL=4 -Ilib/libutee/include -D__FILE_ID__=core_arch_arm_pta_pta_spi_transfer_one_c core/arch/arm/pta/pta_spi_transfer_one.c -o /home/osboxes/Desktop/raspbian-tee/sfi_tmp/pta_spi_transfer_one.o -w 2> /home/osboxes/Desktop/raspbian-tee/driver_sandbox/pta_spi_transfer_one.rtl
+
+ bcm2835_spi_transfer_one#
+
+
+
+ (insn:TI 45 47 46 5 (set (mem:SI (plus:DI (reg/v/f:DI 1 x1 [orig:88 control_block ] [88])
+                (const_int 12 [0xc])) [3 control_block_10(D)->length+0 S4 A32])
+        (reg:SI 3 x3 [96])) core/arch/arm/pta/pta_spi_transfer_one.c:878 49 {*movsi_aarch64}
+     (expr_list:REG_DEAD (reg:SI 3 x3 [96])
+        (nil)))

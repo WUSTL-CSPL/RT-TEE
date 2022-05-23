@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DefinitionBlock (
+  "RamDisk.aml",
+  "SSDT",
+  2,
+  "INTEL ",
+  "RamDisk ",
+  0x1000
+  )
+{
+  Scope (\_SB)
+  {
+    Device (NVDR)
+    {
+
+
+
+      Name (_HID, "ACPI0012")
+
+
+
+
+      Name (_STR, Unicode ("NVDIMM Root Device"))
+
+      Method (_STA, 0)
+      {
+        Return (0x0f)
+      }
+    }
+  }
+}

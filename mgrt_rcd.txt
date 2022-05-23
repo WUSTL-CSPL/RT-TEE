@@ -1,0 +1,69 @@
+optee_os/core/arch/arm/include/kernel/RT_TEE_Scheduler.h
+optee_os/core/arch/arm/include/kernel/thread.h
+optee_os/core/arch/arm/include/kernel/vfp.h
+optee_os/core/arch/arm/include/tee/entry_std.h
+optee_os/core/arch/arm/kernel/RT_TEE_Scheduler.c
+optee_os/core/arch/arm/kernel/asm-defines.c
+xx optee_os/core/arch/arm/kernel/elf_load.c
+optee_os/core/arch/arm/kernel/link_dummies.c
+optee_os/core/arch/arm/kernel/link_dummy.ld
+optee_os/core/arch/arm/kernel/asm-defines.c
+xx optee_os/core/arch/arm/kernel/mutex.c
+optee_os/core/arch/arm/kernel/pseudo_ta.c
+optee_os/core/arch/arm/kernel/sub.mk
+optee_os/core/arch/arm/kernel/thread.c
+optee_os/core/arch/arm/kernel/thread_a64.S
+optee_os/core/arch/arm/kernel/thread_private.h
+optee_os/core/arch/arm/kernel/timer_a32.c
+optee_os/core/arch/arm/kernel/user_ta.c
+optee_os/core/arch/arm/kernel/vfp.c
+xx optee_os/core/arch/arm/kernel/wait_queue.c
+xx optee_os/core/arch/arm/mm/core_mmu.c
+xx optee_os/core/arch/arm/mm/mobj.c
+optee_os/core/arch/arm/mm/pgt_cache.c
+xx optee_os/core/arch/arm/plat-rpi3/a.out
+optee_os/core/arch/arm/plat-rpi3/conf.mk
+optee_os/core/arch/arm/plat-rpi3/list.h
+xx optee_os/core/arch/arm/plat-rpi3/main.c
+xx optee_os/core/arch/arm/plat-rpi3/platform_config.h
+xx optee_os/core/arch/arm/plat-rpi3/schedule_test.c
+optee_os/core/arch/arm/plat-rpi3/sub.mk
+optee_os/core/arch/arm/plat-rpi3/tee_schedule.h
+xx optee_os/core/arch/arm/plat-rpi3/utils.S
+xx optee_os/core/arch/arm/plat-vexpress/main.c
+xx optee_os/core/arch/arm/pta/pta_invoke_tests.c
+optee_os/core/arch/arm/pta/pta_rt_tee_scheduler.c
+optee_os/core/arch/arm/pta/pta_task1.c
+optee_os/core/arch/arm/pta/pta_task10.c
+optee_os/core/arch/arm/pta/pta_task2.c
+optee_os/core/arch/arm/pta/pta_task3.c
+optee_os/core/arch/arm/pta/pta_task4.c
+optee_os/core/arch/arm/pta/pta_task5.c
+optee_os/core/arch/arm/pta/pta_task6.c
+optee_os/core/arch/arm/pta/pta_task7.c
+optee_os/core/arch/arm/pta/pta_task8.c
+optee_os/core/arch/arm/pta/pta_task9.c
+optee_os/core/arch/arm/pta/pta_trigger_timer.c
+optee_os/core/arch/arm/pta/scheduler_in_pta.h
+optee_os/core/arch/arm/pta/sub.mk
+optee_os/core/arch/arm/pta/thread_private.h
+optee_os/core/arch/arm/tee/arch_svc.c
+optee_os/core/arch/arm/tee/entry_std.c
+optee_os/core/arch/arm/tee/thread_private.h
+optee_os/core/drivers/gic.c
+optee_os/core/include/optee_msg.h
+optee_os/core/kernel/tee_ta_manager.c
+optee_os/core/kernel/thread_private_core_kernel.h
+optee_os/lib/libutee/include/pta_invoke_tests.h
+optee_os/lib/libutee/include/pta_rt_tee_scheduler.h
+optee_os/lib/libutee/include/pta_task1.h
+optee_os/lib/libutee/include/pta_task10.h
+optee_os/lib/libutee/include/pta_task2.h
+optee_os/lib/libutee/include/pta_task3.h
+optee_os/lib/libutee/include/pta_task4.h
+optee_os/lib/libutee/include/pta_task5.h
+optee_os/lib/libutee/include/pta_task6.h
+optee_os/lib/libutee/include/pta_task7.h
+optee_os/lib/libutee/include/pta_task8.h
+optee_os/lib/libutee/include/pta_task9.h
+optee_os/lib/libutee/include/pta_trigger_timer.h

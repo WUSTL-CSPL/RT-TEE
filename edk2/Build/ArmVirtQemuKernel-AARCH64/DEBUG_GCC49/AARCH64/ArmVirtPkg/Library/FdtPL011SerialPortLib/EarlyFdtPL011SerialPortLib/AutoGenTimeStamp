@@ -1,0 +1,15 @@
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Include/fdt.h
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiBaseType.h
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmVirtPkg/Library/FdtPL011SerialPortLib/EarlyFdtPL011SerialPortLib.c
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/SerialPortLib.h
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmPlatformPkg/Include/Library/PL011UartLib.h
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmVirtPkg/Library/FdtPL011SerialPortLib/EarlyFdtPL011SerialPortLib.inf
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/EarlyFdtPL011SerialPortLib/DEBUG/AutoGen.h
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Include/libfdt_env.h
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseMemoryLib.h
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Include/libfdt.h
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SerialIo.h

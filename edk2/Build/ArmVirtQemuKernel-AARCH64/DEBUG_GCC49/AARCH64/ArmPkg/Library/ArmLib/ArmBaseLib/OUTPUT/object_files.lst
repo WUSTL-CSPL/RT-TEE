@@ -1,0 +1,6 @@
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmLib.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Lib.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupport.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/ArmLibSupportV8.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64Support.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/AArch64/AArch64ArchTimerSupport.obj

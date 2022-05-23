@@ -1,0 +1,5 @@
+source ../optee_examples/hello_world/envi_setup.txt
+make -C ../optee_examples/hello_world clean
+make -C ../optee_examples/hello_world
+cp ../optee_examples/hello_world/host/optee_example_hello_world ./shared_folder/
+cp ../optee_examples/hello_world/ta/8aaaf200-2450-11e4-abe2-0002a5d5c51b.ta ./shared_folder/

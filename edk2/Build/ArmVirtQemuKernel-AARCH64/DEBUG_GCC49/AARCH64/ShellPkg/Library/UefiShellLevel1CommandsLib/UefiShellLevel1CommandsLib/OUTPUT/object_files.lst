@@ -1,0 +1,8 @@
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/UefiShellLevel1CommandsLib.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/Exit.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/Goto.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/If.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/For.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/Shift.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/Stall.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellLevel1CommandsLib/UefiShellLevel1CommandsLib/OUTPUT/AutoGen.obj

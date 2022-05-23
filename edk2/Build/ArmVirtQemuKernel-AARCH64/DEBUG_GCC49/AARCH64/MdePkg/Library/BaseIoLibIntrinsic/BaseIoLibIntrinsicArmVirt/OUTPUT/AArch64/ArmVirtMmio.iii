@@ -1,0 +1,148 @@
+
+# Copyright (c) 2014-2018, Linaro Limited. All rights reserved.
+
+# This program and the accompanying materials are licensed and made available
+# under the terms and conditions of the BSD License which accompanies this
+# distribution. The full text of the license may be found at
+# http:
+
+# THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+# WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+
+
+
+.text
+.align 3
+
+.global MmioRead8Internal ; .type MmioRead8Internal, %function
+.global MmioWrite8Internal ; .type MmioWrite8Internal, %function
+.global MmioRead16Internal ; .type MmioRead16Internal, %function
+.global MmioWrite16Internal ; .type MmioWrite16Internal, %function
+.global MmioRead32Internal ; .type MmioRead32Internal, %function
+.global MmioWrite32Internal ; .type MmioWrite32Internal, %function
+.global MmioRead64Internal ; .type MmioRead64Internal, %function
+.global MmioWrite64Internal ; .type MmioWrite64Internal, %function
+
+
+
+
+
+
+
+
+
+
+
+
+MmioRead8Internal:
+  ldrb w0, [x0]
+  dmb ld
+  ret
+
+
+
+
+
+
+
+
+
+
+
+MmioWrite8Internal:
+  dmb st
+  strb w1, [x0]
+  ret
+
+
+
+
+
+
+
+
+
+
+
+
+MmioRead16Internal:
+  ldrh w0, [x0]
+  dmb ld
+  ret
+
+
+
+
+
+
+
+
+
+
+
+MmioWrite16Internal:
+  dmb st
+  strh w1, [x0]
+  ret
+
+
+
+
+
+
+
+
+
+
+
+
+MmioRead32Internal:
+  ldr w0, [x0]
+  dmb ld
+  ret
+
+
+
+
+
+
+
+
+
+
+
+MmioWrite32Internal:
+  dmb st
+  str w1, [x0]
+  ret
+
+
+
+
+
+
+
+
+
+
+
+
+MmioRead64Internal:
+  ldr x0, [x0]
+  dmb ld
+  ret
+
+
+
+
+
+
+
+
+
+
+
+MmioWrite64Internal:
+  dmb st
+  str x1, [x0]
+  ret

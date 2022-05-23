@@ -1,0 +1,50 @@
+# Common makefile to be included from all other makefiles
+
+# Where we installed gcc and its headers
+# INSTALLDIR=/home/roger/soft/gcc/gcc-5.2
+# INSTAALLDIR=/home/wjw/codes/gcc-plugins/gcc_install/
+# INSTALLDIR=/home/wjw/codes/gcc-plugins/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf
+INSTALLDIR=/home/osboxes/devel/optee/toolchains/aarch32
+
+# CC=$(INSTALLDIR)/bin/gcc
+# CXX=$(INSTALLDIR)/bin/g++
+CC=$(INSTALLDIR)/bin/arm-linux-gnueabihf-gcc
+CXX=$(INSTALLDIR)/bin/arm-linux-gnueabihf-g++
+
+
+# PLUGINDIR=$(shell $(CC) -print-file-name=plugin)
+# PLUGINDIR=/home/wjw/codes/gcc-plugins/gcc_install/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/plugin/
+PLUGINDIR=/home/osboxes/devel/optee/toolchains/aarch32/lib/gcc/arm-linux-gnueabihf/6.2.1/plugin
+
+# CXXFLAGS=-std=gnu++11 -fPIC -Wall -g -fno-rtti -I$(PLUGINDIR)/include
+CXXFLAGS=-std=gnu++11 -fPIC -Wall -g -fno-rtti -I$(PLUGINDIR)/include 
+# -I/media/rpi/usr/include
+# This is a side effect of using C++11
+CXXFLAGS+=-Wno-literal-suffix
+
+LDFLAGS=
+LDADD=
+
+END=
+OBJECTS=$(patsubst %.cc,%.o,$(SOURCES))
+
+all: $(PLUGIN)
+
+$(PLUGIN): $(OBJECTS)
+	$(CXX) $(LDFLAGS) -o $@ -shared $+ $(LDADD)
+
+%.o: %.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $<
+
+PLUGINFLAG=-fplugin=./$(PLUGIN)
+
+CCPLUGIN=$(CC) $(PLUGINFLAG)
+CXXPLUGIN=$(CXX)  $(PLUGINFLAG)
+
+.PHONY: all clean test
+clean:
+	rm -f $(OBJECTS) $(PLUGIN)
+
+
+# export INSTALLDIR=/home/wjw/codes/gcc-plugins/gcc_install
+# export INSTALLDIR=/home/wjw/codes/gcc-plugins/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf

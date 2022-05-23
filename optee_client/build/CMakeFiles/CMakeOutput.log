@@ -1,0 +1,225 @@
+The system is: Linux - 4.15.0-142-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7458d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7458d.dir/build.make CMakeFiles/cmTC_7458d.dir/build
+make[1]: Entering directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7458d.dir/testCCompiler.c.o
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc     -o CMakeFiles/cmTC_7458d.dir/testCCompiler.c.o   -c /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7458d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7458d.dir/link.txt --verbose=1
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc       CMakeFiles/cmTC_7458d.dir/testCCompiler.c.o  -o cmTC_7458d 
+make[1]: Leaving directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b245f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b245f.dir/build.make CMakeFiles/cmTC_b245f.dir/build
+make[1]: Entering directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b245f.dir/CMakeCCompilerABI.c.o
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc     -o CMakeFiles/cmTC_b245f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b245f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b245f.dir/link.txt --verbose=1
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc      -v CMakeFiles/cmTC_b245f.dir/CMakeCCompilerABI.c.o  -o cmTC_b245f  
+Using built-in specs.
+COLLECT_GCC=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+COLLECT_LTO_WRAPPER=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: /tmp/dgboter/bbs/bc-b1-2-12--rhe6x86_64/buildbot/rhe6x86_64--aarch64-linux-gnu/build/src/gcc/configure --target=aarch64-linux-gnu --prefix= --with-sysroot=/aarch64-linux-gnu/libc --with-build-sysroot=/tmp/dgboter/bbs/bc-b1-2-12--rhe6x86_64/buildbot/rhe6x86_64--aarch64-linux-gnu/build/build-aarch64-linux-gnu/install//aarch64-linux-gnu/libc --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --disable-libsanitizer --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/bc-b1-2-12--rhe6x86_64/buildbot/rhe6x86_64--aarch64-linux-gnu/build/build-aarch64-linux-gnu/host-tools --with-mpfr=/tmp/dgboter/bbs/bc-b1-2-12--rhe6x86_64/buildbot/rhe6x86_64--aarch64-linux-gnu/build/build-aarch64-linux-gnu/host-tools --with-mpc=/tmp/dgboter/bbs/bc-b1-2-12--rhe6x86_64/buildbot/rhe6x86_64--aarch64-linux-gnu/build/build-aarch64-linux-gnu/host-tools --with-isl=/tmp/dgboter/bbs/bc-b1-2-12--rhe6x86_64/buildbot/rhe6x86_64--aarch64-linux-gnu/build/build-aarch64-linux-gnu/host-tools --enable-fix-cortex-a53-843419 --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.2-2018-08 (arm-rel-8.23)'
+Thread model: posix
+gcc version 8.2.1 20180802 (GNU Toolchain for the A-profile Architecture 8.2-2018-08 (arm-rel-8.23)) 
+COMPILER_PATH=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib/../lib64/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib/../lib64/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b245f' '-mlittle-endian' '-mabi=lp64'
+ /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/collect2 -plugin /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm4NvrX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -o cmTC_b245f /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64/crt1.o /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64/crti.o /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/crtbegin.o -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1 -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib/../lib64 -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib/../lib64 -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64 -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib CMakeFiles/cmTC_b245f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/crtend.o /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b245f' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b245f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b245f.dir/build.make CMakeFiles/cmTC_b245f.dir/build]
+  ignore line: [make[1]: Entering directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b245f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc     -o CMakeFiles/cmTC_b245f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b245f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b245f.dir/link.txt --verbose=1]
+  ignore line: [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc      -v CMakeFiles/cmTC_b245f.dir/CMakeCCompilerABI.c.o  -o cmTC_b245f  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /tmp/dgboter/bbs/bc-b1-2-12--rhe6x86_64/buildbot/rhe6x86_64--aarch64-linux-gnu/build/src/gcc/configure --target=aarch64-linux-gnu --prefix= --with-sysroot=/aarch64-linux-gnu/libc --with-build-sysroot=/tmp/dgboter/bbs/bc-b1-2-12--rhe6x86_64/buildbot/rhe6x86_64--aarch64-linux-gnu/build/build-aarch64-linux-gnu/install//aarch64-linux-gnu/libc --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --disable-libsanitizer --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/bc-b1-2-12--rhe6x86_64/buildbot/rhe6x86_64--aarch64-linux-gnu/build/build-aarch64-linux-gnu/host-tools --with-mpfr=/tmp/dgboter/bbs/bc-b1-2-12--rhe6x86_64/buildbot/rhe6x86_64--aarch64-linux-gnu/build/build-aarch64-linux-gnu/host-tools --with-mpc=/tmp/dgboter/bbs/bc-b1-2-12--rhe6x86_64/buildbot/rhe6x86_64--aarch64-linux-gnu/build/build-aarch64-linux-gnu/host-tools --with-isl=/tmp/dgboter/bbs/bc-b1-2-12--rhe6x86_64/buildbot/rhe6x86_64--aarch64-linux-gnu/build/build-aarch64-linux-gnu/host-tools --enable-fix-cortex-a53-843419 --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.2-2018-08 (arm-rel-8.23)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.1 20180802 (GNU Toolchain for the A-profile Architecture 8.2-2018-08 (arm-rel-8.23)) ]
+  ignore line: [COMPILER_PATH=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib/../lib64/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib/../lib64/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib/:/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b245f' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/collect2 -plugin /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm4NvrX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -o cmTC_b245f /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64/crt1.o /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64/crti.o /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/crtbegin.o -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1 -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib/../lib64 -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib/../lib64 -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64 -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib -L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib CMakeFiles/cmTC_b245f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/crtend.o /home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64/crtn.o]
+    arg [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../libexec/gcc/aarch64-linux-gnu/8.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccm4NvrX.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b245f] ==> ignore
+    arg [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/crtbegin.o] ==> ignore
+    arg [-L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1] ==> dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1]
+    arg [-L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc] ==> dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc]
+    arg [-L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib/../lib64]
+    arg [-L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib/../lib64] ==> dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib/../lib64]
+    arg [-L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64] ==> dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64]
+    arg [-L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib] ==> dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib]
+    arg [-L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib] ==> dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib]
+    arg [-L/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib] ==> dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib]
+    arg [CMakeFiles/cmTC_b245f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/crtend.o] ==> ignore
+    arg [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1] ==> [/home/osboxes/rttee_qemu/toolchains/aarch64/lib/gcc/aarch64-linux-gnu/8.2.1]
+  collapse library dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc] ==> [/home/osboxes/rttee_qemu/toolchains/aarch64/lib/gcc]
+  collapse library dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> [/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/lib64]
+  collapse library dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib/../lib64] ==> [/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/libc/lib64]
+  collapse library dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib/../lib64] ==> [/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/libc/usr/lib64]
+  collapse library dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../lib/gcc/aarch64-linux-gnu/8.2.1/../../../../aarch64-linux-gnu/lib] ==> [/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/lib]
+  collapse library dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/lib] ==> [/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/libc/lib]
+  collapse library dir [/home/osboxes/rttee_qemu/toolchains/aarch64/bin/../aarch64-linux-gnu/libc/usr/lib] ==> [/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/libc/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/osboxes/rttee_qemu/toolchains/aarch64/lib/gcc/aarch64-linux-gnu/8.2.1;/home/osboxes/rttee_qemu/toolchains/aarch64/lib/gcc;/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/lib64;/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/libc/lib64;/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/libc/usr/lib64;/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/lib;/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/libc/lib;/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/libc/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36e0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36e0a.dir/build.make CMakeFiles/cmTC_36e0a.dir/build
+make[1]: Entering directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36e0a.dir/feature_tests.c.o
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc    -std=c11 -o CMakeFiles/cmTC_36e0a.dir/feature_tests.c.o   -c /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_36e0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36e0a.dir/link.txt --verbose=1
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc       CMakeFiles/cmTC_36e0a.dir/feature_tests.c.o  -o cmTC_36e0a 
+make[1]: Leaving directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d7a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d7a3.dir/build.make CMakeFiles/cmTC_7d7a3.dir/build
+make[1]: Entering directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d7a3.dir/feature_tests.c.o
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc    -std=c99 -o CMakeFiles/cmTC_7d7a3.dir/feature_tests.c.o   -c /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7d7a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d7a3.dir/link.txt --verbose=1
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc       CMakeFiles/cmTC_7d7a3.dir/feature_tests.c.o  -o cmTC_7d7a3 
+make[1]: Leaving directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db4fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db4fe.dir/build.make CMakeFiles/cmTC_db4fe.dir/build
+make[1]: Entering directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db4fe.dir/feature_tests.c.o
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc    -std=c90 -o CMakeFiles/cmTC_db4fe.dir/feature_tests.c.o   -c /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_db4fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db4fe.dir/link.txt --verbose=1
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc       CMakeFiles/cmTC_db4fe.dir/feature_tests.c.o  -o cmTC_db4fe 
+make[1]: Leaving directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb180/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb180.dir/build.make CMakeFiles/cmTC_cb180.dir/build
+make[1]: Entering directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb180.dir/CheckIncludeFile.c.o
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc     -o CMakeFiles/cmTC_cb180.dir/CheckIncludeFile.c.o   -c /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cb180
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb180.dir/link.txt --verbose=1
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc       CMakeFiles/cmTC_cb180.dir/CheckIncludeFile.c.o  -o cmTC_cb180 
+make[1]: Leaving directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f7a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f7a3.dir/build.make CMakeFiles/cmTC_4f7a3.dir/build
+make[1]: Entering directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f7a3.dir/CheckFunctionExists.c.o
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4f7a3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4f7a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f7a3.dir/link.txt --verbose=1
+/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4f7a3.dir/CheckFunctionExists.c.o  -o cmTC_4f7a3 -lpthread 
+make[1]: Leaving directory '/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles/CMakeTmp'
+
+

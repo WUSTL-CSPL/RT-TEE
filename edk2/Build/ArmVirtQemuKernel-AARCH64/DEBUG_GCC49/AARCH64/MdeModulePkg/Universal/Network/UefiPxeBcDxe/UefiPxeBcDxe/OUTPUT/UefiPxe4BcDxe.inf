@@ -1,0 +1,262 @@
+## @file
+#  This module produces EFI Preboot Execution Environment (PXE) Base Code Protocol.
+#
+#  This module produces EFI PXE Base Code Protocol upon EFI MMP Protocl and IPv4
+#  network stack, used to control PXE-compatible devices. It produces EFI Load File
+#  Protocol to provide one clean way to otain control from the boot manager if the
+#  boot patch is from the remote device.
+#
+#  Copyright (c) 2007 - 2018, Intel Corporation. All rights reserved.<BR>
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution. The full text of the license may be found at
+#  http://opensource.org/licenses/bsd-license.php
+#
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+#
+#
+##
+
+# DO NOT EDIT
+# FILE auto-generated
+
+[Defines]
+  INF_VERSION                = 0x00010017
+  BASE_NAME                  = UefiPxe4BcDxe
+  FILE_GUID                  = 3B1DEAB5-C75D-442e-9238-8E2FFB62B0BB
+  MODULE_TYPE                = UEFI_DRIVER
+  VERSION_STRING             = 1.0
+  ENTRY_POINT                = PxeBcDriverEntryPoint
+  UNLOAD_IMAGE               = NetLibDefaultUnload
+  MODULE_UNI_FILE            = UefiPxe4BcDxe.uni
+
+[Packages.AARCH64]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  ArmVirtPkg/ArmVirtPkg.dec
+
+[Binaries.AARCH64]
+  PE32|UefiPxe4BcDxe.efi
+
+[PatchPcd.AARCH64]
+
+[Protocols.AARCH64]
+  ## SOMETIMES_PRODUCES
+  gEfiPxeBaseCodeCallbackProtocolGuid
+
+  ## BY_START
+  gEfiPxeBaseCodeProtocolGuid
+
+  ## BY_START
+  gEfiLoadFileProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiNetworkInterfaceIdentifierProtocolGuid_31
+
+  ## TO_START
+  gEfiArpServiceBindingProtocolGuid
+
+  ## TO_START
+  gEfiArpProtocolGuid
+
+  ## TO_START
+  gEfiMtftp4ServiceBindingProtocolGuid
+
+  ## TO_START
+  gEfiMtftp4ProtocolGuid
+
+  ## TO_START
+  gEfiUdp4ServiceBindingProtocolGuid
+
+  ## TO_START
+  gEfiUdp4ProtocolGuid
+
+  ## TO_START
+  gEfiDhcp4ServiceBindingProtocolGuid
+
+  ## TO_START
+  gEfiDhcp4ProtocolGuid
+
+  ## TO_START
+  gEfiIp4ServiceBindingProtocolGuid
+
+  ## TO_START
+  gEfiIp4ProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  ## TO_START
+  gEfiIp4Config2ProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gPcdProtocolGuid
+
+  ## CONSUMES
+  gEfiPcdProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gGetPcdInfoProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiGetPcdInfoProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiDevicePathProtocolGuid
+
+  ## CONSUMES
+  gEfiDevicePathUtilitiesProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiDevicePathToTextProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiDevicePathFromTextProtocolGuid
+
+  ## SOMETIMES_PRODUCES
+  gEfiDriverBindingProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiSimpleTextOutProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiGraphicsOutputProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiHiiFontProtocolGuid
+
+  ## SOMETIMES_CONSUMES # Consumes if gEfiGraphicsOutputProtocolGuid uninstalled
+  gEfiUgaDrawProtocolGuid
+
+  ## SOMETIMES_PRODUCES # User chooses to produce it
+  ## SOMETIMES_CONSUMES
+  gEfiComponentNameProtocolGuid
+
+  ## SOMETIMES_PRODUCES # User chooses to produce it
+  ## SOMETIMES_CONSUMES
+  gEfiComponentName2ProtocolGuid
+
+  ## SOMETIMES_PRODUCES # User chooses to produce it
+  gEfiDriverConfigurationProtocolGuid
+
+  ## SOMETIMES_PRODUCES # User chooses to produce it
+  gEfiDriverConfiguration2ProtocolGuid
+
+  ## SOMETIMES_PRODUCES # User chooses to produce it
+  gEfiDriverDiagnosticsProtocolGuid
+
+  ## SOMETIMES_PRODUCES # User chooses to produce it
+  gEfiDriverDiagnostics2ProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiLoadedImageProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiSimpleNetworkProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiManagedNetworkProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiManagedNetworkServiceBindingProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiAdapterInformationProtocolGuid
+
+  ## CONSUMES
+  gEfiDpcProtocolGuid
+
+
+[Ppis.AARCH64]
+
+[Guids.AARCH64]
+  ## CONSUMES  ## SystemTable
+  gEfiHobListGuid
+
+  gEarlyPL011BaseAddressGuid
+
+  ## SOMETIMES_CONSUMES  ## Event
+  gEfiEventReadyToBootGuid
+
+  ## SOMETIMES_CONSUMES  ## Event
+  gEfiEventLegacyBootGuid
+
+  ## SOMETIMES_CONSUMES  ## Variable
+  gEfiGlobalVariableGuid
+
+  ## SOMETIMES_CONSUMES  ## SystemTable
+  gEfiSmbiosTableGuid
+
+  ## SOMETIMES_CONSUMES  ## SystemTable
+  gEfiSmbios3TableGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiAdapterInfoMediaStateGuid
+
+
+[PcdEx.AARCH64]
+
+[LibraryClasses.AARCH64]
+## @LIB_INSTANCES
+#  MdePkg/Library/DxePcdLib/DxePcdLib.inf
+#  MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe.inf
+#  MdePkg/Library/BaseLib/BaseLib.inf
+#  MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt.inf
+#  ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib.inf
+#  ArmPlatformPkg/Library/PL011UartLib/PL011UartLib.inf
+#  MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib.inf
+#  ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib.inf
+#  MdePkg/Library/BasePrintLib/BasePrintLib.inf
+#  MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf
+#  MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib.inf
+#  MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf
+#  MdePkg/Library/UefiDevicePathLibDevicePathProtocol/UefiDevicePathLibDevicePathProtocol.inf
+#  MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib.inf
+#  MdePkg/Library/UefiLib/UefiLib.inf
+#  MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint.inf
+#  MdeModulePkg/Library/DxeNetLib/DxeNetLib.inf
+#  MdeModulePkg/Library/DxeDpcLib/DxeDpcLib.inf
+#  ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
+#  MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib.inf
+
+[Depex.AARCH64]
+#  (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiPcdProtocolGuid) AND (gEfiDevicePathUtilitiesProtocolGuid) AND (gEfiDevicePathUtilitiesProtocolGuid) AND (gEfiDevicePathUtilitiesProtocolGuid) AND (gEfiDevicePathUtilitiesProtocolGuid) AND (gEfiBdsArchProtocolGuid AND gEfiCpuArchProtocolGuid AND gEfiMetronomeArchProtocolGuid AND gEfiMonotonicCounterArchProtocolGuid AND gEfiRealTimeClockArchProtocolGuid AND gEfiResetArchProtocolGuid AND gEfiRuntimeArchProtocolGuid AND gEfiSecurityArchProtocolGuid AND gEfiTimerArchProtocolGuid AND gEfiVariableWriteArchProtocolGuid AND gEfiVariableArchProtocolGuid AND gEfiWatchdogTimerArchProtocolGuid) AND (gEfiDpcProtocolGuid) AND (gEfiDpcProtocolGuid) AND (gEfiDpcProtocolGuid) AND (gEfiDpcProtocolGuid)
+
+[UserExtensions.TianoCore."ExtraFiles"]
+UefiPxe4BcDxeExtra.uni
+
+
+
+#
+# The following information is for reference only and not required by the build tools.
+#
+#  VALID_ARCHITECTURES           = IA32 X64 IPF
+#
+#  DRIVER_BINDING                =  gPxeBcDriverBinding
+#  COMPONENT_NAME                =  gPxeBcComponentName
+#  COMPONENT_NAME2               =  gPxeBcComponentName2
+#
+
+[BuildOptions.AARCH64]
+## @AsBuilt
+##   GCC:DEBUG_GCC49_AARCH64_SYMRENAME_FLAGS = Symbol renaming not needed for
+##   GCC:DEBUG_GCC49_AARCH64_OPTROM_FLAGS = -e
+##   GCC:DEBUG_GCC49_AARCH64_ASLDLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -Wl,--entry,ReferenceAcpiTable -u $(IMAGE_ENTRY_POINT) -Wl,--defsym=PECOFF_HEADER_SIZE=0 -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -z common-page-size=0x20
+##   GCC:DEBUG_GCC49_AARCH64_VFR_FLAGS = -l -n
+##   GCC:DEBUG_GCC49_AARCH64_PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $(DEST_DIR_DEBUG)/AutoGen.h
+##   GCC:DEBUG_GCC49_AARCH64_GENFW_FLAGS = 
+##   GCC:DEBUG_GCC49_AARCH64_PLATFORM_FLAGS = 
+##   GCC:DEBUG_GCC49_AARCH64_RC_FLAGS = -I binary -O elf64-littleaarch64 -B aarch64 --rename-section .data=.hii
+##   GCC:DEBUG_GCC49_AARCH64_DTC_FLAGS = -H epapr
+##   GCC:DEBUG_GCC49_AARCH64_ASM_FLAGS = $(ARCHASM_FLAGS) $(PLATFORM_FLAGS) -c -x assembler -imacros $(DEST_DIR_DEBUG)/AutoGen.h -mlittle-endian
+##   GCC:DEBUG_GCC49_AARCH64_ASL_FLAGS = 
+##   GCC:DEBUG_GCC49_AARCH64_CC_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -g -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -ffunction-sections -fdata-sections -include AutoGen.h -fno-common -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -mlittle-endian -fno-short-enums -fverbose-asm -funsigned-char  -ffunction-sections -fdata-sections -Wno-address -fno-asynchronous-unwind-tables -fno-unwind-tables -fno-pic -fno-pie -ffixed-x18 -O0 -mcmodel=small -DDISABLE_NEW_DEPRECATED_INTERFACES
+##   GCC:DEBUG_GCC49_AARCH64_NASMB_FLAGS = -f bin
+##   GCC:DEBUG_GCC49_AARCH64_VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
+##   GCC:DEBUG_GCC49_AARCH64_DTCPP_FLAGS = -E -x assembler-with-cpp -imacros $(DEST_DIR_DEBUG)/AutoGen.h -nostdinc -undef
+##   GCC:DEBUG_GCC49_AARCH64_ASLCC_FLAGS = -x c
+##   GCC:DEBUG_GCC49_AARCH64_DLINK2_FLAGS = -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -Wl,--defsym=PECOFF_HEADER_SIZE=0x228
+##   GCC:DEBUG_GCC49_AARCH64_DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -z common-page-size=0x1000
+##   GCC:DEBUG_GCC49_AARCH64_ASLPP_FLAGS = -x c -E -include AutoGen.h
+##   GCC:DEBUG_GCC49_AARCH64_OBJCOPY_FLAGS = objcopy not needed for
+##   GCC:DEBUG_GCC49_AARCH64_APP_FLAGS = 
+##   GCC:DEBUG_GCC49_AARCH64_ASMLINK_FLAGS = /nologo /tiny

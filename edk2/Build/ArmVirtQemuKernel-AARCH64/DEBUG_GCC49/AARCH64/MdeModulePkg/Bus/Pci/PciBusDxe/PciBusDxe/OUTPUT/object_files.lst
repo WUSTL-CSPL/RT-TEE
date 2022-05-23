@@ -1,0 +1,15 @@
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciLib.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciIo.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBus.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciDeviceSupport.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/ComponentName.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciCommand.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciResourceSupport.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciEnumeratorSupport.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciEnumerator.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciOptionRomSupport.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciDriverOverride.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciPowerManagement.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciRomTable.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciHotPlugSupport.obj
+/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/AutoGen.obj

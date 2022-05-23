@@ -1,0 +1,38 @@
+#!/bin/sh
+#
+# /etc/init.d/optee
+#
+# Start/stop tee-supplicant (OP-TEE normal world daemon)
+#
+case "$1" in
+    start)
+	if [ -e /usr/sbin/tee-supplicant -a -e /dev/teepriv0 ]; then
+		# tee-supplicant and the client applications need not run as
+		# root provided that the TEE devices and the data store have
+		# proper permissions
+		printf "Setting permissions on /dev/tee*... "
+		chown root:tee /dev/teepriv0 && chmod 0660 /dev/teepriv0 && \
+			chown root:teeclnt /dev/tee0 && chmod 0660 /dev/tee0
+		[ $? = 0 ] && echo "OK" || echo "FAIL"
+		if [ -e /dev/ion ]; then
+			printf "Setting permissions on /dev/ion... "
+			chown root:ion /dev/ion && chmod 0660 /dev/ion
+			[ $? = 0 ] && echo "OK" || echo "FAIL"
+		fi
+		printf "Starting tee-supplicant... "
+		su tee -c '/usr/sbin/tee-supplicant -d'
+		[ $? = 0 ] && echo "OK" || echo "FAIL"
+	else
+		echo "tee-supplicant or TEE device not found"
+		exit 1
+	fi
+
+        ;;
+    stop)
+	killall tee-supplicant
+	;;
+    status)
+	cat /dev/teepriv0 2>&1 | grep -q "Device or resource busy" || not="not "
+	echo "tee-supplicant is ${not}active"
+	;;
+esac

@@ -1,0 +1,1329 @@
+<<
+/* VfrParser.dlg -- DLG Description of scanner
+ *
+ * Generated from: VfrSyntax.g
+ *
+ * Terence Parr, Will Cohen, and Hank Dietz: 1989-2001
+ * Purdue University Electrical Engineering
+ * With AHPCRC, University of Minnesota
+ * ANTLR Version 1.33MR33
+ */
+
+#define ANTLR_VERSION	13333
+#include "VfrTokens.h"
+#include "AToken.h"
+
+
+#include "EfiVfr.h"
+#include "VfrFormPkg.h"
+#include "VfrError.h"
+#include "VfrUtilityLib.h"
+#include "AToken.h"
+#include "ATokPtr.h"
+>>
+
+<<%%parserclass EfiVfrParser>>
+
+
+%%START
+
+@
+	<<
+		return (ANTLRTokenType)1;
+	>>
+
+//
+	<<
+    skip (); mode (CPP_COMMENT);   
+		return (ANTLRTokenType)5;
+	>>
+
+[\ \t]
+	<<
+    skip ();   
+		return (ANTLRTokenType)6;
+	>>
+
+\n
+	<<
+    skip (); newline ();   
+		return (ANTLRTokenType)7;
+	>>
+
+extern
+	<<
+    skip (); mode (CPP_COMMENT);   
+		return (ANTLRTokenType)8;
+	>>
+
+formpkgtype
+	<<
+		return FormPkgType;
+	>>
+
+\{
+	<<
+		return OpenBrace;
+	>>
+
+\}
+	<<
+		return CloseBrace;
+	>>
+
+\(
+	<<
+		return OpenParen;
+	>>
+
+\)
+	<<
+		return CloseParen;
+	>>
+
+\[
+	<<
+		return OpenBracket;
+	>>
+
+\]
+	<<
+		return CloseBracket;
+	>>
+
+#line\ [0-9]+\ \"~[\"]+\"[\ \t]*\n
+	<<
+    gCVfrErrorHandle.ParseFileScopeRecord (begexpr (), line ()); skip (); newline ();   
+		return LineDefinition;
+	>>
+
+devicepath
+	<<
+		return DevicePath;
+	>>
+
+formset
+	<<
+		return FormSet;
+	>>
+
+formsetid
+	<<
+		return FormSetId;
+	>>
+
+endformset
+	<<
+		return EndFormSet;
+	>>
+
+title
+	<<
+		return Title;
+	>>
+
+formid
+	<<
+		return FormId;
+	>>
+
+oneof
+	<<
+		return OneOf;
+	>>
+
+endoneof
+	<<
+		return EndOneOf;
+	>>
+
+prompt
+	<<
+		return Prompt;
+	>>
+
+orderedlist
+	<<
+		return OrderedList;
+	>>
+
+maxcontainers
+	<<
+		return MaxContainers;
+	>>
+
+endlist
+	<<
+		return EndList;
+	>>
+
+endform
+	<<
+		return EndForm;
+	>>
+
+form
+	<<
+		return Form;
+	>>
+
+formmap
+	<<
+		return FormMap;
+	>>
+
+maptitle
+	<<
+		return MapTitle;
+	>>
+
+mapguid
+	<<
+		return MapGuid;
+	>>
+
+subtitle
+	<<
+		return Subtitle;
+	>>
+
+endsubtitle
+	<<
+		return EndSubtitle;
+	>>
+
+help
+	<<
+		return Help;
+	>>
+
+text
+	<<
+		return Text;
+	>>
+
+option
+	<<
+		return Option;
+	>>
+
+flags
+	<<
+		return FLAGS;
+	>>
+
+date
+	<<
+		return Date;
+	>>
+
+enddate
+	<<
+		return EndDate;
+	>>
+
+year
+	<<
+		return Year;
+	>>
+
+month
+	<<
+		return Month;
+	>>
+
+day
+	<<
+		return Day;
+	>>
+
+time
+	<<
+		return Time;
+	>>
+
+endtime
+	<<
+		return EndTime;
+	>>
+
+hour
+	<<
+		return Hour;
+	>>
+
+minute
+	<<
+		return Minute;
+	>>
+
+second
+	<<
+		return Second;
+	>>
+
+grayoutif
+	<<
+		return GrayOutIf;
+	>>
+
+label
+	<<
+		return Label;
+	>>
+
+timeout
+	<<
+		return Timeout;
+	>>
+
+inventory
+	<<
+		return Inventory;
+	>>
+
+_NON_NV_DATA_MAP
+	<<
+		return NonNvDataMap;
+	>>
+
+struct
+	<<
+		return Struct;
+	>>
+
+union
+	<<
+		return Union;
+	>>
+
+BOOLEAN
+	<<
+		return Boolean;
+	>>
+
+UINT64
+	<<
+		return Uint64;
+	>>
+
+UINT32
+	<<
+		return Uint32;
+	>>
+
+UINT16
+	<<
+		return Uint16;
+	>>
+
+CHAR16
+	<<
+		return Char16;
+	>>
+
+UINT8
+	<<
+		return Uint8;
+	>>
+
+guid
+	<<
+		return Uuid;
+	>>
+
+checkbox
+	<<
+		return CheckBox;
+	>>
+
+endcheckbox
+	<<
+		return EndCheckBox;
+	>>
+
+numeric
+	<<
+		return Numeric;
+	>>
+
+endnumeric
+	<<
+		return EndNumeric;
+	>>
+
+minimum
+	<<
+		return Minimum;
+	>>
+
+maximum
+	<<
+		return Maximum;
+	>>
+
+step
+	<<
+		return STEP;
+	>>
+
+default
+	<<
+		return Default;
+	>>
+
+password
+	<<
+		return Password;
+	>>
+
+endpassword
+	<<
+		return EndPassword;
+	>>
+
+string
+	<<
+		return String;
+	>>
+
+endstring
+	<<
+		return EndString;
+	>>
+
+minsize
+	<<
+		return MinSize;
+	>>
+
+maxsize
+	<<
+		return MaxSize;
+	>>
+
+encoding
+	<<
+		return Encoding;
+	>>
+
+suppressif
+	<<
+		return SuppressIf;
+	>>
+
+disableif
+	<<
+		return DisableIf;
+	>>
+
+hidden
+	<<
+		return Hidden;
+	>>
+
+goto
+	<<
+		return Goto;
+	>>
+
+formsetguid
+	<<
+		return FormSetGuid;
+	>>
+
+inconsistentif
+	<<
+		return InconsistentIf;
+	>>
+
+warningif
+	<<
+		return WarningIf;
+	>>
+
+nosubmitif
+	<<
+		return NoSubmitIf;
+	>>
+
+endif
+	<<
+		return EndIf;
+	>>
+
+key
+	<<
+		return Key;
+	>>
+
+DEFAULT
+	<<
+		return DefaultFlag;
+	>>
+
+MANUFACTURING
+	<<
+		return ManufacturingFlag;
+	>>
+
+INTERACTIVE
+	<<
+		return InteractiveFlag;
+	>>
+
+NV_ACCESS
+	<<
+		return NVAccessFlag;
+	>>
+
+RESET_REQUIRED
+	<<
+		return ResetRequiredFlag;
+	>>
+
+RECONNECT_REQUIRED
+	<<
+		return ReconnectRequiredFlag;
+	>>
+
+LATE_CHECK
+	<<
+		return LateCheckFlag;
+	>>
+
+READ_ONLY
+	<<
+		return ReadOnlyFlag;
+	>>
+
+OPTIONS_ONLY
+	<<
+		return OptionOnlyFlag;
+	>>
+
+class
+	<<
+		return Class;
+	>>
+
+subclass
+	<<
+		return Subclass;
+	>>
+
+classguid
+	<<
+		return ClassGuid;
+	>>
+
+typedef
+	<<
+		return TypeDef;
+	>>
+
+restore
+	<<
+		return Restore;
+	>>
+
+save
+	<<
+		return Save;
+	>>
+
+defaults
+	<<
+		return Defaults;
+	>>
+
+banner
+	<<
+		return Banner;
+	>>
+
+align
+	<<
+		return Align;
+	>>
+
+left
+	<<
+		return Left;
+	>>
+
+right
+	<<
+		return Right;
+	>>
+
+center
+	<<
+		return Center;
+	>>
+
+line
+	<<
+		return Line;
+	>>
+
+name
+	<<
+		return Name;
+	>>
+
+varid
+	<<
+		return VarId;
+	>>
+
+question
+	<<
+		return Question;
+	>>
+
+questionid
+	<<
+		return QuestionId;
+	>>
+
+image
+	<<
+		return Image;
+	>>
+
+locked
+	<<
+		return Locked;
+	>>
+
+rule
+	<<
+		return Rule;
+	>>
+
+endrule
+	<<
+		return EndRule;
+	>>
+
+value
+	<<
+		return Value;
+	>>
+
+read
+	<<
+		return Read;
+	>>
+
+write
+	<<
+		return Write;
+	>>
+
+resetbutton
+	<<
+		return ResetButton;
+	>>
+
+endresetbutton
+	<<
+		return EndResetButton;
+	>>
+
+defaultstore
+	<<
+		return DefaultStore;
+	>>
+
+attribute
+	<<
+		return Attribute;
+	>>
+
+varstore
+	<<
+		return Varstore;
+	>>
+
+efivarstore
+	<<
+		return Efivarstore;
+	>>
+
+varsize
+	<<
+		return VarSize;
+	>>
+
+namevaluevarstore
+	<<
+		return NameValueVarStore;
+	>>
+
+action
+	<<
+		return Action;
+	>>
+
+config
+	<<
+		return Config;
+	>>
+
+endaction
+	<<
+		return EndAction;
+	>>
+
+refresh
+	<<
+		return Refresh;
+	>>
+
+interval
+	<<
+		return Interval;
+	>>
+
+varstoredevice
+	<<
+		return VarstoreDevice;
+	>>
+
+guidop
+	<<
+		return GuidOp;
+	>>
+
+endguidop
+	<<
+		return EndGuidOp;
+	>>
+
+datatype
+	<<
+		return DataType;
+	>>
+
+data
+	<<
+		return Data;
+	>>
+
+modal
+	<<
+		return Modal;
+	>>
+
+NON_DEVICE
+	<<
+		return ClassNonDevice;
+	>>
+
+DISK_DEVICE
+	<<
+		return ClassDiskDevice;
+	>>
+
+VIDEO_DEVICE
+	<<
+		return ClassVideoDevice;
+	>>
+
+NETWORK_DEVICE
+	<<
+		return ClassNetworkDevice;
+	>>
+
+INPUT_DEVICE
+	<<
+		return ClassInputDevice;
+	>>
+
+ONBOARD_DEVICE
+	<<
+		return ClassOnBoardDevice;
+	>>
+
+OTHER_DEVICE
+	<<
+		return ClassOtherDevice;
+	>>
+
+SETUP_APPLICATION
+	<<
+		return SubclassSetupApplication;
+	>>
+
+GENERAL_APPLICATION
+	<<
+		return SubclassGeneralApplication;
+	>>
+
+FRONT_PAGE
+	<<
+		return SubclassFrontPage;
+	>>
+
+SINGLE_USE
+	<<
+		return SubclassSingleUse;
+	>>
+
+show
+	<<
+		return (ANTLRTokenType)152;
+	>>
+
+push
+	<<
+		return (ANTLRTokenType)153;
+	>>
+
+pop
+	<<
+		return (ANTLRTokenType)154;
+	>>
+
+,
+	<<
+		return (ANTLRTokenType)155;
+	>>
+
+\#pragma
+	<<
+		return (ANTLRTokenType)158;
+	>>
+
+pack
+	<<
+		return (ANTLRTokenType)159;
+	>>
+
+;
+	<<
+		return (ANTLRTokenType)160;
+	>>
+
+EFI_STRING_ID
+	<<
+		return (ANTLRTokenType)161;
+	>>
+
+EFI_HII_DATE
+	<<
+		return (ANTLRTokenType)162;
+	>>
+
+EFI_HII_TIME
+	<<
+		return (ANTLRTokenType)163;
+	>>
+
+EFI_HII_REF
+	<<
+		return (ANTLRTokenType)164;
+	>>
+
+:
+	<<
+		return (ANTLRTokenType)165;
+	>>
+
+=
+	<<
+		return (ANTLRTokenType)166;
+	>>
+
+STRING_TOKEN
+	<<
+		return (ANTLRTokenType)167;
+	>>
+
+\|
+	<<
+		return (ANTLRTokenType)168;
+	>>
+
+.
+	<<
+		return (ANTLRTokenType)169;
+	>>
+
+\-
+	<<
+		return (ANTLRTokenType)170;
+	>>
+
+/
+	<<
+		return (ANTLRTokenType)176;
+	>>
+
+HORIZONTAL
+	<<
+		return (ANTLRTokenType)177;
+	>>
+
+CHECKBOX_DEFAULT
+	<<
+		return (ANTLRTokenType)178;
+	>>
+
+CHECKBOX_DEFAULT_MFG
+	<<
+		return (ANTLRTokenType)179;
+	>>
+
+YEAR_SUPPRESS
+	<<
+		return (ANTLRTokenType)180;
+	>>
+
+MONTH_SUPPRESS
+	<<
+		return (ANTLRTokenType)181;
+	>>
+
+DAY_SUPPRESS
+	<<
+		return (ANTLRTokenType)182;
+	>>
+
+STORAGE_NORMAL
+	<<
+		return (ANTLRTokenType)183;
+	>>
+
+STORAGE_TIME
+	<<
+		return (ANTLRTokenType)184;
+	>>
+
+STORAGE_WAKEUP
+	<<
+		return (ANTLRTokenType)185;
+	>>
+
+NUMERIC_SIZE_1
+	<<
+		return (ANTLRTokenType)186;
+	>>
+
+NUMERIC_SIZE_2
+	<<
+		return (ANTLRTokenType)187;
+	>>
+
+NUMERIC_SIZE_4
+	<<
+		return (ANTLRTokenType)188;
+	>>
+
+NUMERIC_SIZE_8
+	<<
+		return (ANTLRTokenType)189;
+	>>
+
+DISPLAY_INT_DEC
+	<<
+		return (ANTLRTokenType)190;
+	>>
+
+DISPLAY_UINT_DEC
+	<<
+		return (ANTLRTokenType)191;
+	>>
+
+DISPLAY_UINT_HEX
+	<<
+		return (ANTLRTokenType)192;
+	>>
+
+MULTI_LINE
+	<<
+		return (ANTLRTokenType)193;
+	>>
+
+UNIQUE
+	<<
+		return (ANTLRTokenType)194;
+	>>
+
+NOEMPTY
+	<<
+		return (ANTLRTokenType)195;
+	>>
+
+HOUR_SUPPRESS
+	<<
+		return (ANTLRTokenType)196;
+	>>
+
+MINUTE_SUPPRESS
+	<<
+		return (ANTLRTokenType)197;
+	>>
+
+SECOND_SUPPRESS
+	<<
+		return (ANTLRTokenType)198;
+	>>
+
+IMAGE_TOKEN
+	<<
+		return (ANTLRTokenType)199;
+	>>
+
+OPTION_DEFAULT
+	<<
+		return (ANTLRTokenType)201;
+	>>
+
+OPTION_DEFAULT_MFG
+	<<
+		return (ANTLRTokenType)202;
+	>>
+
+dup
+	<<
+		return Dup;
+	>>
+
+vareqval
+	<<
+		return VarEqVal;
+	>>
+
+var
+	<<
+		return Var;
+	>>
+
+ideqval
+	<<
+		return IdEqVal;
+	>>
+
+ideqid
+	<<
+		return IdEqId;
+	>>
+
+ideqvallist
+	<<
+		return IdEqValList;
+	>>
+
+questionref
+	<<
+		return QuestionRef;
+	>>
+
+ruleref
+	<<
+		return RuleRef;
+	>>
+
+stringref
+	<<
+		return StringRef;
+	>>
+
+pushthis
+	<<
+		return PushThis;
+	>>
+
+security
+	<<
+		return Security;
+	>>
+
+get
+	<<
+		return Get;
+	>>
+
+TRUE
+	<<
+		return True;
+	>>
+
+FALSE
+	<<
+		return False;
+	>>
+
+ONE
+	<<
+		return One;
+	>>
+
+ONES
+	<<
+		return Ones;
+	>>
+
+ZERO
+	<<
+		return Zero;
+	>>
+
+UNDEFINED
+	<<
+		return Undefined;
+	>>
+
+VERSION
+	<<
+		return Version;
+	>>
+
+length
+	<<
+		return Length;
+	>>
+
+AND
+	<<
+		return AND;
+	>>
+
+OR
+	<<
+		return OR;
+	>>
+
+NOT
+	<<
+		return NOT;
+	>>
+
+set
+	<<
+		return Set;
+	>>
+
+\~
+	<<
+		return BitWiseNot;
+	>>
+
+boolval
+	<<
+		return BoolVal;
+	>>
+
+stringval
+	<<
+		return StringVal;
+	>>
+
+unintval
+	<<
+		return UnIntVal;
+	>>
+
+toupper
+	<<
+		return ToUpper;
+	>>
+
+tolower
+	<<
+		return ToLower;
+	>>
+
+match
+	<<
+		return Match;
+	>>
+
+match2
+	<<
+		return Match2;
+	>>
+
+catenate
+	<<
+		return Catenate;
+	>>
+
+questionrefval
+	<<
+		return QuestionRefVal;
+	>>
+
+stringrefval
+	<<
+		return StringRefVal;
+	>>
+
+map
+	<<
+		return Map;
+	>>
+
+refreshguid
+	<<
+		return RefreshGuid;
+	>>
+
+&
+	<<
+		return (ANTLRTokenType)234;
+	>>
+
+==
+	<<
+		return (ANTLRTokenType)235;
+	>>
+
+!=
+	<<
+		return (ANTLRTokenType)236;
+	>>
+
+<
+	<<
+		return (ANTLRTokenType)237;
+	>>
+
+<=
+	<<
+		return (ANTLRTokenType)238;
+	>>
+
+>
+	<<
+		return (ANTLRTokenType)239;
+	>>
+
+>=
+	<<
+		return (ANTLRTokenType)240;
+	>>
+
+\<<
+	<<
+		return (ANTLRTokenType)241;
+	>>
+
+\>>
+	<<
+		return (ANTLRTokenType)242;
+	>>
+
+\+
+	<<
+		return (ANTLRTokenType)243;
+	>>
+
+\*
+	<<
+		return (ANTLRTokenType)244;
+	>>
+
+%
+	<<
+		return (ANTLRTokenType)245;
+	>>
+
+cond
+	<<
+		return Cond;
+	>>
+
+find
+	<<
+		return Find;
+	>>
+
+mid
+	<<
+		return Mid;
+	>>
+
+token
+	<<
+		return Tok;
+	>>
+
+span
+	<<
+		return Span;
+	>>
+
+?
+	<<
+		return (ANTLRTokenType)253;
+	>>
+
+SENSITIVE
+	<<
+		return (ANTLRTokenType)254;
+	>>
+
+INSENSITIVE
+	<<
+		return (ANTLRTokenType)255;
+	>>
+
+LAST_NON_MATCH
+	<<
+		return (ANTLRTokenType)256;
+	>>
+
+FIRST_NON_MATCH
+	<<
+		return (ANTLRTokenType)257;
+	>>
+
+[A-Za-z_][A-Za-z_0-9]*
+	<<
+		return StringIdentifier;
+	>>
+
+(0x[0-9A-Fa-f]+) | [0-9]+
+	<<
+		return Number;
+	>>
+
+
+%%QUOTED_STRING
+
+@
+	<<
+		return (ANTLRTokenType)1;
+	>>
+
+~[\"]*\"
+	<<
+    mode (START);   
+		return TheString;
+	>>
+
+
+%%CPP_COMMENT
+
+@
+	<<
+		return (ANTLRTokenType)1;
+	>>
+
+~[\n]*
+	<<
+    skip ();   
+		return (ANTLRTokenType)3;
+	>>
+
+\n
+	<<
+    skip (); mode (START); newline ();   
+		return (ANTLRTokenType)4;
+	>>
+
+%%
