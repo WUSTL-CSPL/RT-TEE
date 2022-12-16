@@ -1,2 +1,2 @@
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/OvmfPkg/VirtioScsiDxe/VirtioScsi/OUTPUT/VirtioScsi.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/OvmfPkg/VirtioScsiDxe/VirtioScsi/OUTPUT/AutoGen.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/OvmfPkg/VirtioScsiDxe/VirtioScsi/OUTPUT/VirtioScsi.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/OvmfPkg/VirtioScsiDxe/VirtioScsi/OUTPUT/AutoGen.obj

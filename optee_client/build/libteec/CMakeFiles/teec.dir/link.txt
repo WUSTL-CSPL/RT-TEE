@@ -1,1 +1,1 @@
-ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  -fPIC   -shared -Wl,-soname,libteec.so.1 -o libteec.so.1.0.0 CMakeFiles/teec.dir/src/tee_client_api.c.o CMakeFiles/teec.dir/src/teec_trace.c.o -lpthread 
+ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  -fPIC   -shared -Wl,-soname,libteec.so.1 -o libteec.so.1.0.0 CMakeFiles/teec.dir/src/tee_client_api.c.o CMakeFiles/teec.dir/src/teec_trace.c.o -lpthread 

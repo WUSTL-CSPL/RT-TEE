@@ -1,1 +1,1 @@
-make -j run QEMU_VIRTFS_ENABLE=y CFG_CORE_ASLR=n QEMU_VIRTFS_HOST_DIR=$(pwd)/shared_folder
+make -j12 run QEMU_VIRTFS_ENABLE=y CFG_CORE_ASLR=n QEMU_VIRTFS_HOST_DIR=$(pwd)/shared_folder

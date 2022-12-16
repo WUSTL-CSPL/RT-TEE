@@ -36,7 +36,7 @@ stdio.h
 stdint.h
 -
 
-/home/osboxes/rttee_qemu/optee_client/libteec/src/tee_client_api.c
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec/src/tee_client_api.c
 errno.h
 -
 fcntl.h
@@ -70,9 +70,9 @@ unistd.h
 linux/tee.h
 -
 teec_benchmark.h
-/home/osboxes/rttee_qemu/optee_client/libteec/src/teec_benchmark.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec/src/teec_benchmark.h
 
-/home/osboxes/rttee_qemu/optee_client/libteec/src/teec_trace.c
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec/src/teec_trace.c
 stdio.h
 -
 stdarg.h
@@ -90,5 +90,5 @@ sys/syscall.h
 sys/types.h
 -
 teec_trace.h
-/home/osboxes/rttee_qemu/optee_client/libteec/src/teec_trace.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec/src/teec_trace.h
 

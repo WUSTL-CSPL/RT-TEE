@@ -1,5 +1,5 @@
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/ArpDxe/ArpDxe/OUTPUT/ArpMain.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/ArpDxe/ArpDxe/OUTPUT/ComponentName.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/ArpDxe/ArpDxe/OUTPUT/ArpImpl.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/ArpDxe/ArpDxe/OUTPUT/ArpDriver.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/ArpDxe/ArpDxe/OUTPUT/AutoGen.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/ArpDxe/ArpDxe/OUTPUT/ArpMain.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/ArpDxe/ArpDxe/OUTPUT/ComponentName.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/ArpDxe/ArpDxe/OUTPUT/ArpImpl.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/ArpDxe/ArpDxe/OUTPUT/ArpDriver.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/ArpDxe/ArpDxe/OUTPUT/AutoGen.obj

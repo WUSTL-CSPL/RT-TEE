@@ -1,5 +1,5 @@
 # auto-generated TEE configuration file
-# TEE version 5852be0
+# TEE version aafb3e9-dev
 set(CFG_AES_GCM_TABLE_BASED y)
 set(CFG_ARM32_ta_arm32 y)
 set(CFG_ARM64_core y)

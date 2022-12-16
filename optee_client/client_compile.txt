@@ -1,0 +1,8 @@
+rm -rf ./build
+mkdir ./build
+cd ./build
+source ../../optee_examples/hello_world/envi_setup.txt
+cmake -DCMAKE_C_COMPILER=$RTTEE_PATH/toolchains/aarch64/bin/aarch64-linux-gnu-gcc ..
+make
+mkdir ../out/lib
+cp ./libteec/libteec.* ../out/lib

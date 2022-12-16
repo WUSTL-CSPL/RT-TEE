@@ -1,4 +1,4 @@
-# Install script for directory: /home/osboxes/rttee_qemu/optee_client/libteec
+# Install script for directory: /home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,9 +46,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/osboxes/rttee_qemu/optee_client/build/libteec/libteec.so.1.0.0"
-    "/home/osboxes/rttee_qemu/optee_client/build/libteec/libteec.so.1"
-    "/home/osboxes/rttee_qemu/optee_client/build/libteec/libteec.so"
+    "/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec/libteec.so.1.0.0"
+    "/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec/libteec.so.1"
+    "/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec/libteec.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libteec.so.1.0.0"

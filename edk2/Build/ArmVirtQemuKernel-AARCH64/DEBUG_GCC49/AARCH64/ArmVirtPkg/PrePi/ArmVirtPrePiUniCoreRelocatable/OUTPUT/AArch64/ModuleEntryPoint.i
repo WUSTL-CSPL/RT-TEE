@@ -1,19 +1,19 @@
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmVirtPkg/PrePi/AArch64/ModuleEntryPoint.S"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmVirtPkg/PrePi/AArch64/ModuleEntryPoint.S"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 31 "<command-line>"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/toolchains/aarch64/aarch64-linux-gnu/libc/usr/include/stdc-predef.h" 1 3 4
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/aarch64-linux-gnu/libc/usr/include/stdc-predef.h" 1 3 4
 # 32 "<command-line>" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/PrePi/ArmVirtPrePiUniCoreRelocatable/DEBUG/AutoGen.h" 1
-# 16 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/PrePi/ArmVirtPrePiUniCoreRelocatable/DEBUG/AutoGen.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/PiPei.h" 1
-# 23 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/PiPei.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiBaseType.h" 1
-# 20 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h" 1
-# 28 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/AArch64/ProcessorBind.h" 1
-# 100 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/AArch64/ProcessorBind.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/PrePi/ArmVirtPrePiUniCoreRelocatable/DEBUG/AutoGen.h" 1
+# 16 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/PrePi/ArmVirtPrePiUniCoreRelocatable/DEBUG/AutoGen.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/PiPei.h" 1
+# 23 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/PiPei.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiBaseType.h" 1
+# 20 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h" 1
+# 28 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/AArch64/ProcessorBind.h" 1
+# 100 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/AArch64/ProcessorBind.h"
   typedef unsigned long long UINT64;
   typedef long long INT64;
   typedef unsigned int UINT32;
@@ -39,8 +39,8 @@ typedef UINT64 UINTN;
 
 
 typedef INT64 INTN;
-# 29 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h" 2
-# 54 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 29 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h" 2
+# 54 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
 extern UINT8 _VerifySizeofBOOLEAN[(sizeof(BOOLEAN) == (1)) / (sizeof(BOOLEAN) == (1))];
 extern UINT8 _VerifySizeofINT8[(sizeof(INT8) == (1)) / (sizeof(INT8) == (1))];
 extern UINT8 _VerifySizeofUINT8[(sizeof(UINT8) == (1)) / (sizeof(UINT8) == (1))];
@@ -52,7 +52,7 @@ extern UINT8 _VerifySizeofINT64[(sizeof(INT64) == (8)) / (sizeof(INT64) == (8))]
 extern UINT8 _VerifySizeofUINT64[(sizeof(UINT64) == (8)) / (sizeof(UINT64) == (8))];
 extern UINT8 _VerifySizeofCHAR8[(sizeof(CHAR8) == (1)) / (sizeof(CHAR8) == (1))];
 extern UINT8 _VerifySizeofCHAR16[(sizeof(CHAR16) == (2)) / (sizeof(CHAR16) == (2))];
-# 73 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 73 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
 typedef enum {
   __VerifyUint8EnumValue = 0xff
 } __VERIFY_UINT8_ENUM_SIZE;
@@ -68,7 +68,7 @@ typedef enum {
 extern UINT8 _VerifySizeof__VERIFY_UINT8_ENUM_SIZE[(sizeof(__VERIFY_UINT8_ENUM_SIZE) == (4)) / (sizeof(__VERIFY_UINT8_ENUM_SIZE) == (4))];
 extern UINT8 _VerifySizeof__VERIFY_UINT16_ENUM_SIZE[(sizeof(__VERIFY_UINT16_ENUM_SIZE) == (4)) / (sizeof(__VERIFY_UINT16_ENUM_SIZE) == (4))];
 extern UINT8 _VerifySizeof__VERIFY_UINT32_ENUM_SIZE[(sizeof(__VERIFY_UINT32_ENUM_SIZE) == (4)) / (sizeof(__VERIFY_UINT32_ENUM_SIZE) == (4))];
-# 281 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 281 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
 typedef struct {
   UINT32 Data1;
   UINT16 Data2;
@@ -107,16 +107,16 @@ struct _LIST_ENTRY {
   LIST_ENTRY *ForwardLink;
   LIST_ENTRY *BackLink;
 };
-# 716 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 716 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
 typedef __builtin_va_list VA_LIST;
-# 801 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 801 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
 typedef UINTN *BASE_LIST;
-# 965 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 965 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
 typedef UINTN RETURN_STATUS;
-# 1281 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 1281 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
   void * __builtin_return_address (unsigned int level);
-# 21 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiBaseType.h" 2
-# 29 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
+# 21 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiBaseType.h" 2
+# 29 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
 typedef GUID EFI_GUID;
 
 
@@ -148,7 +148,7 @@ typedef UINT64 EFI_PHYSICAL_ADDRESS;
 
 
 typedef UINT64 EFI_VIRTUAL_ADDRESS;
-# 72 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
+# 72 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
 typedef struct {
   UINT16 Year;
   UINT8 Month;
@@ -190,13 +190,13 @@ typedef union {
   EFI_IPv4_ADDRESS v4;
   EFI_IPv6_ADDRESS v6;
 } EFI_IP_ADDRESS;
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/PiPei.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h" 1
-# 22 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h" 1
-# 40 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/WinCertificate.h" 1
-# 30 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/WinCertificate.h"
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/PiPei.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h" 1
+# 22 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h" 1
+# 40 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/WinCertificate.h" 1
+# 30 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/WinCertificate.h"
 typedef struct {
 
 
@@ -221,7 +221,7 @@ typedef struct {
 
 
 } WIN_CERTIFICATE;
-# 64 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/WinCertificate.h"
+# 64 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/WinCertificate.h"
 typedef struct {
   EFI_GUID HashType;
   UINT8 PublicKey[256];
@@ -251,7 +251,7 @@ typedef struct {
 
   UINT8 CertData[1];
 } WIN_CERTIFICATE_UEFI_GUID;
-# 103 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/WinCertificate.h"
+# 103 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/WinCertificate.h"
 typedef struct {
 
 
@@ -263,11 +263,11 @@ typedef struct {
 
 
   EFI_GUID HashAlgorithm;
-# 124 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/WinCertificate.h"
+# 124 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/WinCertificate.h"
 } WIN_CERTIFICATE_EFI_PKCS1_15;
 
 extern EFI_GUID gEfiCertTypeRsa2048Sha256Guid;
-# 41 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h" 2
+# 41 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h" 2
 
 
 
@@ -406,7 +406,7 @@ typedef struct {
 
   UINT32 Reserved;
 } EFI_TABLE_HEADER;
-# 195 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
+# 195 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
 typedef struct {
 
 
@@ -415,10 +415,10 @@ typedef struct {
 
 
   UINT64 MonotonicCount;
-# 211 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
+# 211 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
   WIN_CERTIFICATE_UEFI_GUID AuthInfo;
 } EFI_VARIABLE_AUTHENTICATION;
-# 222 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
+# 222 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
 typedef struct {
 
 
@@ -430,15 +430,15 @@ typedef struct {
 
   WIN_CERTIFICATE_UEFI_GUID AuthInfo;
  } EFI_VARIABLE_AUTHENTICATION_2;
-# 23 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 1
-# 21 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h" 1
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
+# 23 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 1
+# 21 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h" 1
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
 typedef UINT32 EFI_FV_FILE_ATTRIBUTES;
-# 36 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
+# 36 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
 typedef UINT32 EFI_FVB_ATTRIBUTES_2;
-# 91 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
+# 91 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
 typedef struct {
 
 
@@ -503,7 +503,7 @@ typedef struct {
 
   EFI_FV_BLOCK_MAP_ENTRY BlockMap[1];
 } EFI_FIRMWARE_VOLUME_HEADER;
-# 166 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
+# 166 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
 typedef struct {
 
 
@@ -590,9 +590,9 @@ typedef struct {
 
   UINT32 UsedSize;
 } EFI_FIRMWARE_VOLUME_EXT_ENTRY_USED_SIZE_TYPE;
-# 22 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h" 1
-# 26 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 22 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h" 1
+# 26 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef union {
   struct {
 
@@ -601,7 +601,7 @@ typedef union {
 
 
     UINT8 Header;
-# 43 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 43 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
     UINT8 File;
   } Checksum;
 
@@ -619,7 +619,7 @@ typedef union {
 typedef UINT8 EFI_FV_FILETYPE;
 typedef UINT8 EFI_FFS_FILE_ATTRIBUTES;
 typedef UINT8 EFI_FFS_FILE_STATE;
-# 114 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 114 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef struct {
 
 
@@ -669,7 +669,7 @@ typedef struct {
 
 
   EFI_FFS_FILE_ATTRIBUTES Attributes;
-# 171 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 171 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
   UINT8 Size[3];
 
 
@@ -683,9 +683,9 @@ typedef struct {
 
   UINT64 ExtendedSize;
 } EFI_FFS_FILE_HEADER2;
-# 194 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 194 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef UINT8 EFI_SECTION_TYPE;
-# 231 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 231 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef struct {
 
 
@@ -720,7 +720,7 @@ typedef struct {
 
 typedef EFI_COMMON_SECTION_HEADER EFI_COMPATIBILITY16_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_COMPATIBILITY16_SECTION2;
-# 275 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 275 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef struct {
 
 
@@ -750,7 +750,7 @@ typedef struct {
 
   UINT8 CompressionType;
 } EFI_COMPRESSION_SECTION2;
-# 314 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 314 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef EFI_COMMON_SECTION_HEADER EFI_DISPOSABLE_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_DISPOSABLE_SECTION2;
 
@@ -790,7 +790,7 @@ typedef struct {
 
   EFI_GUID SubTypeGuid;
 } EFI_FREEFORM_SUBTYPE_GUID_SECTION2;
-# 362 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 362 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef struct {
 
 
@@ -840,7 +840,7 @@ typedef EFI_COMMON_SECTION_HEADER2 EFI_PE32_SECTION2;
 
 typedef EFI_COMMON_SECTION_HEADER EFI_PEI_DEPEX_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_PEI_DEPEX_SECTION2;
-# 421 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 421 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef EFI_COMMON_SECTION_HEADER EFI_PIC_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_PIC_SECTION2;
 
@@ -855,7 +855,7 @@ typedef EFI_COMMON_SECTION_HEADER2 EFI_TE_SECTION2;
 
 typedef EFI_COMMON_SECTION_HEADER EFI_RAW_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_RAW_SECTION2;
-# 444 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 444 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef EFI_COMMON_SECTION_HEADER EFI_SMM_DEPEX_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_SMM_DEPEX_SECTION2;
 
@@ -900,13 +900,13 @@ typedef struct {
   UINT16 BuildNumber;
   CHAR16 VersionString[1];
 } EFI_VERSION_SECTION2;
-# 23 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiBootMode.h" 1
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiBootMode.h"
+# 23 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiBootMode.h" 1
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiBootMode.h"
 typedef UINT32 EFI_BOOT_MODE;
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiHob.h" 1
-# 42 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiHob.h"
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiHob.h" 1
+# 42 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef struct {
 
 
@@ -921,7 +921,7 @@ typedef struct {
 
   UINT32 Reserved;
 } EFI_HOB_GENERIC_HEADER;
-# 67 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiHob.h"
+# 67 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef struct {
 
 
@@ -1087,9 +1087,9 @@ typedef struct {
 
 
 typedef UINT32 EFI_RESOURCE_TYPE;
-# 248 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiHob.h"
+# 248 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef UINT32 EFI_RESOURCE_ATTRIBUTE_TYPE;
-# 312 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiHob.h"
+# 312 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef struct {
 
 
@@ -1251,7 +1251,7 @@ typedef struct {
 
   EFI_HOB_GENERIC_HEADER Header;
 } EFI_HOB_MEMORY_POOL;
-# 481 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiHob.h"
+# 481 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef struct {
 
 
@@ -1287,15 +1287,15 @@ typedef union {
   EFI_HOB_UEFI_CAPSULE *Capsule;
   UINT8 *Raw;
 } EFI_PEI_HOB_POINTERS;
-# 25 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDependency.h" 1
-# 26 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiStatusCode.h" 1
-# 25 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiStatusCode.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h" 1
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h" 1
-# 56 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 25 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDependency.h" 1
+# 26 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiStatusCode.h" 1
+# 25 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiStatusCode.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h" 1
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h" 1
+# 56 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT16 e_magic;
   UINT16 e_cblp;
@@ -1330,12 +1330,12 @@ typedef struct {
   UINT16 SizeOfOptionalHeader;
   UINT16 Characteristics;
 } EFI_IMAGE_FILE_HEADER;
-# 113 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 113 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 VirtualAddress;
   UINT32 Size;
 } EFI_IMAGE_DATA_DIRECTORY;
-# 146 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 146 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
 
 
@@ -1375,7 +1375,7 @@ typedef struct {
   UINT32 NumberOfRvaAndSizes;
   EFI_IMAGE_DATA_DIRECTORY DataDirectory[16];
 } EFI_IMAGE_OPTIONAL_HEADER32;
-# 197 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 197 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
 
 
@@ -1437,7 +1437,7 @@ typedef struct {
   EFI_IMAGE_FILE_HEADER FileHeader;
   EFI_IMAGE_OPTIONAL_HEADER64 OptionalHeader;
 } EFI_IMAGE_NT_HEADERS64;
-# 279 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 279 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT8 Name[8];
   union {
@@ -1453,18 +1453,18 @@ typedef struct {
   UINT16 NumberOfLinenumbers;
   UINT32 Characteristics;
 } EFI_IMAGE_SECTION_HEADER;
-# 429 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 429 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 VirtualAddress;
   UINT32 SymbolTableIndex;
   UINT16 Type;
 } EFI_IMAGE_RELOCATION;
-# 477 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 477 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 VirtualAddress;
   UINT32 SizeOfBlock;
 } EFI_IMAGE_BASE_RELOCATION;
-# 505 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 505 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   union {
     UINT32 SymbolTableIndex;
@@ -1472,7 +1472,7 @@ typedef struct {
   } Type;
   UINT16 Linenumber;
 } EFI_IMAGE_LINENUMBER;
-# 531 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 531 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT8 Name[16];
   UINT8 Date[12];
@@ -1482,7 +1482,7 @@ typedef struct {
   UINT8 Size[10];
   UINT8 EndHeader[2];
 } EFI_IMAGE_ARCHIVE_MEMBER_HEADER;
-# 554 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 554 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 Characteristics;
   UINT32 TimeDateStamp;
@@ -1515,7 +1515,7 @@ typedef struct {
     EFI_IMAGE_IMPORT_BY_NAME *AddressOfData;
   } u1;
 } EFI_IMAGE_THUNK_DATA;
-# 594 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 594 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 Characteristics;
   UINT32 TimeDateStamp;
@@ -1651,7 +1651,7 @@ typedef struct {
   UINT64 ImageBase;
   EFI_IMAGE_DATA_DIRECTORY DataDirectory[2];
 } EFI_TE_IMAGE_HEADER;
-# 743 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 743 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef union {
   EFI_IMAGE_NT_HEADERS32 Pe32;
   EFI_IMAGE_NT_HEADERS64 Pe32Plus;
@@ -1664,12 +1664,12 @@ typedef union {
   EFI_TE_IMAGE_HEADER *Te;
   EFI_IMAGE_OPTIONAL_HEADER_UNION *Union;
 } EFI_IMAGE_OPTIONAL_HEADER_PTR_UNION;
-# 25 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h" 2
+# 25 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h" 2
 
 typedef struct _EFI_DEBUG_SUPPORT_PROTOCOL EFI_DEBUG_SUPPORT_PROTOCOL;
-# 40 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 40 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef INTN EFI_EXCEPTION_TYPE;
-# 67 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 67 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
   UINT16 Fcw;
   UINT16 Fsw;
@@ -1738,7 +1738,7 @@ typedef struct {
   UINT32 Ecx;
   UINT32 Eax;
 } EFI_SYSTEM_CONTEXT_IA32;
-# 161 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 161 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
   UINT16 Fcw;
   UINT16 Fsw;
@@ -1816,7 +1816,7 @@ typedef struct {
   UINT64 R14;
   UINT64 R15;
 } EFI_SYSTEM_CONTEXT_X64;
-# 287 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 287 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
 
 
@@ -1969,7 +1969,7 @@ typedef struct {
   UINT64 IntNat;
 
 } EFI_SYSTEM_CONTEXT_IPF;
-# 462 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 462 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
   UINT64 R0;
   UINT64 R1;
@@ -1983,7 +1983,7 @@ typedef struct {
   UINT64 ControlFlags;
   UINT64 Ip;
 } EFI_SYSTEM_CONTEXT_EBC;
-# 498 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 498 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
   UINT32 R0;
   UINT32 R1;
@@ -2007,7 +2007,7 @@ typedef struct {
   UINT32 IFSR;
   UINT32 IFAR;
 } EFI_SYSTEM_CONTEXT_ARM;
-# 536 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 536 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
 
   UINT64 X0;
@@ -2096,7 +2096,7 @@ typedef union {
   EFI_SYSTEM_CONTEXT_ARM *SystemContextArm;
   EFI_SYSTEM_CONTEXT_AARCH64 *SystemContextAArch64;
 } EFI_SYSTEM_CONTEXT;
-# 636 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 636 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 void
 ( *EFI_EXCEPTION_CALLBACK)(
@@ -2127,14 +2127,14 @@ typedef enum {
   IsaArm = 0x01c2,
   IsaAArch64 = 0xAA64
 } EFI_INSTRUCTION_SET_ARCHITECTURE;
-# 683 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 683 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_MAXIMUM_PROCESSOR_INDEX)(
   EFI_DEBUG_SUPPORT_PROTOCOL *This,
   UINTN *MaxProcessorIndex
   );
-# 705 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 705 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 EFI_STATUS
 ( *EFI_REGISTER_PERIODIC_CALLBACK)(
@@ -2142,7 +2142,7 @@ EFI_STATUS
   UINTN ProcessorIndex,
   EFI_PERIODIC_CALLBACK PeriodicCallback
   );
-# 729 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 729 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 EFI_STATUS
 ( *EFI_REGISTER_EXCEPTION_CALLBACK)(
@@ -2151,7 +2151,7 @@ EFI_STATUS
   EFI_EXCEPTION_CALLBACK ExceptionCallback,
   EFI_EXCEPTION_TYPE ExceptionType
   );
-# 751 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 751 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 EFI_STATUS
 ( *EFI_INVALIDATE_INSTRUCTION_CACHE)(
@@ -2178,15 +2178,15 @@ struct _EFI_DEBUG_SUPPORT_PROTOCOL {
 };
 
 extern EFI_GUID gEfiDebugSupportProtocolGuid;
-# 26 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiStatusCode.h" 2
+# 26 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiStatusCode.h" 2
 
 
 
 
 typedef UINT32 EFI_STATUS_CODE_TYPE;
-# 73 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiStatusCode.h"
+# 73 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiStatusCode.h"
 typedef UINT32 EFI_STATUS_CODE_VALUE;
-# 90 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiStatusCode.h"
+# 90 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiStatusCode.h"
 typedef struct {
 
 
@@ -2201,9 +2201,9 @@ typedef struct {
 
   EFI_GUID Type;
 } EFI_STATUS_CODE_DATA;
-# 27 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiS3BootScript.h" 1
-# 43 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiS3BootScript.h"
+# 27 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiS3BootScript.h" 1
+# 43 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiS3BootScript.h"
 typedef enum {
   EfiBootScriptWidthUint8,
   EfiBootScriptWidthUint16,
@@ -2219,8 +2219,8 @@ typedef enum {
   EfiBootScriptWidthFillUint64,
   EfiBootScriptWidthMaximum
 } EFI_BOOT_SCRIPT_WIDTH;
-# 28 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 115 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
+# 28 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 115 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
 typedef struct {
 
 
@@ -2276,13 +2276,13 @@ typedef struct {
 
   CHAR8 *PcdName;
 } EFI_PCD_INFO;
-# 179 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
+# 179 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
 typedef
 void
 ( *EFI_AP_PROCEDURE)(
   void *Buffer
   );
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
 
 
 
@@ -2305,8 +2305,8 @@ typedef struct _EFI_PEI_SERVICES EFI_PEI_SERVICES;
 typedef struct _EFI_PEI_NOTIFY_DESCRIPTOR EFI_PEI_NOTIFY_DESCRIPTOR;
 
 
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h" 1
-# 25 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h" 1
+# 25 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef struct _EFI_PEI_CPU_IO_PPI EFI_PEI_CPU_IO_PPI;
 
 
@@ -2327,7 +2327,7 @@ typedef enum {
   EfiPeiCpuIoWidthFillUint64,
   EfiPeiCpuIoWidthMaximum
 } EFI_PEI_CPU_IO_PPI_WIDTH;
-# 61 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 61 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_CPU_IO_PPI_IO_MEM)(
@@ -2352,7 +2352,7 @@ typedef struct {
 
   EFI_PEI_CPU_IO_PPI_IO_MEM Write;
 } EFI_PEI_CPU_IO_PPI_ACCESS;
-# 97 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 97 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT8
 ( *EFI_PEI_CPU_IO_PPI_IO_READ8)(
@@ -2360,7 +2360,7 @@ UINT8
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 116 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 116 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT16
 ( *EFI_PEI_CPU_IO_PPI_IO_READ16)(
@@ -2368,7 +2368,7 @@ UINT16
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 135 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 135 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT32
 ( *EFI_PEI_CPU_IO_PPI_IO_READ32)(
@@ -2376,7 +2376,7 @@ UINT32
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 154 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 154 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT64
 ( *EFI_PEI_CPU_IO_PPI_IO_READ64)(
@@ -2384,7 +2384,7 @@ UINT64
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 172 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 172 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_IO_WRITE8)(
@@ -2393,7 +2393,7 @@ void
   UINT64 Address,
   UINT8 Data
   );
-# 191 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 191 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_IO_WRITE16)(
@@ -2402,7 +2402,7 @@ void
   UINT64 Address,
   UINT16 Data
   );
-# 210 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 210 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_IO_WRITE32)(
@@ -2411,7 +2411,7 @@ void
   UINT64 Address,
   UINT32 Data
   );
-# 229 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 229 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_IO_WRITE64)(
@@ -2420,7 +2420,7 @@ void
   UINT64 Address,
   UINT64 Data
   );
-# 249 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 249 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT8
 ( *EFI_PEI_CPU_IO_PPI_MEM_READ8)(
@@ -2428,7 +2428,7 @@ UINT8
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 268 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 268 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT16
 ( *EFI_PEI_CPU_IO_PPI_MEM_READ16)(
@@ -2436,7 +2436,7 @@ UINT16
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 287 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 287 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT32
 ( *EFI_PEI_CPU_IO_PPI_MEM_READ32)(
@@ -2444,7 +2444,7 @@ UINT32
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 306 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 306 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 UINT64
 ( *EFI_PEI_CPU_IO_PPI_MEM_READ64)(
@@ -2452,7 +2452,7 @@ UINT64
   const EFI_PEI_CPU_IO_PPI *This,
   UINT64 Address
   );
-# 324 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 324 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_MEM_WRITE8)(
@@ -2461,7 +2461,7 @@ void
   UINT64 Address,
   UINT8 Data
   );
-# 343 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 343 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_MEM_WRITE16)(
@@ -2470,7 +2470,7 @@ void
   UINT64 Address,
   UINT16 Data
   );
-# 362 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 362 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_MEM_WRITE32)(
@@ -2479,7 +2479,7 @@ void
   UINT64 Address,
   UINT32 Data
   );
-# 381 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/CpuIo.h"
+# 381 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/CpuIo.h"
 typedef
 void
 ( *EFI_PEI_CPU_IO_PPI_MEM_WRITE64)(
@@ -2526,11 +2526,11 @@ struct _EFI_PEI_CPU_IO_PPI {
 };
 
 extern EFI_GUID gEfiPeiCpuIoPpiInstalledGuid;
-# 47 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/PciCfg2.h" 1
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/PciCfg2.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h" 1
-# 150 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 47 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/PciCfg2.h" 1
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/PciCfg2.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h" 1
+# 150 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 typedef struct {
 
   UINT64 X19;
@@ -2557,21 +2557,21 @@ typedef struct {
   UINT64 D14;
   UINT64 D15;
 } BASE_LIBRARY_JUMP_BUFFER;
-# 203 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 203 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 StrnLenS (
   const CHAR16 *String,
   UINTN MaxSize
   );
-# 231 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 231 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 StrnSizeS (
   const CHAR16 *String,
   UINTN MaxSize
   );
-# 265 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 265 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrCpyS (
@@ -2579,7 +2579,7 @@ StrCpyS (
   UINTN DestMax,
   const CHAR16 *Source
   );
-# 303 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 303 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrnCpyS (
@@ -2588,7 +2588,7 @@ StrnCpyS (
   const CHAR16 *Source,
   UINTN Length
   );
-# 342 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 342 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrCatS (
@@ -2596,7 +2596,7 @@ StrCatS (
   UINTN DestMax,
   const CHAR16 *Source
   );
-# 383 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 383 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrnCatS (
@@ -2605,7 +2605,7 @@ StrnCatS (
   const CHAR16 *Source,
   UINTN Length
   );
-# 440 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 440 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrDecimalToUintnS (
@@ -2613,7 +2613,7 @@ StrDecimalToUintnS (
   CHAR16 **EndPointer,
   UINTN *Data
   );
-# 496 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 496 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrDecimalToUint64S (
@@ -2621,7 +2621,7 @@ StrDecimalToUint64S (
   CHAR16 **EndPointer,
   UINT64 *Data
   );
-# 557 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 557 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrHexToUintnS (
@@ -2629,7 +2629,7 @@ StrHexToUintnS (
   CHAR16 **EndPointer,
   UINTN *Data
   );
-# 618 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 618 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrHexToUint64S (
@@ -2637,21 +2637,21 @@ StrHexToUint64S (
   CHAR16 **EndPointer,
   UINT64 *Data
   );
-# 640 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 640 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 AsciiStrnLenS (
   const CHAR8 *String,
   UINTN MaxSize
   );
-# 666 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 666 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 AsciiStrnSizeS (
   const CHAR8 *String,
   UINTN MaxSize
   );
-# 698 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 698 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrCpyS (
@@ -2659,7 +2659,7 @@ AsciiStrCpyS (
   UINTN DestMax,
   const CHAR8 *Source
   );
-# 734 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 734 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrnCpyS (
@@ -2668,7 +2668,7 @@ AsciiStrnCpyS (
   const CHAR8 *Source,
   UINTN Length
   );
-# 771 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 771 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrCatS (
@@ -2676,7 +2676,7 @@ AsciiStrCatS (
   UINTN DestMax,
   const CHAR8 *Source
   );
-# 810 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 810 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrnCatS (
@@ -2685,7 +2685,7 @@ AsciiStrnCatS (
   const CHAR8 *Source,
   UINTN Length
   );
-# 866 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 866 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrDecimalToUintnS (
@@ -2693,7 +2693,7 @@ AsciiStrDecimalToUintnS (
   CHAR8 **EndPointer,
   UINTN *Data
   );
-# 921 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 921 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrDecimalToUint64S (
@@ -2701,7 +2701,7 @@ AsciiStrDecimalToUint64S (
   CHAR8 **EndPointer,
   UINT64 *Data
   );
-# 980 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 980 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrHexToUintnS (
@@ -2709,7 +2709,7 @@ AsciiStrHexToUintnS (
   CHAR8 **EndPointer,
   UINTN *Data
   );
-# 1039 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1039 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrHexToUint64S (
@@ -2717,14 +2717,14 @@ AsciiStrHexToUint64S (
   CHAR8 **EndPointer,
   UINT64 *Data
   );
-# 1075 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1075 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16 *
 
 StrCpy (
   CHAR16 *Destination,
   const CHAR16 *Source
   );
-# 1115 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1115 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16 *
 
 StrnCpy (
@@ -2732,26 +2732,26 @@ StrnCpy (
   const CHAR16 *Source,
   UINTN Length
   );
-# 1141 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1141 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 StrLen (
   const CHAR16 *String
   );
-# 1166 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1166 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 StrSize (
   const CHAR16 *String
   );
-# 1201 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1201 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 StrCmp (
   const CHAR16 *FirstString,
   const CHAR16 *SecondString
   );
-# 1241 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1241 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 StrnCmp (
@@ -2759,14 +2759,14 @@ StrnCmp (
   const CHAR16 *SecondString,
   UINTN Length
   );
-# 1286 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1286 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16 *
 
 StrCat (
   CHAR16 *Destination,
   const CHAR16 *Source
   );
-# 1334 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1334 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16 *
 
 StrnCat (
@@ -2774,38 +2774,38 @@ StrnCat (
   const CHAR16 *Source,
   UINTN Length
   );
-# 1368 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1368 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16 *
 
 StrStr (
   const CHAR16 *String,
   const CHAR16 *SearchString
   );
-# 1409 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1409 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 StrDecimalToUintn (
   const CHAR16 *String
   );
-# 1449 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1449 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 StrDecimalToUint64 (
   const CHAR16 *String
   );
-# 1491 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1491 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 StrHexToUintn (
   const CHAR16 *String
   );
-# 1533 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1533 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 StrHexToUint64 (
   const CHAR16 *String
   );
-# 1597 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1597 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrToIpv6Address (
@@ -2814,7 +2814,7 @@ StrToIpv6Address (
   IPv6_ADDRESS *Address,
   UINT8 *PrefixLength
   );
-# 1655 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1655 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrToIpv4Address (
@@ -2823,14 +2823,14 @@ StrToIpv4Address (
   IPv4_ADDRESS *Address,
   UINT8 *PrefixLength
   );
-# 1710 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1710 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrToGuid (
   const CHAR16 *String,
   GUID *Guid
   );
-# 1761 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1761 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 StrHexToBytes (
@@ -2839,14 +2839,14 @@ StrHexToBytes (
   UINT8 *Buffer,
   UINTN MaxBufferSize
   );
-# 1807 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1807 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8 *
 
 UnicodeStrToAsciiStr (
   const CHAR16 *Source,
   CHAR8 *Destination
   );
-# 1857 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1857 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 UnicodeStrToAsciiStrS (
@@ -2854,7 +2854,7 @@ UnicodeStrToAsciiStrS (
   CHAR8 *Destination,
   UINTN DestMax
   );
-# 1909 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1909 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 UnicodeStrnToAsciiStrS (
@@ -2864,14 +2864,14 @@ UnicodeStrnToAsciiStrS (
   UINTN DestMax,
   UINTN *DestinationLength
   );
-# 1944 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1944 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8 *
 
 AsciiStrCpy (
   CHAR8 *Destination,
   const CHAR8 *Source
   );
-# 1981 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 1981 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8 *
 
 AsciiStrnCpy (
@@ -2879,33 +2879,33 @@ AsciiStrnCpy (
   const CHAR8 *Source,
   UINTN Length
   );
-# 2007 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2007 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 AsciiStrLen (
   const CHAR8 *String
   );
-# 2031 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2031 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 AsciiStrSize (
   const CHAR8 *String
   );
-# 2064 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2064 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 AsciiStrCmp (
   const CHAR8 *FirstString,
   const CHAR8 *SecondString
   );
-# 2101 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2101 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 AsciiStriCmp (
   const CHAR8 *FirstString,
   const CHAR8 *SecondString
   );
-# 2139 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2139 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 AsciiStrnCmp (
@@ -2913,14 +2913,14 @@ AsciiStrnCmp (
   const CHAR8 *SecondString,
   UINTN Length
   );
-# 2179 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2179 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8 *
 
 AsciiStrCat (
   CHAR8 *Destination,
   const CHAR8 *Source
   );
-# 2225 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2225 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8 *
 
 AsciiStrnCat (
@@ -2928,38 +2928,38 @@ AsciiStrnCat (
   const CHAR8 *Source,
   UINTN Length
   );
-# 2258 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2258 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR8 *
 
 AsciiStrStr (
   const CHAR8 *String,
   const CHAR8 *SearchString
   );
-# 2296 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2296 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 AsciiStrDecimalToUintn (
   const CHAR8 *String
   );
-# 2333 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2333 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 AsciiStrDecimalToUint64 (
   const CHAR8 *String
   );
-# 2374 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2374 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINTN
 
 AsciiStrHexToUintn (
   const CHAR8 *String
   );
-# 2415 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2415 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 AsciiStrHexToUint64 (
   const CHAR8 *String
   );
-# 2473 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2473 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrToIpv6Address (
@@ -2968,7 +2968,7 @@ AsciiStrToIpv6Address (
   IPv6_ADDRESS *Address,
   UINT8 *PrefixLength
   );
-# 2525 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2525 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrToIpv4Address (
@@ -2977,14 +2977,14 @@ AsciiStrToIpv4Address (
   IPv4_ADDRESS *Address,
   UINT8 *PrefixLength
   );
-# 2577 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2577 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrToGuid (
   const CHAR8 *String,
   GUID *Guid
   );
-# 2626 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2626 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrHexToBytes (
@@ -2993,14 +2993,14 @@ AsciiStrHexToBytes (
   UINT8 *Buffer,
   UINTN MaxBufferSize
   );
-# 2666 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2666 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16 *
 
 AsciiStrToUnicodeStr (
   const CHAR8 *Source,
   CHAR16 *Destination
   );
-# 2712 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2712 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrToUnicodeStrS (
@@ -3008,7 +3008,7 @@ AsciiStrToUnicodeStrS (
   CHAR16 *Destination,
   UINTN DestMax
   );
-# 2763 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2763 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 RETURN_STATUS
 
 AsciiStrnToUnicodeStrS (
@@ -3018,249 +3018,249 @@ AsciiStrnToUnicodeStrS (
   UINTN DestMax,
   UINTN *DestinationLength
   );
-# 2786 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2786 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 DecimalToBcd8 (
   UINT8 Value
   );
-# 2807 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2807 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BcdToDecimal8 (
   UINT8 Value
   );
-# 2825 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2825 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 PathRemoveLastItem(
   CHAR16 *Path
   );
-# 2844 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2844 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 CHAR16*
 
 PathCleanUpDirectories(
   CHAR16 *Path
   );
-# 2890 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2890 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 IsNodeInList (
   const LIST_ENTRY *FirstEntry,
   const LIST_ENTRY *SecondEntry
   );
-# 2914 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2914 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 InitializeListHead (
   LIST_ENTRY *ListHead
   );
-# 2943 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2943 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 InsertHeadList (
   LIST_ENTRY *ListHead,
   LIST_ENTRY *Entry
   );
-# 2973 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 2973 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 InsertTailList (
   LIST_ENTRY *ListHead,
   LIST_ENTRY *Entry
   );
-# 3001 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3001 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 GetFirstNode (
   const LIST_ENTRY *List
   );
-# 3029 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3029 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 GetNextNode (
   const LIST_ENTRY *List,
   const LIST_ENTRY *Node
   );
-# 3058 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3058 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 GetPreviousNode (
   const LIST_ENTRY *List,
   const LIST_ENTRY *Node
   );
-# 3085 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3085 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 IsListEmpty (
   const LIST_ENTRY *ListHead
   );
-# 3118 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3118 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 IsNull (
   const LIST_ENTRY *List,
   const LIST_ENTRY *Node
   );
-# 3149 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3149 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 IsNodeAtEnd (
   const LIST_ENTRY *List,
   const LIST_ENTRY *Node
   );
-# 3183 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3183 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 SwapListEntries (
   LIST_ENTRY *FirstEntry,
   LIST_ENTRY *SecondEntry
   );
-# 3212 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3212 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 LIST_ENTRY *
 
 RemoveEntryList (
   const LIST_ENTRY *Entry
   );
-# 3237 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3237 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 LShiftU64 (
   UINT64 Operand,
   UINTN Count
   );
-# 3260 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3260 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 RShiftU64 (
   UINT64 Operand,
   UINTN Count
   );
-# 3283 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3283 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 ARShiftU64 (
   UINT64 Operand,
   UINTN Count
   );
-# 3307 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3307 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 LRotU32 (
   UINT32 Operand,
   UINTN Count
   );
-# 3331 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3331 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 RRotU32 (
   UINT32 Operand,
   UINTN Count
   );
-# 3355 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3355 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 LRotU64 (
   UINT64 Operand,
   UINTN Count
   );
-# 3379 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3379 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 RRotU64 (
   UINT64 Operand,
   UINTN Count
   );
-# 3400 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3400 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 LowBitSet32 (
   UINT32 Operand
   );
-# 3421 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3421 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 LowBitSet64 (
   UINT64 Operand
   );
-# 3442 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3442 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 HighBitSet32 (
   UINT32 Operand
   );
-# 3463 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3463 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 INTN
 
 HighBitSet64 (
   UINT64 Operand
   );
-# 3483 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3483 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 GetPowerOfTwo32 (
   UINT32 Operand
   );
-# 3503 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3503 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 GetPowerOfTwo64 (
   UINT64 Operand
   );
-# 3522 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3522 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 SwapBytes16 (
   UINT16 Value
   );
-# 3541 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3541 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 SwapBytes32 (
   UINT32 Value
   );
-# 3560 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3560 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 SwapBytes64 (
   UINT64 Value
   );
-# 3581 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3581 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 MultU64x32 (
   UINT64 Multiplicand,
   UINT32 Multiplier
   );
-# 3603 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3603 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 MultU64x64 (
   UINT64 Multiplicand,
   UINT64 Multiplier
   );
-# 3625 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3625 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 INT64
 
 MultS64x64 (
   INT64 Multiplicand,
   INT64 Multiplier
   );
-# 3649 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3649 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 DivU64x32 (
   UINT64 Dividend,
   UINT32 Divisor
   );
-# 3673 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3673 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 ModU64x32 (
   UINT64 Dividend,
   UINT32 Divisor
   );
-# 3700 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3700 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 DivU64x32Remainder (
@@ -3268,7 +3268,7 @@ DivU64x32Remainder (
   UINT32 Divisor,
   UINT32 *Remainder
   );
-# 3728 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3728 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 DivU64x64Remainder (
@@ -3276,7 +3276,7 @@ DivU64x64Remainder (
   UINT64 Divisor,
   UINT64 *Remainder
   );
-# 3760 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3760 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 INT64
 
 DivS64x64Remainder (
@@ -3284,59 +3284,59 @@ DivS64x64Remainder (
   INT64 Divisor,
   INT64 *Remainder
   );
-# 3782 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3782 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 ReadUnaligned16 (
   const UINT16 *Buffer
   );
-# 3804 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3804 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 WriteUnaligned16 (
   UINT16 *Buffer,
   UINT16 Value
   );
-# 3825 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3825 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 ReadUnaligned24 (
   const UINT32 *Buffer
   );
-# 3847 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3847 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 WriteUnaligned24 (
   UINT32 *Buffer,
   UINT32 Value
   );
-# 3868 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3868 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 ReadUnaligned32 (
   const UINT32 *Buffer
   );
-# 3890 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3890 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 WriteUnaligned32 (
   UINT32 *Buffer,
   UINT32 Value
   );
-# 3911 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3911 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 ReadUnaligned64 (
   const UINT64 *Buffer
   );
-# 3933 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3933 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 WriteUnaligned64 (
   UINT64 *Buffer,
   UINT64 Value
   );
-# 3964 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3964 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldRead8 (
@@ -3344,7 +3344,7 @@ BitFieldRead8 (
   UINTN StartBit,
   UINTN EndBit
   );
-# 3996 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 3996 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldWrite8 (
@@ -3353,7 +3353,7 @@ BitFieldWrite8 (
   UINTN EndBit,
   UINT8 Value
   );
-# 4030 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4030 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldOr8 (
@@ -3362,7 +3362,7 @@ BitFieldOr8 (
   UINTN EndBit,
   UINT8 OrData
   );
-# 4064 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4064 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldAnd8 (
@@ -3371,7 +3371,7 @@ BitFieldAnd8 (
   UINTN EndBit,
   UINT8 AndData
   );
-# 4101 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4101 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldAndThenOr8 (
@@ -3381,7 +3381,7 @@ BitFieldAndThenOr8 (
   UINT8 AndData,
   UINT8 OrData
   );
-# 4131 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4131 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 BitFieldRead16 (
@@ -3389,7 +3389,7 @@ BitFieldRead16 (
   UINTN StartBit,
   UINTN EndBit
   );
-# 4163 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4163 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 BitFieldWrite16 (
@@ -3398,7 +3398,7 @@ BitFieldWrite16 (
   UINTN EndBit,
   UINT16 Value
   );
-# 4197 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4197 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 BitFieldOr16 (
@@ -3407,7 +3407,7 @@ BitFieldOr16 (
   UINTN EndBit,
   UINT16 OrData
   );
-# 4231 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4231 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 BitFieldAnd16 (
@@ -3416,7 +3416,7 @@ BitFieldAnd16 (
   UINTN EndBit,
   UINT16 AndData
   );
-# 4268 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4268 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 BitFieldAndThenOr16 (
@@ -3426,7 +3426,7 @@ BitFieldAndThenOr16 (
   UINT16 AndData,
   UINT16 OrData
   );
-# 4298 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4298 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 BitFieldRead32 (
@@ -3434,7 +3434,7 @@ BitFieldRead32 (
   UINTN StartBit,
   UINTN EndBit
   );
-# 4330 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4330 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 BitFieldWrite32 (
@@ -3443,7 +3443,7 @@ BitFieldWrite32 (
   UINTN EndBit,
   UINT32 Value
   );
-# 4364 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4364 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 BitFieldOr32 (
@@ -3452,7 +3452,7 @@ BitFieldOr32 (
   UINTN EndBit,
   UINT32 OrData
   );
-# 4398 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4398 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 BitFieldAnd32 (
@@ -3461,7 +3461,7 @@ BitFieldAnd32 (
   UINTN EndBit,
   UINT32 AndData
   );
-# 4435 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4435 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 BitFieldAndThenOr32 (
@@ -3471,7 +3471,7 @@ BitFieldAndThenOr32 (
   UINT32 AndData,
   UINT32 OrData
   );
-# 4465 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4465 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 BitFieldRead64 (
@@ -3479,7 +3479,7 @@ BitFieldRead64 (
   UINTN StartBit,
   UINTN EndBit
   );
-# 4497 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4497 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 BitFieldWrite64 (
@@ -3488,7 +3488,7 @@ BitFieldWrite64 (
   UINTN EndBit,
   UINT64 Value
   );
-# 4531 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4531 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 BitFieldOr64 (
@@ -3497,7 +3497,7 @@ BitFieldOr64 (
   UINTN EndBit,
   UINT64 OrData
   );
-# 4565 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4565 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 BitFieldAnd64 (
@@ -3506,7 +3506,7 @@ BitFieldAnd64 (
   UINTN EndBit,
   UINT64 AndData
   );
-# 4602 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4602 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 BitFieldAndThenOr64 (
@@ -3516,7 +3516,7 @@ BitFieldAndThenOr64 (
   UINT64 AndData,
   UINT64 OrData
   );
-# 4632 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4632 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldCountOnes32 (
@@ -3524,7 +3524,7 @@ BitFieldCountOnes32 (
   UINTN StartBit,
   UINTN EndBit
   );
-# 4660 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4660 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 BitFieldCountOnes64 (
@@ -3532,90 +3532,90 @@ BitFieldCountOnes64 (
   UINTN StartBit,
   UINTN EndBit
   );
-# 4690 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4690 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 CalculateSum8 (
   const UINT8 *Buffer,
   UINTN Length
   );
-# 4716 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4716 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT8
 
 CalculateCheckSum8 (
   const UINT8 *Buffer,
   UINTN Length
   );
-# 4743 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4743 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 CalculateSum16 (
   const UINT16 *Buffer,
   UINTN Length
   );
-# 4771 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4771 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT16
 
 CalculateCheckSum16 (
   const UINT16 *Buffer,
   UINTN Length
   );
-# 4798 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4798 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 CalculateSum32 (
   const UINT32 *Buffer,
   UINTN Length
   );
-# 4826 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4826 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 CalculateCheckSum32 (
   const UINT32 *Buffer,
   UINTN Length
   );
-# 4853 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4853 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 CalculateSum64 (
   const UINT64 *Buffer,
   UINTN Length
   );
-# 4881 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4881 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT64
 
 CalculateCheckSum64 (
   const UINT64 *Buffer,
   UINTN Length
   );
-# 4901 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4901 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 UINT32
 
 CalculateCrc32(
   void *Buffer,
   UINTN Length
   );
-# 4919 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4919 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 typedef
 void
 ( *SWITCH_STACK_ENTRY_POINT)(
   void *Context1,
   void *Context2
   );
-# 4934 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4934 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 MemoryFence (
   void
   );
-# 4962 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4962 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 __attribute__((returns_twice))
 UINTN
 
 SetJump (
   BASE_LIBRARY_JUMP_BUFFER *JumpBuffer
   );
-# 4986 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 4986 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 LongJump (
@@ -3644,7 +3644,7 @@ void
 DisableInterrupts (
   void
   );
-# 5024 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5024 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 SaveAndDisableInterrupts (
@@ -3662,25 +3662,25 @@ void
 EnableDisableInterrupts (
   void
   );
-# 5053 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5053 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 GetInterruptState (
   void
   );
-# 5074 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5074 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 BOOLEAN
 
 SetInterruptState (
   BOOLEAN InterruptState
   );
-# 5088 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5088 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 CpuPause (
   void
   );
-# 5124 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5124 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 SwitchStack (
@@ -3690,25 +3690,25 @@ SwitchStack (
   void *NewStack,
   ...
   );
-# 5142 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5142 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 CpuBreakpoint (
   void
   );
-# 5158 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/BaseLib.h"
+# 5158 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/BaseLib.h"
 void
 
 CpuDeadLoop (
   void
   );
-# 25 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/PciCfg2.h" 2
+# 25 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/PciCfg2.h" 2
 
 
 
 
 typedef struct _EFI_PEI_PCI_CFG2_PPI EFI_PEI_PCI_CFG2_PPI;
-# 41 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/PciCfg2.h"
+# 41 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/PciCfg2.h"
 typedef enum {
 
 
@@ -3758,7 +3758,7 @@ typedef struct {
 
   UINT32 ExtendedRegister;
 } EFI_PEI_PCI_CFG_PPI_PCI_ADDRESS;
-# 115 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/PciCfg2.h"
+# 115 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/PciCfg2.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_PCI_CFG2_PPI_IO)(
@@ -3768,7 +3768,7 @@ EFI_STATUS
   UINT64 Address,
   void *Buffer
 );
-# 156 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Ppi/PciCfg2.h"
+# 156 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Ppi/PciCfg2.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_PCI_CFG2_PPI_RW)(
@@ -3796,15 +3796,15 @@ struct _EFI_PEI_PCI_CFG2_PPI {
 
 
 extern EFI_GUID gEfiPciCfg2PpiGuid;
-# 48 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
-# 61 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 48 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h" 2
+# 61 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEIM_ENTRY_POINT2)(
   EFI_PEI_FILE_HANDLE FileHandle,
   const EFI_PEI_SERVICES **PeiServices
   );
-# 78 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 78 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEIM_NOTIFY_ENTRY_POINT)(
@@ -3812,7 +3812,7 @@ EFI_STATUS
   EFI_PEI_NOTIFY_DESCRIPTOR *NotifyDescriptor,
   void *Ppi
   );
-# 99 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 99 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef struct {
 
 
@@ -3862,14 +3862,14 @@ typedef union {
 
   EFI_PEI_PPI_DESCRIPTOR Ppi;
 } EFI_PEI_DESCRIPTOR;
-# 166 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 166 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_INSTALL_PPI)(
   const EFI_PEI_SERVICES **PeiServices,
   const EFI_PEI_PPI_DESCRIPTOR *PpiList
   );
-# 191 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 191 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_REINSTALL_PPI)(
@@ -3877,7 +3877,7 @@ EFI_STATUS
   const EFI_PEI_PPI_DESCRIPTOR *OldPpi,
   const EFI_PEI_PPI_DESCRIPTOR *NewPpi
   );
-# 212 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 212 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_LOCATE_PPI)(
@@ -3887,35 +3887,35 @@ EFI_STATUS
   EFI_PEI_PPI_DESCRIPTOR **PpiDescriptor ,
   void **Ppi
   );
-# 237 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 237 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_NOTIFY_PPI)(
   const EFI_PEI_SERVICES **PeiServices,
   const EFI_PEI_NOTIFY_DESCRIPTOR *NotifyList
   );
-# 253 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 253 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_GET_BOOT_MODE)(
   const EFI_PEI_SERVICES **PeiServices,
   EFI_BOOT_MODE *BootMode
   );
-# 269 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 269 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_SET_BOOT_MODE)(
   const EFI_PEI_SERVICES **PeiServices,
   EFI_BOOT_MODE BootMode
   );
-# 286 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 286 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_GET_HOB_LIST)(
   const EFI_PEI_SERVICES **PeiServices,
   void **HobList
   );
-# 305 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 305 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_CREATE_HOB)(
@@ -3924,7 +3924,7 @@ EFI_STATUS
   UINT16 Length,
   void **Hob
   );
-# 333 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 333 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_FIND_NEXT_VOLUME2)(
@@ -3932,7 +3932,7 @@ EFI_STATUS
   UINTN Instance,
   EFI_PEI_FV_HANDLE *VolumeHandle
   );
-# 362 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 362 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_FIND_NEXT_FILE2)(
@@ -3941,7 +3941,7 @@ EFI_STATUS
   const EFI_PEI_FV_HANDLE FvHandle,
   EFI_PEI_FILE_HANDLE *FileHandle
   );
-# 390 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 390 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_FIND_SECTION_DATA2)(
@@ -3950,7 +3950,7 @@ EFI_STATUS
   EFI_PEI_FILE_HANDLE FileHandle,
   void **SectionData
   );
-# 420 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 420 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_FIND_SECTION_DATA3)(
@@ -3961,7 +3961,7 @@ EFI_STATUS
   void **SectionData,
   UINT32 *AuthenticationStatus
   );
-# 443 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 443 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_INSTALL_PEI_MEMORY)(
@@ -3969,7 +3969,7 @@ EFI_STATUS
   EFI_PHYSICAL_ADDRESS MemoryBegin,
   UINT64 MemoryLength
   );
-# 473 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 473 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_ALLOCATE_PAGES)(
@@ -3978,7 +3978,7 @@ EFI_STATUS
   UINTN Pages,
   EFI_PHYSICAL_ADDRESS *Memory
   );
-# 495 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 495 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FREE_PAGES) (
@@ -3986,7 +3986,7 @@ EFI_STATUS
   EFI_PHYSICAL_ADDRESS Memory,
   UINTN Pages
   );
-# 515 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 515 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_ALLOCATE_POOL)(
@@ -3994,7 +3994,7 @@ EFI_STATUS
   UINTN Size,
   void **Buffer
   );
-# 531 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 531 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 void
 ( *EFI_PEI_COPY_MEM)(
@@ -4002,7 +4002,7 @@ void
   void *Source,
   UINTN Length
   );
-# 547 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 547 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 void
 ( *EFI_PEI_SET_MEM)(
@@ -4010,7 +4010,7 @@ void
   UINTN Size,
   UINT8 Value
   );
-# 584 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 584 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_REPORT_STATUS_CODE)(
@@ -4021,13 +4021,13 @@ EFI_STATUS
   const EFI_GUID *CallerId ,
   const EFI_STATUS_CODE_DATA *Data
   );
-# 608 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 608 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_RESET_SYSTEM)(
   const EFI_PEI_SERVICES **PeiServices
   );
-# 629 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 629 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 void
 ( *EFI_PEI_RESET2_SYSTEM) (
@@ -4036,7 +4036,7 @@ void
   UINTN DataSize,
   void *ResetData
   );
-# 658 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 658 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_FIND_BY_NAME)(
@@ -4104,14 +4104,14 @@ typedef struct {
 
   UINT32 AuthenticationStatus;
 } EFI_FV_FILE_INFO2;
-# 744 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 744 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_GET_FILE_INFO)(
   EFI_PEI_FILE_HANDLE FileHandle,
   EFI_FV_FILE_INFO *FileInfo
   );
-# 768 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 768 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_GET_FILE_INFO2)(
@@ -4146,20 +4146,20 @@ typedef struct {
 
   UINT64 FvSize;
 } EFI_FV_INFO;
-# 820 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 820 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_FFS_GET_VOLUME_INFO)(
   EFI_PEI_FV_HANDLE VolumeHandle,
   EFI_FV_INFO *VolumeInfo
   );
-# 851 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 851 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PEI_REGISTER_FOR_SHADOW)(
   EFI_PEI_FILE_HANDLE FileHandle
   );
-# 889 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 889 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 struct _EFI_PEI_SERVICES {
 
 
@@ -4265,7 +4265,7 @@ typedef struct _EFI_SEC_PEI_HAND_OFF {
 
 
   UINTN TemporaryRamSize;
-# 1004 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 1004 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
   void *PeiTemporaryRamBase;
 
 
@@ -4287,142 +4287,142 @@ typedef struct _EFI_SEC_PEI_HAND_OFF {
 
   UINTN StackSize;
 } EFI_SEC_PEI_HAND_OFF;
-# 1063 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
+# 1063 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiPeiCis.h"
 typedef
 void
 ( *EFI_PEI_CORE_ENTRY_POINT)(
   const EFI_SEC_PEI_HAND_OFF *SecCoreData,
   const EFI_PEI_PPI_DESCRIPTOR *PpiList
 );
-# 25 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/PiPei.h" 2
-# 17 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/PrePi/ArmVirtPrePiUniCoreRelocatable/DEBUG/AutoGen.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h" 1
-# 1082 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 25 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/PiPei.h" 2
+# 17 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/PrePi/ArmVirtPrePiUniCoreRelocatable/DEBUG/AutoGen.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h" 1
+# 1082 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINTN
 
 LibPcdSetSku (
   UINTN SkuId
   );
-# 1099 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1099 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT8
 
 LibPcdGet8 (
   UINTN TokenNumber
   );
-# 1116 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1116 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT16
 
 LibPcdGet16 (
   UINTN TokenNumber
   );
-# 1133 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1133 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT32
 
 LibPcdGet32 (
   UINTN TokenNumber
   );
-# 1150 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1150 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT64
 
 LibPcdGet64 (
   UINTN TokenNumber
   );
-# 1167 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1167 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 void *
 
 LibPcdGetPtr (
   UINTN TokenNumber
   );
-# 1184 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1184 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 BOOLEAN
 
 LibPcdGetBool (
   UINTN TokenNumber
   );
-# 1199 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1199 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINTN
 
 LibPcdGetSize (
   UINTN TokenNumber
   );
-# 1220 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1220 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT8
 
 LibPcdGetEx8 (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1242 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1242 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT16
 
 LibPcdGetEx16 (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1261 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1261 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT32
 
 LibPcdGetEx32 (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1283 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1283 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT64
 
 LibPcdGetEx64 (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1305 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1305 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 void *
 
 LibPcdGetExPtr (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1327 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1327 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 BOOLEAN
 
 LibPcdGetExBool (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1349 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1349 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINTN
 
 LibPcdGetExSize (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 1370 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1370 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT8
 
 LibPcdSet8 (
   UINTN TokenNumber,
   UINT8 Value
   );
-# 1390 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1390 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT16
 
 LibPcdSet16 (
   UINTN TokenNumber,
   UINT16 Value
   );
-# 1410 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1410 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT32
 
 LibPcdSet32 (
   UINTN TokenNumber,
   UINT32 Value
   );
-# 1430 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1430 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT64
 
 LibPcdSet64 (
   UINTN TokenNumber,
   UINT64 Value
   );
-# 1460 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1460 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 void *
 
 LibPcdSetPtr (
@@ -4430,14 +4430,14 @@ LibPcdSetPtr (
   UINTN *SizeOfBuffer,
   const void *Buffer
   );
-# 1481 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1481 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 BOOLEAN
 
 LibPcdSetBool (
   UINTN TokenNumber,
   BOOLEAN Value
   );
-# 1505 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1505 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT8
 
 LibPcdSetEx8 (
@@ -4445,7 +4445,7 @@ LibPcdSetEx8 (
   UINTN TokenNumber,
   UINT8 Value
   );
-# 1530 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1530 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT16
 
 LibPcdSetEx16 (
@@ -4453,7 +4453,7 @@ LibPcdSetEx16 (
   UINTN TokenNumber,
   UINT16 Value
   );
-# 1555 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1555 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT32
 
 LibPcdSetEx32 (
@@ -4461,7 +4461,7 @@ LibPcdSetEx32 (
   UINTN TokenNumber,
   UINT32 Value
   );
-# 1580 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1580 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINT64
 
 LibPcdSetEx64 (
@@ -4469,7 +4469,7 @@ LibPcdSetEx64 (
   UINTN TokenNumber,
   UINT64 Value
   );
-# 1611 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1611 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 void *
 
 LibPcdSetExPtr (
@@ -4478,7 +4478,7 @@ LibPcdSetExPtr (
   UINTN *SizeOfBuffer,
   void *Buffer
   );
-# 1637 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1637 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 BOOLEAN
 
 LibPcdSetExBool (
@@ -4486,35 +4486,35 @@ LibPcdSetExBool (
   UINTN TokenNumber,
   BOOLEAN Value
   );
-# 1658 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1658 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSet8S (
   UINTN TokenNumber,
   UINT8 Value
   );
-# 1677 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1677 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSet16S (
   UINTN TokenNumber,
   UINT16 Value
   );
-# 1696 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1696 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSet32S (
   UINTN TokenNumber,
   UINT32 Value
   );
-# 1715 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1715 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSet64S (
   UINTN TokenNumber,
   UINT64 Value
   );
-# 1744 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1744 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetPtrS (
@@ -4522,14 +4522,14 @@ LibPcdSetPtrS (
   UINTN *SizeOfBuffer,
   const void *Buffer
   );
-# 1764 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1764 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetBoolS (
   UINTN TokenNumber,
   BOOLEAN Value
   );
-# 1787 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1787 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetEx8S (
@@ -4537,7 +4537,7 @@ LibPcdSetEx8S (
   UINTN TokenNumber,
   UINT8 Value
   );
-# 1811 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1811 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetEx16S (
@@ -4545,7 +4545,7 @@ LibPcdSetEx16S (
   UINTN TokenNumber,
   UINT16 Value
   );
-# 1835 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1835 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetEx32S (
@@ -4553,7 +4553,7 @@ LibPcdSetEx32S (
   UINTN TokenNumber,
   UINT32 Value
   );
-# 1859 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1859 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetEx64S (
@@ -4561,7 +4561,7 @@ LibPcdSetEx64S (
   UINTN TokenNumber,
   UINT64 Value
   );
-# 1889 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1889 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetExPtrS (
@@ -4570,7 +4570,7 @@ LibPcdSetExPtrS (
   UINTN *SizeOfBuffer,
   void *Buffer
   );
-# 1914 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1914 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPcdSetExBoolS (
@@ -4578,7 +4578,7 @@ LibPcdSetExBoolS (
   UINTN TokenNumber,
   BOOLEAN Value
   );
-# 1938 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1938 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 typedef
 void
 ( *PCD_CALLBACK)(
@@ -4587,7 +4587,7 @@ void
   void *TokenData,
   UINTN TokenDataSize
   );
-# 1964 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1964 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 void
 
 LibPcdCallbackOnSet (
@@ -4595,7 +4595,7 @@ LibPcdCallbackOnSet (
   UINTN TokenNumber,
   PCD_CALLBACK NotificationFunction
   );
-# 1986 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 1986 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 void
 
 LibPcdCancelCallback (
@@ -4603,20 +4603,20 @@ LibPcdCancelCallback (
   UINTN TokenNumber,
   PCD_CALLBACK NotificationFunction
   );
-# 2014 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2014 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINTN
 
 LibPcdGetNextToken (
   const GUID *Guid,
   UINTN TokenNumber
   );
-# 2036 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2036 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 GUID *
 
 LibPcdGetNextTokenSpace (
   const GUID *TokenSpaceGuid
   );
-# 2066 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2066 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 void *
 
 LibPatchPcdSetPtr (
@@ -4625,7 +4625,7 @@ LibPatchPcdSetPtr (
   UINTN *SizeOfBuffer,
   const void *Buffer
   );
-# 2098 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2098 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPatchPcdSetPtrS (
@@ -4634,7 +4634,7 @@ LibPatchPcdSetPtrS (
   UINTN *SizeOfBuffer,
   const void *Buffer
   );
-# 2132 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2132 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 void *
 
 LibPatchPcdSetPtrAndSize (
@@ -4644,7 +4644,7 @@ LibPatchPcdSetPtrAndSize (
   UINTN *SizeOfBuffer,
   const void *Buffer
   );
-# 2167 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2167 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 RETURN_STATUS
 
 LibPatchPcdSetPtrAndSizeS (
@@ -4683,14 +4683,14 @@ typedef struct {
 
   CHAR8 *PcdName;
 } PCD_INFO;
-# 2219 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2219 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 void
 
 LibPcdGetInfo (
   UINTN TokenNumber,
   PCD_INFO *PcdInfo
   );
-# 2239 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2239 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 void
 
 LibPcdGetInfoEx (
@@ -4698,13 +4698,13 @@ LibPcdGetInfoEx (
   UINTN TokenNumber,
   PCD_INFO *PcdInfo
   );
-# 2254 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Library/PcdLib.h"
+# 2254 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Library/PcdLib.h"
 UINTN
 
 LibPcdGetSku (
   void
   );
-# 18 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/PrePi/ArmVirtPrePiUniCoreRelocatable/DEBUG/AutoGen.h" 2
+# 18 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/PrePi/ArmVirtPrePiUniCoreRelocatable/DEBUG/AutoGen.h" 2
 
 extern GUID gEfiCallerIdGuid;
 extern CHAR8 *gEfiCallerBaseName;
@@ -4745,7 +4745,7 @@ extern UINT64 _gPcd_SkuId_Array[];
 
 
 extern const UINT16 _gPcd_FixedAtBuild_PcdFirmwareVersionString[1];
-# 67 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/PrePi/ArmVirtPrePiUniCoreRelocatable/DEBUG/AutoGen.h"
+# 67 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/PrePi/ArmVirtPrePiUniCoreRelocatable/DEBUG/AutoGen.h"
 extern const UINT32 _gPcd_FixedAtBuild_PcdVFPEnabled;
 
 
@@ -4950,10 +4950,10 @@ extern volatile UINT64 _gPcd_BinaryPatch_PcdFvBaseAddress;
 
 extern UINTN _gPcd_BinaryPatch_Size_PcdFvBaseAddress;
 # 32 "<command-line>" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmVirtPkg/PrePi/AArch64/ModuleEntryPoint.S"
-# 15 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmVirtPkg/PrePi/AArch64/ModuleEntryPoint.S"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmPkg/Include/AsmMacroIoLibV8.h" 1
-# 16 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmVirtPkg/PrePi/AArch64/ModuleEntryPoint.S" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmVirtPkg/PrePi/AArch64/ModuleEntryPoint.S"
+# 15 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmVirtPkg/PrePi/AArch64/ModuleEntryPoint.S"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmPkg/Include/AsmMacroIoLibV8.h" 1
+# 16 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmVirtPkg/PrePi/AArch64/ModuleEntryPoint.S" 2
 
 .global _ModuleEntryPoint ; .section ".text._ModuleEntryPoint", "ax" ; .type _ModuleEntryPoint, %function ; _ModuleEntryPoint:
 
@@ -4969,7 +4969,7 @@ extern UINTN _gPcd_BinaryPatch_Size_PcdFvBaseAddress;
 .Lreloc_loop:
   cmp x9, x10
   bhs .Lreloc_done
-# 42 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmVirtPkg/PrePi/AArch64/ModuleEntryPoint.S"
+# 42 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmVirtPkg/PrePi/AArch64/ModuleEntryPoint.S"
   ldp x11, x12, [x9], #24
   cmp x12, #0x403
   bne .Lreloc_loop
@@ -5087,7 +5087,7 @@ DiscoverDramFromDt:
   ldr w9, [x1, #0x38]
   cmp w8, w9
   bne .Lout
-# 167 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmVirtPkg/PrePi/AArch64/ModuleEntryPoint.S"
+# 167 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmVirtPkg/PrePi/AArch64/ModuleEntryPoint.S"
   adr x8, _gPcd_BinaryPatch_PcdFdBaseAddress
   adr x9, _gPcd_BinaryPatch_PcdFvBaseAddress
   ldr x6, [x8]

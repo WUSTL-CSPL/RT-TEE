@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osboxes/rttee_qemu/optee_client
+CMAKE_SOURCE_DIR = /home/osboxes/fix_rttee_text/RT-TEE/optee_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osboxes/rttee_qemu/optee_client/build
+CMAKE_BINARY_DIR = /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant/CMakeFiles/progress.marks
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 tee-supplicant/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles 0
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant/CMakeFiles/progress.marks
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 tee-supplicant/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 tee-supplicant/clean
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 tee-supplicant/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 tee-supplicant/preinstall
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 tee-supplicant/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 tee-supplicant/preinstall
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 tee-supplicant/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tee-supplicant/CMakeFiles/tee-supplicant.dir/rule:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 tee-supplicant/CMakeFiles/tee-supplicant.dir/rule
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 tee-supplicant/CMakeFiles/tee-supplicant.dir/rule
 .PHONY : tee-supplicant/CMakeFiles/tee-supplicant.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ tee-supplicant: tee-supplicant/CMakeFiles/tee-supplicant.dir/rule
 
 # fast build rule for target.
 tee-supplicant/fast:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/build
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/build
 .PHONY : tee-supplicant/fast
 
 src/handle.o: src/handle.c.o
@@ -175,7 +175,7 @@ src/handle.o: src/handle.c.o
 
 # target to build an object file
 src/handle.c.o:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.o
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.o
 .PHONY : src/handle.c.o
 
 src/handle.i: src/handle.c.i
@@ -184,7 +184,7 @@ src/handle.i: src/handle.c.i
 
 # target to preprocess a source file
 src/handle.c.i:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.i
 .PHONY : src/handle.c.i
 
 src/handle.s: src/handle.c.s
@@ -193,7 +193,7 @@ src/handle.s: src/handle.c.s
 
 # target to generate assembly for a file
 src/handle.c.s:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.s
 .PHONY : src/handle.c.s
 
 src/hmac_sha2.o: src/hmac_sha2.c.o
@@ -202,7 +202,7 @@ src/hmac_sha2.o: src/hmac_sha2.c.o
 
 # target to build an object file
 src/hmac_sha2.c.o:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.o
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.o
 .PHONY : src/hmac_sha2.c.o
 
 src/hmac_sha2.i: src/hmac_sha2.c.i
@@ -211,7 +211,7 @@ src/hmac_sha2.i: src/hmac_sha2.c.i
 
 # target to preprocess a source file
 src/hmac_sha2.c.i:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.i
 .PHONY : src/hmac_sha2.c.i
 
 src/hmac_sha2.s: src/hmac_sha2.c.s
@@ -220,7 +220,7 @@ src/hmac_sha2.s: src/hmac_sha2.c.s
 
 # target to generate assembly for a file
 src/hmac_sha2.c.s:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.s
 .PHONY : src/hmac_sha2.c.s
 
 src/rpmb.o: src/rpmb.c.o
@@ -229,7 +229,7 @@ src/rpmb.o: src/rpmb.c.o
 
 # target to build an object file
 src/rpmb.c.o:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.o
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.o
 .PHONY : src/rpmb.c.o
 
 src/rpmb.i: src/rpmb.c.i
@@ -238,7 +238,7 @@ src/rpmb.i: src/rpmb.c.i
 
 # target to preprocess a source file
 src/rpmb.c.i:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.i
 .PHONY : src/rpmb.c.i
 
 src/rpmb.s: src/rpmb.c.s
@@ -247,7 +247,7 @@ src/rpmb.s: src/rpmb.c.s
 
 # target to generate assembly for a file
 src/rpmb.c.s:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.s
 .PHONY : src/rpmb.c.s
 
 src/sha2.o: src/sha2.c.o
@@ -256,7 +256,7 @@ src/sha2.o: src/sha2.c.o
 
 # target to build an object file
 src/sha2.c.o:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.o
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.o
 .PHONY : src/sha2.c.o
 
 src/sha2.i: src/sha2.c.i
@@ -265,7 +265,7 @@ src/sha2.i: src/sha2.c.i
 
 # target to preprocess a source file
 src/sha2.c.i:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.i
 .PHONY : src/sha2.c.i
 
 src/sha2.s: src/sha2.c.s
@@ -274,7 +274,7 @@ src/sha2.s: src/sha2.c.s
 
 # target to generate assembly for a file
 src/sha2.c.s:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.s
 .PHONY : src/sha2.c.s
 
 src/tee_socket.o: src/tee_socket.c.o
@@ -283,7 +283,7 @@ src/tee_socket.o: src/tee_socket.c.o
 
 # target to build an object file
 src/tee_socket.c.o:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.o
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.o
 .PHONY : src/tee_socket.c.o
 
 src/tee_socket.i: src/tee_socket.c.i
@@ -292,7 +292,7 @@ src/tee_socket.i: src/tee_socket.c.i
 
 # target to preprocess a source file
 src/tee_socket.c.i:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.i
 .PHONY : src/tee_socket.c.i
 
 src/tee_socket.s: src/tee_socket.c.s
@@ -301,7 +301,7 @@ src/tee_socket.s: src/tee_socket.c.s
 
 # target to generate assembly for a file
 src/tee_socket.c.s:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.s
 .PHONY : src/tee_socket.c.s
 
 src/tee_supp_fs.o: src/tee_supp_fs.c.o
@@ -310,7 +310,7 @@ src/tee_supp_fs.o: src/tee_supp_fs.c.o
 
 # target to build an object file
 src/tee_supp_fs.c.o:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.o
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.o
 .PHONY : src/tee_supp_fs.c.o
 
 src/tee_supp_fs.i: src/tee_supp_fs.c.i
@@ -319,7 +319,7 @@ src/tee_supp_fs.i: src/tee_supp_fs.c.i
 
 # target to preprocess a source file
 src/tee_supp_fs.c.i:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.i
 .PHONY : src/tee_supp_fs.c.i
 
 src/tee_supp_fs.s: src/tee_supp_fs.c.s
@@ -328,7 +328,7 @@ src/tee_supp_fs.s: src/tee_supp_fs.c.s
 
 # target to generate assembly for a file
 src/tee_supp_fs.c.s:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.s
 .PHONY : src/tee_supp_fs.c.s
 
 src/tee_supplicant.o: src/tee_supplicant.c.o
@@ -337,7 +337,7 @@ src/tee_supplicant.o: src/tee_supplicant.c.o
 
 # target to build an object file
 src/tee_supplicant.c.o:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.o
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.o
 .PHONY : src/tee_supplicant.c.o
 
 src/tee_supplicant.i: src/tee_supplicant.c.i
@@ -346,7 +346,7 @@ src/tee_supplicant.i: src/tee_supplicant.c.i
 
 # target to preprocess a source file
 src/tee_supplicant.c.i:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.i
 .PHONY : src/tee_supplicant.c.i
 
 src/tee_supplicant.s: src/tee_supplicant.c.s
@@ -355,7 +355,7 @@ src/tee_supplicant.s: src/tee_supplicant.c.s
 
 # target to generate assembly for a file
 src/tee_supplicant.c.s:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.s
 .PHONY : src/tee_supplicant.c.s
 
 src/teec_ta_load.o: src/teec_ta_load.c.o
@@ -364,7 +364,7 @@ src/teec_ta_load.o: src/teec_ta_load.c.o
 
 # target to build an object file
 src/teec_ta_load.c.o:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.o
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.o
 .PHONY : src/teec_ta_load.c.o
 
 src/teec_ta_load.i: src/teec_ta_load.c.i
@@ -373,7 +373,7 @@ src/teec_ta_load.i: src/teec_ta_load.c.i
 
 # target to preprocess a source file
 src/teec_ta_load.c.i:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.i
 .PHONY : src/teec_ta_load.c.i
 
 src/teec_ta_load.s: src/teec_ta_load.c.s
@@ -382,7 +382,7 @@ src/teec_ta_load.s: src/teec_ta_load.c.s
 
 # target to generate assembly for a file
 src/teec_ta_load.c.s:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.s
 .PHONY : src/teec_ta_load.c.s
 
 # Help Target
@@ -433,6 +433,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

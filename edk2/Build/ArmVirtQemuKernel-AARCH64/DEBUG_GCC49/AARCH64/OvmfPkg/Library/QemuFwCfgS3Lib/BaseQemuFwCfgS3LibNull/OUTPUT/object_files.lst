@@ -1,2 +1,2 @@
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/OvmfPkg/Library/QemuFwCfgS3Lib/BaseQemuFwCfgS3LibNull/OUTPUT/QemuFwCfgS3Base.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/OvmfPkg/Library/QemuFwCfgS3Lib/BaseQemuFwCfgS3LibNull/OUTPUT/QemuFwCfgS3BasePei.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/OvmfPkg/Library/QemuFwCfgS3Lib/BaseQemuFwCfgS3LibNull/OUTPUT/QemuFwCfgS3Base.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/OvmfPkg/Library/QemuFwCfgS3Lib/BaseQemuFwCfgS3LibNull/OUTPUT/QemuFwCfgS3BasePei.obj

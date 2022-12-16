@@ -1,10 +1,10 @@
 deps_config := \
-	/home/osboxes/RT-TEE_PRE_RELEASE/build/br-ext/package/optee_benchmark/Config.in \
-	/home/osboxes/RT-TEE_PRE_RELEASE/build/br-ext/package/optee_examples/Config.in \
-	/home/osboxes/RT-TEE_PRE_RELEASE/build/br-ext/package/optee_test/Config.in \
-	/home/osboxes/RT-TEE_PRE_RELEASE/build/br-ext/package/optee_client/Config.in \
-	/home/osboxes/RT-TEE_PRE_RELEASE/build/br-ext/Config.in \
-	/home/osboxes/RT-TEE_PRE_RELEASE/out-br/build/.br2-external.in \
+	/home/osboxes/fix_rttee_text/RT-TEE/build/br-ext/package/optee_benchmark/Config.in \
+	/home/osboxes/fix_rttee_text/RT-TEE/build/br-ext/package/optee_examples/Config.in \
+	/home/osboxes/fix_rttee_text/RT-TEE/build/br-ext/package/optee_test/Config.in \
+	/home/osboxes/fix_rttee_text/RT-TEE/build/br-ext/package/optee_client/Config.in \
+	/home/osboxes/fix_rttee_text/RT-TEE/build/br-ext/Config.in \
+	/home/osboxes/fix_rttee_text/RT-TEE/out-br/build/.br2-external.in \
 	Config.in.legacy \
 	package/zstd/Config.in.host \
 	package/zip/Config.in.host \
@@ -2406,26 +2406,26 @@ deps_config := \
 	arch/Config.in \
 	Config.in
 
-/home/osboxes/RT-TEE_PRE_RELEASE/out-br/build/buildroot-config/auto.conf: \
+/home/osboxes/fix_rttee_text/RT-TEE/out-br/build/buildroot-config/auto.conf: \
 	$(deps_config)
 
 ifneq "$(SKIP_LEGACY)" ""
-/home/osboxes/RT-TEE_PRE_RELEASE/out-br/build/buildroot-config/auto.conf: FORCE
+/home/osboxes/fix_rttee_text/RT-TEE/out-br/build/buildroot-config/auto.conf: FORCE
 endif
 ifneq "$(BR2_DEFCONFIG)" ""
-/home/osboxes/RT-TEE_PRE_RELEASE/out-br/build/buildroot-config/auto.conf: FORCE
+/home/osboxes/fix_rttee_text/RT-TEE/out-br/build/buildroot-config/auto.conf: FORCE
 endif
 ifneq "$(HOST_GCC_VERSION)" "5"
-/home/osboxes/RT-TEE_PRE_RELEASE/out-br/build/buildroot-config/auto.conf: FORCE
+/home/osboxes/fix_rttee_text/RT-TEE/out-br/build/buildroot-config/auto.conf: FORCE
 endif
-ifneq "$(BUILD_DIR)" "/home/osboxes/RT-TEE_PRE_RELEASE/out-br/build"
-/home/osboxes/RT-TEE_PRE_RELEASE/out-br/build/buildroot-config/auto.conf: FORCE
+ifneq "$(BUILD_DIR)" "/home/osboxes/fix_rttee_text/RT-TEE/out-br/build"
+/home/osboxes/fix_rttee_text/RT-TEE/out-br/build/buildroot-config/auto.conf: FORCE
 endif
 ifneq "$(HOSTARCH)" "x86_64"
-/home/osboxes/RT-TEE_PRE_RELEASE/out-br/build/buildroot-config/auto.conf: FORCE
+/home/osboxes/fix_rttee_text/RT-TEE/out-br/build/buildroot-config/auto.conf: FORCE
 endif
-ifneq "$(BR2_VERSION_FULL)" "2018.08-g5852be0"
-/home/osboxes/RT-TEE_PRE_RELEASE/out-br/build/buildroot-config/auto.conf: FORCE
+ifneq "$(BR2_VERSION_FULL)" "2018.08-gaafb3e9-dirty"
+/home/osboxes/fix_rttee_text/RT-TEE/out-br/build/buildroot-config/auto.conf: FORCE
 endif
 
 $(deps_config): ;

@@ -66,43 +66,43 @@ pthread.h
 tee_client_api.h
 -
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/__tee_ipsocket.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/__tee_ipsocket.h
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/__tee_isocket_defines.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/__tee_isocket_defines.h
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/__tee_tcpsocket_defines.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/__tee_tcpsocket_defines.h
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/__tee_tcpsocket_defines_extensions.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/__tee_tcpsocket_defines_extensions.h
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/__tee_udpsocket_defines.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/__tee_udpsocket_defines.h
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/handle.c
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/handle.c
 stdlib.h
 -
 string.h
 -
 handle.h
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/handle.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/handle.h
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/handle.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/handle.h
 stdint.h
 -
 pthread.h
 -
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/hmac_sha2.c
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/hmac_sha2.c
 string.h
 -
 hmac_sha2.h
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/hmac_sha2.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/hmac_sha2.h
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/hmac_sha2.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/hmac_sha2.h
 sha2.h
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/sha2.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/sha2.h
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/optee_msg_supplicant.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/optee_msg_supplicant.h
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/rpmb.c
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/rpmb.c
 fcntl.h
 -
 linux/types.h
@@ -138,19 +138,19 @@ unistd.h
 stdarg.h
 -
 hmac_sha2.h
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/hmac_sha2.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/hmac_sha2.h
 errno.h
 -
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/sha2.c
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/sha2.c
 string.h
 -
 sha2.h
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/sha2.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/sha2.h
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/sha2.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/sha2.h
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/tee_socket.c
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/tee_socket.c
 assert.h
 -
 errno.h
@@ -190,21 +190,21 @@ tee_supplicant.h
 unistd.h
 -
 handle.h
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/handle.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/handle.h
 __tee_isocket_defines.h
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/__tee_isocket_defines.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/__tee_isocket_defines.h
 __tee_ipsocket.h
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/__tee_ipsocket.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/__tee_ipsocket.h
 __tee_tcpsocket_defines.h
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/__tee_tcpsocket_defines.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/__tee_tcpsocket_defines.h
 __tee_tcpsocket_defines_extensions.h
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/__tee_tcpsocket_defines_extensions.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/__tee_tcpsocket_defines_extensions.h
 __tee_udpsocket_defines.h
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/__tee_udpsocket_defines.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/__tee_udpsocket_defines.h
 linux/tee.h
 -
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/tee_supp_fs.c
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/tee_supp_fs.c
 assert.h
 -
 dirent.h
@@ -242,7 +242,7 @@ unistd.h
 linux/tee.h
 -
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/tee_supplicant.c
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/tee_supplicant.c
 assert.h
 -
 dirent.h
@@ -294,11 +294,11 @@ tee_supplicant.h
 unistd.h
 -
 optee_msg_supplicant.h
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/optee_msg_supplicant.h
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/optee_msg_supplicant.h
 linux/tee.h
 -
 
-/home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/teec_ta_load.c
+/home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/teec_ta_load.c
 dirent.h
 -
 fcntl.h

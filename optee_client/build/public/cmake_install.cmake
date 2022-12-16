@@ -1,4 +1,4 @@
-# Install script for directory: /home/osboxes/rttee_qemu/optee_client/public
+# Install script for directory: /home/osboxes/fix_rttee_text/RT-TEE/optee_client/public
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/osboxes/rttee_qemu/optee_client/public/tee_client_api.h"
-    "/home/osboxes/rttee_qemu/optee_client/public/tee_bench.h"
-    "/home/osboxes/rttee_qemu/optee_client/public/teec_trace.h"
-    "/home/osboxes/rttee_qemu/optee_client/public/tee_client_api_extensions.h"
+    "/home/osboxes/fix_rttee_text/RT-TEE/optee_client/public/tee_client_api.h"
+    "/home/osboxes/fix_rttee_text/RT-TEE/optee_client/public/tee_bench.h"
+    "/home/osboxes/fix_rttee_text/RT-TEE/optee_client/public/teec_trace.h"
+    "/home/osboxes/fix_rttee_text/RT-TEE/optee_client/public/tee_client_api_extensions.h"
     )
 endif()
 

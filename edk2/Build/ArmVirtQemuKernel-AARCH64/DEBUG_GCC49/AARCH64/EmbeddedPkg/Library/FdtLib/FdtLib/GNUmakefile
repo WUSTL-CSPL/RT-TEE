@@ -19,7 +19,7 @@ PLATFORM_NAME = ArmVirtQemu
 PLATFORM_GUID = 37d7e986-f7e9-45c2-8067-e371421a626c
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = ArmVirtPkg
-PLATFORM_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmVirtPkg
+PLATFORM_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmVirtPkg
 PLATFORM_OUTPUT_DIR = Build/ArmVirtQemuKernel-AARCH64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = FdtLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = EmbeddedPkg/Library/FdtLib
 PACKAGE_RELATIVE_DIR = Library/FdtLib
-MODULE_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Library/FdtLib
-FFS_OUTPUT_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/FV/Ffs/6b2478c0-be23-11e0-a28c-0002a5d5c51bFdtLib
+MODULE_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/EmbeddedPkg/Library/FdtLib
+FFS_OUTPUT_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/FV/Ffs/6b2478c0-be23-11e0-a28c-0002a5d5c51bFdtLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -59,13 +59,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
-BUILD_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
+# PLATFORM_BUILD_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
+BUILD_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib
-OUTPUT_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT
-DEBUG_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/DEBUG
+MODULE_BUILD_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib
+OUTPUT_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT
+DEBUG_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -86,7 +86,7 @@ MV = mv -f
 SYMRENAME = echo
 SYMRENAME_FLAGS = Symbol renaming not needed for
 
-ASLDLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLDLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLDLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -Wl,--entry,ReferenceAcpiTable -u $(IMAGE_ENTRY_POINT) -Wl,--defsym=PECOFF_HEADER_SIZE=0 -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -z common-page-size=0x20
 
 
@@ -97,7 +97,7 @@ RSA2048SHA256SIGN_GUID =  A7717414-C616-4977-9420-844712A735BF
 VFR = VfrCompile
 VFR_FLAGS = -l -n
 
-PP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+PP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $(DEST_DIR_DEBUG)/AutoGen.h
 
 LZMAF86 = LzmaF86Compress
@@ -111,12 +111,12 @@ GENFW_FLAGS =
 OPTROM = EfiRom
 OPTROM_FLAGS = -e
 
-SLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar
+SLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar
 
 
 PLATFORM_FLAGS = 
 
-RC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-objcopy
+RC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-objcopy
 RC_FLAGS = -I binary -O elf64-littleaarch64 -B aarch64 --rename-section .data=.hii
 
 DTC = dtc
@@ -126,7 +126,7 @@ DTC_FLAGS = -H epapr
 PKCS7SIGN = Pkcs7Sign
 PKCS7SIGN_GUID =  4AAFD29D-68DF-49EE-8AA9-347D375665A7
 
-ASM = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASM = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASM_FLAGS = $(ARCHASM_FLAGS) $(PLATFORM_FLAGS) -c -x assembler -imacros $(DEST_DIR_DEBUG)/AutoGen.h -mlittle-endian
 
 ASL = iasl
@@ -136,12 +136,12 @@ ASL_OUTFLAGS =  -p
 
 
 CC_XIPFLAGS =  -mstrict-align -mgeneral-regs-only
-CC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+CC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 CC_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -g -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -ffunction-sections -fdata-sections -include AutoGen.h -fno-common -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -mlittle-endian -fno-short-enums -fverbose-asm -funsigned-char -ffunction-sections -fdata-sections -Wno-address -fno-asynchronous-unwind-tables -fno-unwind-tables -fno-pic -fno-pie -ffixed-x18 -O0 -mcmodel=small -DDISABLE_NEW_DEPRECATED_INTERFACES
 
 NASMB_FLAGS = -f bin
 
-VFRPP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+VFRPP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
 BROTLI = BrotliCompress
@@ -156,7 +156,7 @@ LZMA = LzmaCompress
 LZMA_GUID =  EE4E5898-3914-4259-9D6E-DC7BD79403CF
 
 
-ASLCC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLCC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLCC_FLAGS = -x c
 
 
@@ -166,7 +166,7 @@ DLINK2_FLAGS = -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -Wl,--defsym=P
 
 
 DLINK_XIPFLAGS =  -z common-page-size=0x20
-DLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+DLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000
 
 TIANO = TianoCompress
@@ -178,7 +178,7 @@ VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 CRC32 = GenCrc32
 CRC32_GUID =  FC1BCDB0-7D31-49AA-936A-A4600D9DD083
 
-ASLPP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLPP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLPP_FLAGS = -x c -E -include AutoGen.h
 
 OBJCOPY_ADDDEBUGFLAG =  --add-gnu-debuglink=$(DEBUG_DIR)/$(MODULE_NAME).debug
@@ -219,12 +219,12 @@ INC =  \
     -I$(WORKSPACE)/EmbeddedPkg \
     -I$(WORKSPACE)/EmbeddedPkg/Include
 
-OBJECT_FILES_LIST = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/object_files.lst
 
 
 COMMON_DEPS = $(WORKSPACE)/MdePkg/Include/Base.h \
-              $(WORKSPACE)/MdePkg/Include/Library/BaseLib.h \
               $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h \
+              $(WORKSPACE)/MdePkg/Include/Library/BaseLib.h \
               $(DEBUG_DIR)/AutoGen.h \
               
 
@@ -235,7 +235,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/FdtLib.lib \
+CODA_TARGET = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/FdtLib.lib \
               
 
 #
@@ -309,103 +309,103 @@ gen_fds:
 #
 $(OUTPUT_DIR)/FdtLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/FdtLib.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" cr /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/FdtLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	"$(SLINK)" cr /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/FdtLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 $(OUTPUT_DIR)/fdt_overlay.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/fdt_overlay.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/fdt_overlay.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
-$(OUTPUT_DIR)/fdt_overlay.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
-$(OUTPUT_DIR)/fdt_overlay.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
-$(OUTPUT_DIR)/fdt_overlay.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
 $(OUTPUT_DIR)/fdt_overlay.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
+$(OUTPUT_DIR)/fdt_overlay.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
+$(OUTPUT_DIR)/fdt_overlay.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
+$(OUTPUT_DIR)/fdt_overlay.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
+$(OUTPUT_DIR)/fdt_overlay.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
 $(OUTPUT_DIR)/fdt_overlay.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_overlay.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_overlay.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Library/FdtLib/fdt_overlay.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_overlay.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/EmbeddedPkg/Library/FdtLib/fdt_overlay.c
 
-$(OUTPUT_DIR)/fdt_wip.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/fdt_wip.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/fdt_wip.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
-$(OUTPUT_DIR)/fdt_wip.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
-$(OUTPUT_DIR)/fdt_wip.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
-$(OUTPUT_DIR)/fdt_wip.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
-$(OUTPUT_DIR)/fdt_wip.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
-$(OUTPUT_DIR)/fdt_wip.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_wip.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_wip.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Library/FdtLib/fdt_wip.c
+$(OUTPUT_DIR)/fdt_sw.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/fdt_sw.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/fdt_sw.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
+$(OUTPUT_DIR)/fdt_sw.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
+$(OUTPUT_DIR)/fdt_sw.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
+$(OUTPUT_DIR)/fdt_sw.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
+$(OUTPUT_DIR)/fdt_sw.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
+$(OUTPUT_DIR)/fdt_sw.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_sw.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_sw.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/EmbeddedPkg/Library/FdtLib/fdt_sw.c
 
 $(OUTPUT_DIR)/fdt_addresses.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/fdt_addresses.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/fdt_addresses.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
-$(OUTPUT_DIR)/fdt_addresses.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
-$(OUTPUT_DIR)/fdt_addresses.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
-$(OUTPUT_DIR)/fdt_addresses.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
 $(OUTPUT_DIR)/fdt_addresses.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
+$(OUTPUT_DIR)/fdt_addresses.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
+$(OUTPUT_DIR)/fdt_addresses.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
+$(OUTPUT_DIR)/fdt_addresses.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
+$(OUTPUT_DIR)/fdt_addresses.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
 $(OUTPUT_DIR)/fdt_addresses.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_addresses.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_addresses.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Library/FdtLib/fdt_addresses.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_addresses.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/EmbeddedPkg/Library/FdtLib/fdt_addresses.c
 
-$(OUTPUT_DIR)/fdt.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/fdt.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/fdt.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
-$(OUTPUT_DIR)/fdt.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
-$(OUTPUT_DIR)/fdt.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
-$(OUTPUT_DIR)/fdt.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
-$(OUTPUT_DIR)/fdt.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
-$(OUTPUT_DIR)/fdt.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Library/FdtLib/fdt.c
+$(OUTPUT_DIR)/fdt_strerror.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/fdt_strerror.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/fdt_strerror.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
+$(OUTPUT_DIR)/fdt_strerror.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
+$(OUTPUT_DIR)/fdt_strerror.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
+$(OUTPUT_DIR)/fdt_strerror.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
+$(OUTPUT_DIR)/fdt_strerror.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
+$(OUTPUT_DIR)/fdt_strerror.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_strerror.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_strerror.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/EmbeddedPkg/Library/FdtLib/fdt_strerror.c
+
+$(OUTPUT_DIR)/fdt_wip.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/fdt_wip.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/fdt_wip.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
+$(OUTPUT_DIR)/fdt_wip.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
+$(OUTPUT_DIR)/fdt_wip.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
+$(OUTPUT_DIR)/fdt_wip.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
+$(OUTPUT_DIR)/fdt_wip.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
+$(OUTPUT_DIR)/fdt_wip.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_wip.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_wip.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/EmbeddedPkg/Library/FdtLib/fdt_wip.c
 
 $(OUTPUT_DIR)/fdt_ro.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/fdt_ro.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/fdt_ro.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
-$(OUTPUT_DIR)/fdt_ro.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
-$(OUTPUT_DIR)/fdt_ro.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
-$(OUTPUT_DIR)/fdt_ro.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
 $(OUTPUT_DIR)/fdt_ro.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
+$(OUTPUT_DIR)/fdt_ro.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
+$(OUTPUT_DIR)/fdt_ro.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
+$(OUTPUT_DIR)/fdt_ro.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
+$(OUTPUT_DIR)/fdt_ro.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
 $(OUTPUT_DIR)/fdt_ro.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_ro.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_ro.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Library/FdtLib/fdt_ro.c
-
-$(OUTPUT_DIR)/fdt_rw.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/fdt_rw.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/fdt_rw.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
-$(OUTPUT_DIR)/fdt_rw.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
-$(OUTPUT_DIR)/fdt_rw.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
-$(OUTPUT_DIR)/fdt_rw.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
-$(OUTPUT_DIR)/fdt_rw.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
-$(OUTPUT_DIR)/fdt_rw.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_rw.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_rw.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Library/FdtLib/fdt_rw.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_ro.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/EmbeddedPkg/Library/FdtLib/fdt_ro.c
 
 $(OUTPUT_DIR)/fdt_strtoul.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/fdt_strtoul.obj : $(COMMON_DEPS)
 $(OUTPUT_DIR)/fdt_strtoul.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
 $(OUTPUT_DIR)/fdt_strtoul.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_strtoul.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_strtoul.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Library/FdtLib/fdt_strtoul.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_strtoul.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/EmbeddedPkg/Library/FdtLib/fdt_strtoul.c
+
+$(OUTPUT_DIR)/fdt_rw.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/fdt_rw.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/fdt_rw.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
+$(OUTPUT_DIR)/fdt_rw.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
+$(OUTPUT_DIR)/fdt_rw.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
+$(OUTPUT_DIR)/fdt_rw.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
+$(OUTPUT_DIR)/fdt_rw.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
+$(OUTPUT_DIR)/fdt_rw.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_rw.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_rw.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/EmbeddedPkg/Library/FdtLib/fdt_rw.c
+
+$(OUTPUT_DIR)/fdt.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/fdt.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/fdt.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
+$(OUTPUT_DIR)/fdt.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
+$(OUTPUT_DIR)/fdt.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
+$(OUTPUT_DIR)/fdt.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
+$(OUTPUT_DIR)/fdt.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
+$(OUTPUT_DIR)/fdt.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/EmbeddedPkg/Library/FdtLib/fdt.c
 
 $(OUTPUT_DIR)/fdt_empty_tree.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/fdt_empty_tree.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/fdt_empty_tree.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
-$(OUTPUT_DIR)/fdt_empty_tree.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
-$(OUTPUT_DIR)/fdt_empty_tree.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
-$(OUTPUT_DIR)/fdt_empty_tree.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
 $(OUTPUT_DIR)/fdt_empty_tree.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
+$(OUTPUT_DIR)/fdt_empty_tree.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
+$(OUTPUT_DIR)/fdt_empty_tree.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
+$(OUTPUT_DIR)/fdt_empty_tree.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
+$(OUTPUT_DIR)/fdt_empty_tree.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
 $(OUTPUT_DIR)/fdt_empty_tree.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_empty_tree.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_empty_tree.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Library/FdtLib/fdt_empty_tree.c
-
-$(OUTPUT_DIR)/fdt_sw.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/fdt_sw.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/fdt_sw.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
-$(OUTPUT_DIR)/fdt_sw.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
-$(OUTPUT_DIR)/fdt_sw.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
-$(OUTPUT_DIR)/fdt_sw.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
-$(OUTPUT_DIR)/fdt_sw.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
-$(OUTPUT_DIR)/fdt_sw.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_sw.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_sw.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Library/FdtLib/fdt_sw.c
-
-$(OUTPUT_DIR)/fdt_strerror.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/fdt_strerror.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/fdt_strerror.obj : $(WORKSPACE)/EmbeddedPkg/Include/fdt.h
-$(OUTPUT_DIR)/fdt_strerror.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt_env.h
-$(OUTPUT_DIR)/fdt_strerror.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
-$(OUTPUT_DIR)/fdt_strerror.obj : $(WORKSPACE)/EmbeddedPkg/Include/libfdt.h
-$(OUTPUT_DIR)/fdt_strerror.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/libfdt_internal.h
-$(OUTPUT_DIR)/fdt_strerror.obj : $(WORKSPACE)/EmbeddedPkg/Library/FdtLib/fdt_strerror.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_strerror.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/EmbeddedPkg/Library/FdtLib/fdt_strerror.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/EmbeddedPkg/Library/FdtLib/FdtLib/OUTPUT/./fdt_empty_tree.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/EmbeddedPkg/Library/FdtLib/fdt_empty_tree.c
 
 
 

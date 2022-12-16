@@ -1,4 +1,4 @@
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib/OUTPUT/UefiShellNetwork1CommandsLib.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib/OUTPUT/Ping.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib/OUTPUT/Ifconfig.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib/OUTPUT/AutoGen.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib/OUTPUT/UefiShellNetwork1CommandsLib.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib/OUTPUT/Ping.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib/OUTPUT/Ifconfig.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellNetwork1CommandsLib/UefiShellNetwork1CommandsLib/OUTPUT/AutoGen.obj

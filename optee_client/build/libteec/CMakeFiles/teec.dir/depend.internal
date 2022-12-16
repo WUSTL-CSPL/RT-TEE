@@ -7,7 +7,7 @@ libteec/CMakeFiles/teec.dir/src/tee_client_api.c.o
  ../public/tee_client_api.h
  ../public/tee_client_api_extensions.h
  ../public/teec_trace.h
- /home/osboxes/rttee_qemu/optee_client/libteec/src/tee_client_api.c
+ /home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec/src/tee_client_api.c
 libteec/CMakeFiles/teec.dir/src/teec_trace.c.o
  ../public/teec_trace.h
- /home/osboxes/rttee_qemu/optee_client/libteec/src/teec_trace.c
+ /home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec/src/teec_trace.c

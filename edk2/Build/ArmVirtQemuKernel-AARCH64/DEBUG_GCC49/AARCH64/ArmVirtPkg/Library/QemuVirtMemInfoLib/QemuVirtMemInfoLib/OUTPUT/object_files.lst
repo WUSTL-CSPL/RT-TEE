@@ -1,2 +1,2 @@
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/QemuVirtMemInfoLib/QemuVirtMemInfoLib/OUTPUT/QemuVirtMemInfoLib.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/QemuVirtMemInfoLib/QemuVirtMemInfoLib/OUTPUT/AArch64/PhysAddrTop.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/QemuVirtMemInfoLib/QemuVirtMemInfoLib/OUTPUT/QemuVirtMemInfoLib.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/QemuVirtMemInfoLib/QemuVirtMemInfoLib/OUTPUT/AArch64/PhysAddrTop.obj

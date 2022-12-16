@@ -1,2 +1,2 @@
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib/OUTPUT/UefiShellCommandLib.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib/OUTPUT/ConsistMapping.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib/OUTPUT/UefiShellCommandLib.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ShellPkg/Library/UefiShellCommandLib/UefiShellCommandLib/OUTPUT/ConsistMapping.obj

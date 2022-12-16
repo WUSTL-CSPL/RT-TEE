@@ -19,7 +19,7 @@ PLATFORM_NAME = ArmVirtQemu
 PLATFORM_GUID = 37d7e986-f7e9-45c2-8067-e371421a626c
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = ArmVirtPkg
-PLATFORM_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmVirtPkg
+PLATFORM_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmVirtPkg
 PLATFORM_OUTPUT_DIR = Build/ArmVirtQemuKernel-AARCH64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = BaseMemoryLibOptDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdePkg/Library/BaseMemoryLibOptDxe
 PACKAGE_RELATIVE_DIR = Library/BaseMemoryLibOptDxe
-MODULE_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe
-FFS_OUTPUT_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/FV/Ffs/02BD55C2-AB1D-4b75-B0FD-9A63AE09B31DBaseMemoryLibOptDxe
+MODULE_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe
+FFS_OUTPUT_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/FV/Ffs/02BD55C2-AB1D-4b75-B0FD-9A63AE09B31DBaseMemoryLibOptDxe
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
-BUILD_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
+# PLATFORM_BUILD_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
+BUILD_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe
-OUTPUT_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT
-DEBUG_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/DEBUG
+MODULE_BUILD_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe
+OUTPUT_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT
+DEBUG_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -87,7 +87,7 @@ MV = mv -f
 SYMRENAME = echo
 SYMRENAME_FLAGS = Symbol renaming not needed for
 
-ASLDLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLDLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLDLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -Wl,--entry,ReferenceAcpiTable -u $(IMAGE_ENTRY_POINT) -Wl,--defsym=PECOFF_HEADER_SIZE=0 -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -z common-page-size=0x20
 
 
@@ -98,7 +98,7 @@ RSA2048SHA256SIGN_GUID =  A7717414-C616-4977-9420-844712A735BF
 VFR = VfrCompile
 VFR_FLAGS = -l -n
 
-PP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+PP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $(DEST_DIR_DEBUG)/AutoGen.h
 
 LZMAF86 = LzmaF86Compress
@@ -112,12 +112,12 @@ GENFW_FLAGS =
 OPTROM = EfiRom
 OPTROM_FLAGS = -e
 
-SLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar
+SLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar
 
 
 PLATFORM_FLAGS = 
 
-RC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-objcopy
+RC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-objcopy
 RC_FLAGS = -I binary -O elf64-littleaarch64 -B aarch64 --rename-section .data=.hii
 
 DTC = dtc
@@ -127,7 +127,7 @@ DTC_FLAGS = -H epapr
 PKCS7SIGN = Pkcs7Sign
 PKCS7SIGN_GUID =  4AAFD29D-68DF-49EE-8AA9-347D375665A7
 
-ASM = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASM = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASM_FLAGS = $(ARCHASM_FLAGS) $(PLATFORM_FLAGS) -c -x assembler -imacros $(DEST_DIR_DEBUG)/AutoGen.h -mlittle-endian
 
 ASL = iasl
@@ -137,12 +137,12 @@ ASL_OUTFLAGS =  -p
 
 
 CC_XIPFLAGS =  -mstrict-align -mgeneral-regs-only
-CC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+CC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 CC_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -g -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -ffunction-sections -fdata-sections -include AutoGen.h -fno-common -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -mlittle-endian -fno-short-enums -fverbose-asm -funsigned-char -ffunction-sections -fdata-sections -Wno-address -fno-asynchronous-unwind-tables -fno-unwind-tables -fno-pic -fno-pie -ffixed-x18 -O0 -mcmodel=small -DDISABLE_NEW_DEPRECATED_INTERFACES
 
 NASMB_FLAGS = -f bin
 
-VFRPP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+VFRPP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
 BROTLI = BrotliCompress
@@ -157,7 +157,7 @@ LZMA = LzmaCompress
 LZMA_GUID =  EE4E5898-3914-4259-9D6E-DC7BD79403CF
 
 
-ASLCC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLCC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLCC_FLAGS = -x c
 
 
@@ -167,7 +167,7 @@ DLINK2_FLAGS = -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -Wl,--defsym=P
 
 
 DLINK_XIPFLAGS =  -z common-page-size=0x20
-DLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+DLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000
 
 TIANO = TianoCompress
@@ -179,7 +179,7 @@ VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 CRC32 = GenCrc32
 CRC32_GUID =  FC1BCDB0-7D31-49AA-936A-A4600D9DD083
 
-ASLPP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLPP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLPP_FLAGS = -x c -E -include AutoGen.h
 
 OBJCOPY_ADDDEBUGFLAG =  --add-gnu-debuglink=$(DEBUG_DIR)/$(MODULE_NAME).debug
@@ -229,16 +229,16 @@ INC =  \
     -I$(WORKSPACE)/MdePkg/Include \
     -I$(WORKSPACE)/MdePkg/Include/AArch64
 
-OBJECT_FILES_LIST = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = $(DEBUG_DIR)/AutoGen.h \
-              $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h \
+COMMON_DEPS = $(WORKSPACE)/MdePkg/Include/Base.h \
+              $(DEBUG_DIR)/AutoGen.h \
               $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/MemLibInternals.h \
-              $(WORKSPACE)/MdePkg/Include/Base.h \
               $(WORKSPACE)/MdePkg/Include/Library/BaseLib.h \
-              $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h \
               $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h \
+              $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h \
+              $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h \
               
 
 #
@@ -248,7 +248,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib \
+CODA_TARGET = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib \
               
 
 #
@@ -320,124 +320,124 @@ gen_fds:
 #
 # Individual Object Build Targets
 #
-$(OUTPUT_DIR)/AArch64/CompareGuid.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AArch64/CompareGuid.obj : $(WORKSPACE)/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AArch64/CompareGuid.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AArch64/CompareGuid.obj : $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AArch64/CompareGuid.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareGuid.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareGuid.S > /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.i
-	Trim --trim-long --source-code -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.iii /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.iii
-
 $(OUTPUT_DIR)/AArch64/CopyMem.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/AArch64/CopyMem.obj : $(WORKSPACE)/MdePkg/Include/Base.h
 $(OUTPUT_DIR)/AArch64/CopyMem.obj : $(DEBUG_DIR)/AutoGen.h
 $(OUTPUT_DIR)/AArch64/CopyMem.obj : $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h
 $(OUTPUT_DIR)/AArch64/CopyMem.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CopyMem.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CopyMem.S > /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.i
-	Trim --trim-long --source-code -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.iii /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.iii
+	"$(PP)" $(PP_FLAGS) $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CopyMem.S > /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.i
+	Trim --trim-long --source-code -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.iii /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.i
+	"$(ASM)" $(ASM_FLAGS) -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CopyMem.iii
+
+$(OUTPUT_DIR)/AArch64/CompareGuid.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AArch64/CompareGuid.obj : $(WORKSPACE)/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AArch64/CompareGuid.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/AArch64/CompareGuid.obj : $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AArch64/CompareGuid.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareGuid.S
+	"$(PP)" $(PP_FLAGS) $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareGuid.S > /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.i
+	Trim --trim-long --source-code -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.iii /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.i
+	"$(ASM)" $(ASM_FLAGS) -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareGuid.iii
 
 $(OUTPUT_DIR)/AArch64/SetMem.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/AArch64/SetMem.obj : $(WORKSPACE)/MdePkg/Include/Base.h
 $(OUTPUT_DIR)/AArch64/SetMem.obj : $(DEBUG_DIR)/AutoGen.h
 $(OUTPUT_DIR)/AArch64/SetMem.obj : $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h
 $(OUTPUT_DIR)/AArch64/SetMem.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/SetMem.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/SetMem.S > /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.i
-	Trim --trim-long --source-code -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.iii /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.iii
+	"$(PP)" $(PP_FLAGS) $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/SetMem.S > /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.i
+	Trim --trim-long --source-code -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.iii /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.i
+	"$(ASM)" $(ASM_FLAGS) -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/SetMem.iii
 
 $(OUTPUT_DIR)/AArch64/ScanMem.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/AArch64/ScanMem.obj : $(WORKSPACE)/MdePkg/Include/Base.h
 $(OUTPUT_DIR)/AArch64/ScanMem.obj : $(DEBUG_DIR)/AutoGen.h
 $(OUTPUT_DIR)/AArch64/ScanMem.obj : $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h
 $(OUTPUT_DIR)/AArch64/ScanMem.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/ScanMem.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/ScanMem.S > /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.i
-	Trim --trim-long --source-code -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.iii /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.iii
+	"$(PP)" $(PP_FLAGS) $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/ScanMem.S > /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.i
+	Trim --trim-long --source-code -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.iii /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.i
+	"$(ASM)" $(ASM_FLAGS) -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/ScanMem.iii
 
 $(OUTPUT_DIR)/AArch64/CompareMem.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/AArch64/CompareMem.obj : $(WORKSPACE)/MdePkg/Include/Base.h
 $(OUTPUT_DIR)/AArch64/CompareMem.obj : $(DEBUG_DIR)/AutoGen.h
 $(OUTPUT_DIR)/AArch64/CompareMem.obj : $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h
 $(OUTPUT_DIR)/AArch64/CompareMem.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareMem.S
-	"$(PP)" $(PP_FLAGS) $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareMem.S > /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.i
-	Trim --trim-long --source-code -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.iii /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.i
-	"$(ASM)" $(ASM_FLAGS) -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.iii
+	"$(PP)" $(PP_FLAGS) $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/AArch64/CompareMem.S > /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.i
+	Trim --trim-long --source-code -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.iii /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.i
+	"$(ASM)" $(ASM_FLAGS) -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/AArch64/CompareMem.iii
 
 $(OUTPUT_DIR)/BaseMemoryLibOptDxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/BaseMemoryLibOptDxe.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" cr /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
-
-$(OUTPUT_DIR)/SetMem64Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/SetMem64Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/SetMem64Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/SetMem64Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMem64Wrapper.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem64Wrapper.c
-
-$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/SetMem16Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMem16Wrapper.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem16Wrapper.c
+	"$(SLINK)" cr /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 $(OUTPUT_DIR)/SetMemWrapper.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/SetMemWrapper.obj : $(COMMON_DEPS)
 $(OUTPUT_DIR)/SetMemWrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/SetMemWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMemWrapper.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMemWrapper.c
-
-$(OUTPUT_DIR)/Arm/ScanMemGeneric.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/Arm/ScanMemGeneric.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/Arm/ScanMemGeneric.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/Arm/ScanMemGeneric.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/Arm/ScanMemGeneric.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm/ScanMemGeneric.c
-
-$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/IsZeroBufferWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./IsZeroBufferWrapper.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/IsZeroBufferWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMemWrapper.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMemWrapper.c
 
 $(OUTPUT_DIR)/ZeroMemWrapper.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/ZeroMemWrapper.obj : $(COMMON_DEPS)
 $(OUTPUT_DIR)/ZeroMemWrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/ZeroMemWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ZeroMemWrapper.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ZeroMemWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ZeroMemWrapper.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ZeroMemWrapper.c
 
-$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem64Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem64Wrapper.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem64Wrapper.c
-
-$(OUTPUT_DIR)/CopyMemWrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/CopyMemWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/CopyMemWrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/CopyMemWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./CopyMemWrapper.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/CopyMemWrapper.c
-
-$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem16Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem16Wrapper.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem16Wrapper.c
-
-$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem32Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem32Wrapper.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem32Wrapper.c
-
-$(OUTPUT_DIR)/SetMem32Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/SetMem32Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/SetMem32Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/SetMem32Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMem32Wrapper.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem32Wrapper.c
-
-$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem8Wrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem8Wrapper.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem8Wrapper.c
-
-$(OUTPUT_DIR)/CompareMemWrapper.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/CompareMemWrapper.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/CompareMemWrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/CompareMemWrapper.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./CompareMemWrapper.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/CompareMemWrapper.c
+$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/SetMem16Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/SetMem16Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMem16Wrapper.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem16Wrapper.c
 
 $(OUTPUT_DIR)/Arm/MemLibGuid.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/Arm/MemLibGuid.obj : $(COMMON_DEPS)
 $(OUTPUT_DIR)/Arm/MemLibGuid.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/Arm/MemLibGuid.c
-	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/Arm/MemLibGuid.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm/MemLibGuid.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/Arm/MemLibGuid.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm/MemLibGuid.c
+
+$(OUTPUT_DIR)/SetMem32Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/SetMem32Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/SetMem32Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/SetMem32Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMem32Wrapper.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem32Wrapper.c
+
+$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ScanMem8Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem8Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem8Wrapper.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem8Wrapper.c
+
+$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ScanMem32Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem32Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem32Wrapper.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem32Wrapper.c
+
+$(OUTPUT_DIR)/Arm/ScanMemGeneric.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/Arm/ScanMemGeneric.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/Arm/ScanMemGeneric.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/Arm/ScanMemGeneric.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/Arm/ScanMemGeneric.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/Arm/ScanMemGeneric.c
+
+$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ScanMem64Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem64Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem64Wrapper.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem64Wrapper.c
+
+$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ScanMem16Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem16Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./ScanMem16Wrapper.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/ScanMem16Wrapper.c
+
+$(OUTPUT_DIR)/CompareMemWrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/CompareMemWrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/CompareMemWrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/CompareMemWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./CompareMemWrapper.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/CompareMemWrapper.c
+
+$(OUTPUT_DIR)/CopyMemWrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/CopyMemWrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/CopyMemWrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/CopyMemWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./CopyMemWrapper.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/CopyMemWrapper.c
+
+$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/IsZeroBufferWrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/IsZeroBufferWrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./IsZeroBufferWrapper.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/IsZeroBufferWrapper.c
+
+$(OUTPUT_DIR)/SetMem64Wrapper.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/SetMem64Wrapper.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/SetMem64Wrapper.obj : $(WORKSPACE)/MdePkg/Library/BaseMemoryLibOptDxe/SetMem64Wrapper.c
+	"$(CC)" $(CC_FLAGS) $(CC_XIPFLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/./SetMem64Wrapper.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Library/BaseMemoryLibOptDxe/SetMem64Wrapper.c
 
 
 

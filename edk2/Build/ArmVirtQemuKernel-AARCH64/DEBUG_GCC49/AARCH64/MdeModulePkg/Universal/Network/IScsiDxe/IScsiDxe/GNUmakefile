@@ -19,7 +19,7 @@ PLATFORM_NAME = ArmVirtQemu
 PLATFORM_GUID = 37d7e986-f7e9-45c2-8067-e371421a626c
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = ArmVirtPkg
-PLATFORM_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmVirtPkg
+PLATFORM_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmVirtPkg
 PLATFORM_OUTPUT_DIR = Build/ArmVirtQemuKernel-AARCH64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = IScsiDxe
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg/Universal/Network/IScsiDxe
 PACKAGE_RELATIVE_DIR = Universal/Network/IScsiDxe
-MODULE_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe
-FFS_OUTPUT_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/FV/Ffs/4579B72D-7EC4-4dd4-8486-083C86B182A7IScsi4Dxe
+MODULE_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe
+FFS_OUTPUT_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/FV/Ffs/4579B72D-7EC4-4dd4-8486-083C86B182A7IScsi4Dxe
 
 MODULE_ENTRY_POINT = IScsiDriverEntryPoint
 ARCH_ENTRY_POINT = IScsiDriverEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
-BUILD_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
+# PLATFORM_BUILD_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
+BUILD_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe
-OUTPUT_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT
-DEBUG_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG
+MODULE_BUILD_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe
+OUTPUT_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT
+DEBUG_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -90,7 +90,7 @@ SYMRENAME_FLAGS = Symbol renaming not needed for
 OPTROM = EfiRom
 OPTROM_FLAGS = -e
 
-ASLDLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLDLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLDLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -Wl,--entry,ReferenceAcpiTable -u $(IMAGE_ENTRY_POINT) -Wl,--defsym=PECOFF_HEADER_SIZE=0 -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -z common-page-size=0x20
 
 
@@ -101,7 +101,7 @@ RSA2048SHA256SIGN_GUID =  A7717414-C616-4977-9420-844712A735BF
 VFR = VfrCompile
 VFR_FLAGS = -l -n
 
-PP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+PP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $(DEST_DIR_DEBUG)/AutoGen.h
 
 LZMAF86 = LzmaF86Compress
@@ -113,12 +113,12 @@ GENFW = GenFw
 GENFW_FLAGS = 
 
 
-SLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar
+SLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar
 
 
 PLATFORM_FLAGS = 
 
-RC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-objcopy
+RC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-objcopy
 RC_FLAGS = -I binary -O elf64-littleaarch64 -B aarch64 --rename-section .data=.hii
 
 DTC = dtc
@@ -128,7 +128,7 @@ DTC_FLAGS = -H epapr
 PKCS7SIGN = Pkcs7Sign
 PKCS7SIGN_GUID =  4AAFD29D-68DF-49EE-8AA9-347D375665A7
 
-ASM = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASM = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASM_FLAGS = $(ARCHASM_FLAGS) $(PLATFORM_FLAGS) -c -x assembler -imacros $(DEST_DIR_DEBUG)/AutoGen.h -mlittle-endian
 
 ASL = iasl
@@ -138,12 +138,12 @@ ASL_OUTFLAGS =  -p
 
 
 CC_XIPFLAGS =  -mstrict-align -mgeneral-regs-only
-CC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+CC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 CC_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -g -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -ffunction-sections -fdata-sections -include AutoGen.h -fno-common -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -mlittle-endian -fno-short-enums -fverbose-asm -funsigned-char -ffunction-sections -fdata-sections -Wno-address -fno-asynchronous-unwind-tables -fno-unwind-tables -fno-pic -fno-pie -ffixed-x18 -O0 -mcmodel=small -DDISABLE_NEW_DEPRECATED_INTERFACES
 
 NASMB_FLAGS = -f bin
 
-VFRPP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+VFRPP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
 BROTLI = BrotliCompress
@@ -158,7 +158,7 @@ LZMA = LzmaCompress
 LZMA_GUID =  EE4E5898-3914-4259-9D6E-DC7BD79403CF
 
 
-ASLCC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLCC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLCC_FLAGS = -x c
 
 
@@ -167,7 +167,7 @@ MAKE = make
 DLINK2_FLAGS = -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -Wl,--defsym=PECOFF_HEADER_SIZE=0x228
 
 DLINK_XIPFLAGS =  -z common-page-size=0x20
-DLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+DLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -z common-page-size=0x1000
 
 TIANO = TianoCompress
@@ -179,7 +179,7 @@ VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 CRC32 = GenCrc32
 CRC32_GUID =  FC1BCDB0-7D31-49AA-936A-A4600D9DD083
 
-ASLPP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLPP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLPP_FLAGS = -x c -E -include AutoGen.h
 
 OBJCOPY_ADDDEBUGFLAG =  --add-gnu-debuglink=$(DEBUG_DIR)/$(MODULE_NAME).debug
@@ -248,43 +248,43 @@ INC =  \
     -I$(WORKSPACE)/MdeModulePkg \
     -I$(WORKSPACE)/MdeModulePkg/Include
 
-OBJECT_FILES_LIST = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/object_files.lst
-STATIC_LIBRARY_FILES_LIST = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/static_library_files.lst
+OBJECT_FILES_LIST = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/object_files.lst
+STATIC_LIBRARY_FILES_LIST = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/static_library_files.lst
 
 
-COMMON_DEPS = $(WORKSPACE)/MdePkg/Include/Uefi/UefiMultiPhase.h \
-              $(WORKSPACE)/MdePkg/Include/Protocol/ManagedNetwork.h \
-              $(WORKSPACE)/MdePkg/Include/Protocol/DevicePath.h \
-              $(DEBUG_DIR)/AutoGen.h \
+COMMON_DEPS = $(WORKSPACE)/MdePkg/Include/Protocol/SimpleNetwork.h \
               $(WORKSPACE)/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h \
-              $(WORKSPACE)/MdePkg/Include/Library/BaseLib.h \
-              $(WORKSPACE)/MdePkg/Include/Uefi/UefiBaseType.h \
-              $(WORKSPACE)/MdeModulePkg/Include/Library/NetLib.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/AcpiAml.h \
-              $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi40.h \
-              $(WORKSPACE)/MdePkg/Include/Guid/WinCertificate.h \
+              $(WORKSPACE)/MdePkg/Include/Protocol/ManagedNetwork.h \
               $(WORKSPACE)/MdePkg/Include/Guid/HiiFormMapMethodGuid.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi50.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi20.h \
-              $(WORKSPACE)/MdePkg/Include/Uefi/UefiGpt.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi51.h \
+              $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextIn.h \
+              $(WORKSPACE)/MdePkg/Include/Uefi.h \
+              $(WORKSPACE)/MdePkg/Include/Guid/WinCertificate.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi10.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi40.h \
+              $(WORKSPACE)/MdePkg/Include/Protocol/Ip6.h \
+              $(WORKSPACE)/MdePkg/Include/Protocol/DevicePath.h \
+              $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h \
+              $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Bluetooth.h \
+              $(WORKSPACE)/MdePkg/Include/Uefi/UefiSpec.h \
+              $(WORKSPACE)/MdePkg/Include/Uefi/UefiBaseType.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi60.h \
+              $(WORKSPACE)/MdeModulePkg/Include/Library/NetLib.h \
+              $(WORKSPACE)/MdePkg/Include/Base.h \
               $(DEBUG_DIR)/IScsi4DxeStrDefs.h \
               $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi30.h \
-              $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h \
-              $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextOut.h \
-              $(WORKSPACE)/MdePkg/Include/Protocol/SimpleNetwork.h \
-              $(WORKSPACE)/MdePkg/Include/Uefi/UefiSpec.h \
-              $(WORKSPACE)/MdePkg/Include/Protocol/Ip6.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi10.h \
-              $(WORKSPACE)/MdePkg/Include/Uefi.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Bluetooth.h \
-              $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextIn.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi60.h \
               $(WORKSPACE)/MdePkg/Include/Uefi/UefiPxe.h \
-              $(WORKSPACE)/MdePkg/Include/Base.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi50.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi51.h \
+              $(DEBUG_DIR)/AutoGen.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/AcpiAml.h \
+              $(WORKSPACE)/MdePkg/Include/Library/BaseLib.h \
               $(WORKSPACE)/MdePkg/Include/Guid/PcAnsi.h \
+              $(WORKSPACE)/MdePkg/Include/Uefi/UefiMultiPhase.h \
               $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextInEx.h \
+              $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextOut.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi20.h \
+              $(WORKSPACE)/MdePkg/Include/Uefi/UefiGpt.h \
               
 
 #
@@ -294,7 +294,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.efi \
+CODA_TARGET = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.efi \
               
 
 #
@@ -388,742 +388,742 @@ gen_fds:
 # Individual Object Build Targets
 #
 $(DEBUG_DIR)/IScsi4Dxe.efi : $(DEBUG_DIR)/IScsi4Dxe.dll
-	$(CP) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.dll $(DEBUG_DIR)/$(MODULE_NAME).debug
-	$(OBJCOPY) --strip-unneeded -R .eh_frame /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.dll
-	-$(OBJCOPY) $(OBJCOPY_ADDDEBUGFLAG) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.dll
+	$(CP) /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.dll $(DEBUG_DIR)/$(MODULE_NAME).debug
+	$(OBJCOPY) --strip-unneeded -R .eh_frame /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.dll
+	-$(OBJCOPY) $(OBJCOPY_ADDDEBUGFLAG) /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.dll
 	-$(CP) $(DEBUG_DIR)/$(MODULE_NAME).debug $(BIN_DIR)/$(MODULE_NAME_GUID).debug
-	"$(GENFW)" -e $(MODULE_TYPE) -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.efi /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.dll $(GENFW_FLAGS)
-	$(CP) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.efi $(OUTPUT_DIR)
-	$(CP) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
+	"$(GENFW)" -e $(MODULE_TYPE) -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.efi /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.dll $(GENFW_FLAGS)
+	$(CP) /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.efi $(OUTPUT_DIR)
+	$(CP) /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.efi $(BIN_DIR)/$(MODULE_NAME_GUID).efi
 	-$(CP) $(DEBUG_DIR)/*.map $(OUTPUT_DIR)
 
 $(OUTPUT_DIR)/IScsi4Dxe.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/IScsi4Dxe.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" cr /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/IScsi4Dxe.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
+	"$(SLINK)" cr /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/IScsi4Dxe.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 $(DEBUG_DIR)/IScsi4Dxe.dll : $(MAKE_FILE)
 $(DEBUG_DIR)/IScsi4Dxe.dll : $(STATIC_LIBRARY_FILES)
 $(DEBUG_DIR)/IScsi4Dxe.dll : $(STATIC_LIBRARY_FILES_LIST)
-	"$(DLINK)" -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.dll $(DLINK_FLAGS) -Wl,--start-group,@$(STATIC_LIBRARY_FILES_LIST),--end-group $(CC_FLAGS) $(DLINK2_FLAGS)
-	"$(OBJCOPY)" $(OBJCOPY_FLAGS) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.dll
-
-$(OUTPUT_DIR)/IScsiMisc.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/IScsiMisc.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
-$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiMisc.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.c
-
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
-$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiInitiatorName.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.c
+	"$(DLINK)" -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.dll $(DLINK_FLAGS) -Wl,--start-group,@$(STATIC_LIBRARY_FILES_LIST),--end-group $(CC_FLAGS) $(DLINK2_FLAGS)
+	"$(OBJCOPY)" $(OBJCOPY_FLAGS) /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsi4Dxe.dll
 
 $(OUTPUT_DIR)/IScsiDriver.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/IScsiDriver.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
 $(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
 $(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
 $(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
 $(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
 $(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
 $(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
 $(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
 $(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
 $(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
+$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
 $(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
 $(OUTPUT_DIR)/IScsiDriver.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiDriver.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiDriver.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.c
+
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
+$(OUTPUT_DIR)/IScsiInitiatorName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiInitiatorName.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.c
+
+$(OUTPUT_DIR)/ComponentName.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/ComponentName.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
+$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./ComponentName.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.c
+
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/Md5.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
+$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiCHAP.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.c
 
 $(OUTPUT_DIR)/Md5.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/Md5.obj : $(COMMON_DEPS)
 $(OUTPUT_DIR)/Md5.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/Md5.h
 $(OUTPUT_DIR)/Md5.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/Md5.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./Md5.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/Md5.c
-
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/Md5.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
-$(OUTPUT_DIR)/IScsiCHAP.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiCHAP.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./Md5.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/Md5.c
 
 $(OUTPUT_DIR)/IScsiConfigDxe.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/IScsiConfigDxe.obj : $(DEBUG_DIR)/IScsiConfigDxe.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiConfigDxe.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsiConfigDxe.c
-
-$(OUTPUT_DIR)/IScsiConfig.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/IScsiConfig.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
-$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiConfig.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.c
-
-$(OUTPUT_DIR)/ComponentName.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/ComponentName.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
-$(OUTPUT_DIR)/ComponentName.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./ComponentName.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.c
-
-$(OUTPUT_DIR)/IScsiProto.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/IScsiProto.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
-$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiProto.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.c
-
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
-$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiExtScsiPassThru.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiConfigDxe.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/IScsiConfigDxe.c
 
 $(OUTPUT_DIR)/IScsiIbft.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/IScsiIbft.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
 $(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
 $(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
 $(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
 $(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
 $(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
 $(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
 $(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
 $(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
 $(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
+$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
 $(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
 $(OUTPUT_DIR)/IScsiIbft.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiIbft.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.c
-
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
-$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiDhcp.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.c
-
-$(OUTPUT_DIR)/AutoGen.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi30.h
-$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseLib.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi/UefiBaseType.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi40.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Guid/WinCertificate.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi50.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi20.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi/UefiGpt.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi51.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/IScsi4DxeStrDefs.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DevicePath.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextOut.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi/UefiSpec.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi10.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi60.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextIn.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi/UefiPxe.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Base.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Guid/PcAnsi.h
-$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextInEx.h
-$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./AutoGen.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/AutoGen.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiIbft.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.c
 
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
+$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
-$(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
 $(OUTPUT_DIR)/IScsiTcp4Io.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiTcp4Io.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiTcp4Io.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.c
+
+$(OUTPUT_DIR)/IScsiConfig.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/IScsiConfig.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
+$(OUTPUT_DIR)/IScsiConfig.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiConfig.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.c
+
+$(OUTPUT_DIR)/AutoGen.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextIn.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Guid/WinCertificate.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi10.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi40.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DevicePath.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Bluetooth.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi/UefiSpec.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi60.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseLib.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Base.h
+$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/IScsi4DxeStrDefs.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi30.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi/UefiPxe.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi50.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi51.h
+$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi/UefiBaseType.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Guid/PcAnsi.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi/UefiMultiPhase.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextInEx.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextOut.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi20.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Uefi/UefiGpt.h
+$(OUTPUT_DIR)/AutoGen.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/AutoGen.obj : $(DEBUG_DIR)/AutoGen.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./AutoGen.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/AutoGen.c
+
+$(OUTPUT_DIR)/IScsiMisc.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/IScsiMisc.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
+$(OUTPUT_DIR)/IScsiMisc.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiMisc.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.c
+
+$(OUTPUT_DIR)/IScsiProto.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/IScsiProto.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
+$(OUTPUT_DIR)/IScsiProto.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiProto.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.c
+
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
+$(OUTPUT_DIR)/IScsiExtScsiPassThru.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiExtScsiPassThru.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.c
+
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiTcp4Io.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiMisc.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/ComponentName.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/LoadedImage.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics2.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Guid/Acpi.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiImpl.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Tcp4.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Guid/HiiPlatformSetupFormset.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiDatabase.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverDiagnostics.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/PciIo.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Guid/EventGroup.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi61.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiExtScsiPassThru.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/PrintLib.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiDriverEntryPoint.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigRouting.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName2.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiLib.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDriver.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/IScsiInitiatorName.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/DevicePathLib.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiBootServicesTableLib.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/MdeModuleHii.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCHAP.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/GraphicsOutput.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ScsiPassThruExt.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Dhcp4.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverConfiguration2.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfig.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiCommon.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Library/UefiRuntimeServicesTableLib.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/HiiConfigAccess.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/HiiLib.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/DriverBinding.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi62.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/AcpiTable.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/ComponentName.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiProto.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/IScsiBootFirmwareTable.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/Ip4.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Dhcp.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiIbft.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdePkg/Include/Protocol/FormBrowser2.h
+$(OUTPUT_DIR)/IScsiDhcp.obj : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/OUTPUT/./IScsiDhcp.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDhcp.c
 
 $(DEBUG_DIR)/IScsiConfigDxe.c : $(MAKE_FILE)
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Uefi/UefiMultiPhase.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi30.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(DEBUG_DIR)/AutoGen.h
 $(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Uefi/UefiBaseType.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/AcpiAml.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi40.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Guid/WinCertificate.h
 $(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Guid/HiiFormMapMethodGuid.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi50.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi20.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Uefi/UefiGpt.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi51.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Bluetooth.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(DEBUG_DIR)/IScsi4DxeStrDefs.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextIn.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Uefi.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Guid/WinCertificate.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi10.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi40.h
 $(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Protocol/DevicePath.h
 $(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdeModulePkg/Include/Guid/Ip4IScsiConfigHii.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextOut.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Bluetooth.h
 $(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Uefi/UefiSpec.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi10.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Uefi.h
 $(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi60.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextIn.h
-$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Uefi/UefiPxe.h
 $(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Base.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(DEBUG_DIR)/IScsi4DxeStrDefs.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi30.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Uefi/UefiPxe.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi50.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi51.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(DEBUG_DIR)/AutoGen.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/AcpiAml.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Uefi/UefiBaseType.h
 $(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Guid/PcAnsi.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Uefi/UefiMultiPhase.h
 $(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextInEx.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextOut.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi20.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdePkg/Include/Uefi/UefiGpt.h
+$(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigNVDataStruc.h
 $(DEBUG_DIR)/IScsiConfigDxe.c : $(WORKSPACE)/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigDxe.vfr
-	"$(VFRPP)" $(VFRPP_FLAGS) $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigDxe.vfr > $(OUTPUT_DIR)/IScsiConfigDxe.i
-	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)/$(MODULE_NAME)StrDefs.hpk --output-directory /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/. $(OUTPUT_DIR)/IScsiConfigDxe.i
+	"$(VFRPP)" $(VFRPP_FLAGS) $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Network/IScsiDxe/IScsiConfigDxe.vfr > $(OUTPUT_DIR)/IScsiConfigDxe.i
+	"$(VFR)" $(VFR_FLAGS) --string-db $(OUTPUT_DIR)/$(MODULE_NAME)StrDefs.hpk --output-directory /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe/DEBUG/. $(OUTPUT_DIR)/IScsiConfigDxe.i
 
 
 

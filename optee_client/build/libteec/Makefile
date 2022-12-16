@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osboxes/rttee_qemu/optee_client
+CMAKE_SOURCE_DIR = /home/osboxes/fix_rttee_text/RT-TEE/optee_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osboxes/rttee_qemu/optee_client/build
+CMAKE_BINARY_DIR = /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles /home/osboxes/rttee_qemu/optee_client/build/libteec/CMakeFiles/progress.marks
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 libteec/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/osboxes/rttee_qemu/optee_client/build/CMakeFiles 0
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec/CMakeFiles/progress.marks
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 libteec/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 libteec/clean
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 libteec/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 libteec/preinstall
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 libteec/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 libteec/preinstall
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 libteec/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libteec/CMakeFiles/teec.dir/rule:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 libteec/CMakeFiles/teec.dir/rule
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f CMakeFiles/Makefile2 libteec/CMakeFiles/teec.dir/rule
 .PHONY : libteec/CMakeFiles/teec.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ teec: libteec/CMakeFiles/teec.dir/rule
 
 # fast build rule for target.
 teec/fast:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/build
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/build
 .PHONY : teec/fast
 
 src/tee_client_api.o: src/tee_client_api.c.o
@@ -175,7 +175,7 @@ src/tee_client_api.o: src/tee_client_api.c.o
 
 # target to build an object file
 src/tee_client_api.c.o:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/src/tee_client_api.c.o
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/src/tee_client_api.c.o
 .PHONY : src/tee_client_api.c.o
 
 src/tee_client_api.i: src/tee_client_api.c.i
@@ -184,7 +184,7 @@ src/tee_client_api.i: src/tee_client_api.c.i
 
 # target to preprocess a source file
 src/tee_client_api.c.i:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/src/tee_client_api.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/src/tee_client_api.c.i
 .PHONY : src/tee_client_api.c.i
 
 src/tee_client_api.s: src/tee_client_api.c.s
@@ -193,7 +193,7 @@ src/tee_client_api.s: src/tee_client_api.c.s
 
 # target to generate assembly for a file
 src/tee_client_api.c.s:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/src/tee_client_api.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/src/tee_client_api.c.s
 .PHONY : src/tee_client_api.c.s
 
 src/teec_trace.o: src/teec_trace.c.o
@@ -202,7 +202,7 @@ src/teec_trace.o: src/teec_trace.c.o
 
 # target to build an object file
 src/teec_trace.c.o:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/src/teec_trace.c.o
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/src/teec_trace.c.o
 .PHONY : src/teec_trace.c.o
 
 src/teec_trace.i: src/teec_trace.c.i
@@ -211,7 +211,7 @@ src/teec_trace.i: src/teec_trace.c.i
 
 # target to preprocess a source file
 src/teec_trace.c.i:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/src/teec_trace.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/src/teec_trace.c.i
 .PHONY : src/teec_trace.c.i
 
 src/teec_trace.s: src/teec_trace.c.s
@@ -220,7 +220,7 @@ src/teec_trace.s: src/teec_trace.c.s
 
 # target to generate assembly for a file
 src/teec_trace.c.s:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/src/teec_trace.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(MAKE) -f libteec/CMakeFiles/teec.dir/build.make libteec/CMakeFiles/teec.dir/src/teec_trace.c.s
 .PHONY : src/teec_trace.c.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

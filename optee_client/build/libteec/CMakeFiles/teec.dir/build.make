@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osboxes/rttee_qemu/optee_client
+CMAKE_SOURCE_DIR = /home/osboxes/fix_rttee_text/RT-TEE/optee_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osboxes/rttee_qemu/optee_client/build
+CMAKE_BINARY_DIR = /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build
 
 # Include any dependencies generated for this target.
 include libteec/CMakeFiles/teec.dir/depend.make
@@ -59,16 +59,16 @@ include libteec/CMakeFiles/teec.dir/flags.make
 
 libteec/CMakeFiles/teec.dir/src/tee_client_api.c.o: libteec/CMakeFiles/teec.dir/flags.make
 libteec/CMakeFiles/teec.dir/src/tee_client_api.c.o: ../libteec/src/tee_client_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libteec/CMakeFiles/teec.dir/src/tee_client_api.c.o"
-	cd /home/osboxes/rttee_qemu/optee_client/build/libteec && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/teec.dir/src/tee_client_api.c.o   -c /home/osboxes/rttee_qemu/optee_client/libteec/src/tee_client_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libteec/CMakeFiles/teec.dir/src/tee_client_api.c.o"
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/teec.dir/src/tee_client_api.c.o   -c /home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec/src/tee_client_api.c
 
 libteec/CMakeFiles/teec.dir/src/tee_client_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/teec.dir/src/tee_client_api.c.i"
-	cd /home/osboxes/rttee_qemu/optee_client/build/libteec && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/rttee_qemu/optee_client/libteec/src/tee_client_api.c > CMakeFiles/teec.dir/src/tee_client_api.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec/src/tee_client_api.c > CMakeFiles/teec.dir/src/tee_client_api.c.i
 
 libteec/CMakeFiles/teec.dir/src/tee_client_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/teec.dir/src/tee_client_api.c.s"
-	cd /home/osboxes/rttee_qemu/optee_client/build/libteec && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/rttee_qemu/optee_client/libteec/src/tee_client_api.c -o CMakeFiles/teec.dir/src/tee_client_api.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec/src/tee_client_api.c -o CMakeFiles/teec.dir/src/tee_client_api.c.s
 
 libteec/CMakeFiles/teec.dir/src/tee_client_api.c.o.requires:
 
@@ -83,16 +83,16 @@ libteec/CMakeFiles/teec.dir/src/tee_client_api.c.o.provides.build: libteec/CMake
 
 libteec/CMakeFiles/teec.dir/src/teec_trace.c.o: libteec/CMakeFiles/teec.dir/flags.make
 libteec/CMakeFiles/teec.dir/src/teec_trace.c.o: ../libteec/src/teec_trace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libteec/CMakeFiles/teec.dir/src/teec_trace.c.o"
-	cd /home/osboxes/rttee_qemu/optee_client/build/libteec && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/teec.dir/src/teec_trace.c.o   -c /home/osboxes/rttee_qemu/optee_client/libteec/src/teec_trace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libteec/CMakeFiles/teec.dir/src/teec_trace.c.o"
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/teec.dir/src/teec_trace.c.o   -c /home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec/src/teec_trace.c
 
 libteec/CMakeFiles/teec.dir/src/teec_trace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/teec.dir/src/teec_trace.c.i"
-	cd /home/osboxes/rttee_qemu/optee_client/build/libteec && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/rttee_qemu/optee_client/libteec/src/teec_trace.c > CMakeFiles/teec.dir/src/teec_trace.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec/src/teec_trace.c > CMakeFiles/teec.dir/src/teec_trace.c.i
 
 libteec/CMakeFiles/teec.dir/src/teec_trace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/teec.dir/src/teec_trace.c.s"
-	cd /home/osboxes/rttee_qemu/optee_client/build/libteec && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/rttee_qemu/optee_client/libteec/src/teec_trace.c -o CMakeFiles/teec.dir/src/teec_trace.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec/src/teec_trace.c -o CMakeFiles/teec.dir/src/teec_trace.c.s
 
 libteec/CMakeFiles/teec.dir/src/teec_trace.c.o.requires:
 
@@ -117,9 +117,9 @@ libteec/libteec.so.1.0.0: libteec/CMakeFiles/teec.dir/src/tee_client_api.c.o
 libteec/libteec.so.1.0.0: libteec/CMakeFiles/teec.dir/src/teec_trace.c.o
 libteec/libteec.so.1.0.0: libteec/CMakeFiles/teec.dir/build.make
 libteec/libteec.so.1.0.0: libteec/CMakeFiles/teec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libteec.so"
-	cd /home/osboxes/rttee_qemu/optee_client/build/libteec && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/teec.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/osboxes/rttee_qemu/optee_client/build/libteec && $(CMAKE_COMMAND) -E cmake_symlink_library libteec.so.1.0.0 libteec.so.1 libteec.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libteec.so"
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/teec.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec && $(CMAKE_COMMAND) -E cmake_symlink_library libteec.so.1.0.0 libteec.so.1 libteec.so
 
 libteec/libteec.so.1: libteec/libteec.so.1.0.0
 	@$(CMAKE_COMMAND) -E touch_nocreate libteec/libteec.so.1
@@ -138,10 +138,10 @@ libteec/CMakeFiles/teec.dir/requires: libteec/CMakeFiles/teec.dir/src/teec_trace
 .PHONY : libteec/CMakeFiles/teec.dir/requires
 
 libteec/CMakeFiles/teec.dir/clean:
-	cd /home/osboxes/rttee_qemu/optee_client/build/libteec && $(CMAKE_COMMAND) -P CMakeFiles/teec.dir/cmake_clean.cmake
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec && $(CMAKE_COMMAND) -P CMakeFiles/teec.dir/cmake_clean.cmake
 .PHONY : libteec/CMakeFiles/teec.dir/clean
 
 libteec/CMakeFiles/teec.dir/depend:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osboxes/rttee_qemu/optee_client /home/osboxes/rttee_qemu/optee_client/libteec /home/osboxes/rttee_qemu/optee_client/build /home/osboxes/rttee_qemu/optee_client/build/libteec /home/osboxes/rttee_qemu/optee_client/build/libteec/CMakeFiles/teec.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osboxes/fix_rttee_text/RT-TEE/optee_client /home/osboxes/fix_rttee_text/RT-TEE/optee_client/libteec /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec/CMakeFiles/teec.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libteec/CMakeFiles/teec.dir/depend
 

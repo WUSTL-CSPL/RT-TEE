@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osboxes/rttee_qemu/optee_client
+CMAKE_SOURCE_DIR = /home/osboxes/fix_rttee_text/RT-TEE/optee_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osboxes/rttee_qemu/optee_client/build
+CMAKE_BINARY_DIR = /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build
 
 # Include any dependencies generated for this target.
 include tee-supplicant/CMakeFiles/tee-supplicant.dir/depend.make
@@ -59,16 +59,16 @@ include tee-supplicant/CMakeFiles/tee-supplicant.dir/flags.make
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.o: tee-supplicant/CMakeFiles/tee-supplicant.dir/flags.make
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.o: ../tee-supplicant/src/handle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.o"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/handle.c.o   -c /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/handle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.o"
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/handle.c.o   -c /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/handle.c
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tee-supplicant.dir/src/handle.c.i"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/handle.c > CMakeFiles/tee-supplicant.dir/src/handle.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/handle.c > CMakeFiles/tee-supplicant.dir/src/handle.c.i
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tee-supplicant.dir/src/handle.c.s"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/handle.c -o CMakeFiles/tee-supplicant.dir/src/handle.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/handle.c -o CMakeFiles/tee-supplicant.dir/src/handle.c.s
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.o.requires:
 
@@ -83,16 +83,16 @@ tee-supplicant/CMakeFiles/tee-supplicant.dir/src/handle.c.o.provides.build: tee-
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.o: tee-supplicant/CMakeFiles/tee-supplicant.dir/flags.make
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.o: ../tee-supplicant/src/hmac_sha2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.o"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.o   -c /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/hmac_sha2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.o"
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.o   -c /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/hmac_sha2.c
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.i"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/hmac_sha2.c > CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/hmac_sha2.c > CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.i
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.s"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/hmac_sha2.c -o CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/hmac_sha2.c -o CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.s
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.o.requires:
 
@@ -107,16 +107,16 @@ tee-supplicant/CMakeFiles/tee-supplicant.dir/src/hmac_sha2.c.o.provides.build: t
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.o: tee-supplicant/CMakeFiles/tee-supplicant.dir/flags.make
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.o: ../tee-supplicant/src/rpmb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.o"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/rpmb.c.o   -c /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/rpmb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.o"
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/rpmb.c.o   -c /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/rpmb.c
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tee-supplicant.dir/src/rpmb.c.i"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/rpmb.c > CMakeFiles/tee-supplicant.dir/src/rpmb.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/rpmb.c > CMakeFiles/tee-supplicant.dir/src/rpmb.c.i
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tee-supplicant.dir/src/rpmb.c.s"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/rpmb.c -o CMakeFiles/tee-supplicant.dir/src/rpmb.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/rpmb.c -o CMakeFiles/tee-supplicant.dir/src/rpmb.c.s
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.o.requires:
 
@@ -131,16 +131,16 @@ tee-supplicant/CMakeFiles/tee-supplicant.dir/src/rpmb.c.o.provides.build: tee-su
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.o: tee-supplicant/CMakeFiles/tee-supplicant.dir/flags.make
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.o: ../tee-supplicant/src/sha2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.o"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/sha2.c.o   -c /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/sha2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.o"
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/sha2.c.o   -c /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/sha2.c
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tee-supplicant.dir/src/sha2.c.i"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/sha2.c > CMakeFiles/tee-supplicant.dir/src/sha2.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/sha2.c > CMakeFiles/tee-supplicant.dir/src/sha2.c.i
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tee-supplicant.dir/src/sha2.c.s"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/sha2.c -o CMakeFiles/tee-supplicant.dir/src/sha2.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/sha2.c -o CMakeFiles/tee-supplicant.dir/src/sha2.c.s
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.o.requires:
 
@@ -155,16 +155,16 @@ tee-supplicant/CMakeFiles/tee-supplicant.dir/src/sha2.c.o.provides.build: tee-su
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.o: tee-supplicant/CMakeFiles/tee-supplicant.dir/flags.make
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.o: ../tee-supplicant/src/tee_supp_fs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.o"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.o   -c /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/tee_supp_fs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.o"
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.o   -c /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/tee_supp_fs.c
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.i"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/tee_supp_fs.c > CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/tee_supp_fs.c > CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.i
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.s"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/tee_supp_fs.c -o CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/tee_supp_fs.c -o CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.s
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.o.requires:
 
@@ -179,16 +179,16 @@ tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supp_fs.c.o.provides.build:
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.o: tee-supplicant/CMakeFiles/tee-supplicant.dir/flags.make
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.o: ../tee-supplicant/src/tee_supplicant.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.o"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.o   -c /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/tee_supplicant.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.o"
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.o   -c /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/tee_supplicant.c
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.i"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/tee_supplicant.c > CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/tee_supplicant.c > CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.i
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.s"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/tee_supplicant.c -o CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/tee_supplicant.c -o CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.s
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.o.requires:
 
@@ -203,16 +203,16 @@ tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_supplicant.c.o.provides.bui
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.o: tee-supplicant/CMakeFiles/tee-supplicant.dir/flags.make
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.o: ../tee-supplicant/src/teec_ta_load.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.o"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.o   -c /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/teec_ta_load.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.o"
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.o   -c /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/teec_ta_load.c
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.i"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/teec_ta_load.c > CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/teec_ta_load.c > CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.i
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.s"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/teec_ta_load.c -o CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/teec_ta_load.c -o CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.s
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.o.requires:
 
@@ -227,16 +227,16 @@ tee-supplicant/CMakeFiles/tee-supplicant.dir/src/teec_ta_load.c.o.provides.build
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.o: tee-supplicant/CMakeFiles/tee-supplicant.dir/flags.make
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.o: ../tee-supplicant/src/tee_socket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.o"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/tee_socket.c.o   -c /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/tee_socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.o"
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tee-supplicant.dir/src/tee_socket.c.o   -c /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/tee_socket.c
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tee-supplicant.dir/src/tee_socket.c.i"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/tee_socket.c > CMakeFiles/tee-supplicant.dir/src/tee_socket.c.i
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/tee_socket.c > CMakeFiles/tee-supplicant.dir/src/tee_socket.c.i
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tee-supplicant.dir/src/tee_socket.c.s"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && ccache /home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/rttee_qemu/optee_client/tee-supplicant/src/tee_socket.c -o CMakeFiles/tee-supplicant.dir/src/tee_socket.c.s
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && ccache /home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant/src/tee_socket.c -o CMakeFiles/tee-supplicant.dir/src/tee_socket.c.s
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/src/tee_socket.c.o.requires:
 
@@ -274,8 +274,8 @@ tee-supplicant/tee-supplicant: tee-supplicant/CMakeFiles/tee-supplicant.dir/src/
 tee-supplicant/tee-supplicant: tee-supplicant/CMakeFiles/tee-supplicant.dir/build.make
 tee-supplicant/tee-supplicant: libteec/libteec.so.1.0.0
 tee-supplicant/tee-supplicant: tee-supplicant/CMakeFiles/tee-supplicant.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/osboxes/rttee_qemu/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable tee-supplicant"
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tee-supplicant.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable tee-supplicant"
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tee-supplicant.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tee-supplicant/CMakeFiles/tee-supplicant.dir/build: tee-supplicant/tee-supplicant
@@ -294,10 +294,10 @@ tee-supplicant/CMakeFiles/tee-supplicant.dir/requires: tee-supplicant/CMakeFiles
 .PHONY : tee-supplicant/CMakeFiles/tee-supplicant.dir/requires
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/clean:
-	cd /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant && $(CMAKE_COMMAND) -P CMakeFiles/tee-supplicant.dir/cmake_clean.cmake
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant && $(CMAKE_COMMAND) -P CMakeFiles/tee-supplicant.dir/cmake_clean.cmake
 .PHONY : tee-supplicant/CMakeFiles/tee-supplicant.dir/clean
 
 tee-supplicant/CMakeFiles/tee-supplicant.dir/depend:
-	cd /home/osboxes/rttee_qemu/optee_client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osboxes/rttee_qemu/optee_client /home/osboxes/rttee_qemu/optee_client/tee-supplicant /home/osboxes/rttee_qemu/optee_client/build /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant /home/osboxes/rttee_qemu/optee_client/build/tee-supplicant/CMakeFiles/tee-supplicant.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osboxes/fix_rttee_text/RT-TEE/optee_client /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant /home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant/CMakeFiles/tee-supplicant.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tee-supplicant/CMakeFiles/tee-supplicant.dir/depend
 

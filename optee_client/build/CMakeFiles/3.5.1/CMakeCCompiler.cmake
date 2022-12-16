@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/home/osboxes/rttee_qemu/toolchains/aarch64/bin/aarch64-linux-gnu-gcc")
+set(CMAKE_C_COMPILER "/home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/bin/aarch64-linux-gnu-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "8.2.1")
@@ -63,5 +63,5 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "c")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/osboxes/rttee_qemu/toolchains/aarch64/lib/gcc/aarch64-linux-gnu/8.2.1;/home/osboxes/rttee_qemu/toolchains/aarch64/lib/gcc;/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/lib64;/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/libc/lib64;/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/libc/usr/lib64;/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/lib;/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/libc/lib;/home/osboxes/rttee_qemu/toolchains/aarch64/aarch64-linux-gnu/libc/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/lib/gcc/aarch64-linux-gnu/8.2.1;/home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/lib/gcc;/home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/aarch64-linux-gnu/lib64;/home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/aarch64-linux-gnu/libc/lib64;/home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/aarch64-linux-gnu/libc/usr/lib64;/home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/aarch64-linux-gnu/lib;/home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/aarch64-linux-gnu/libc/lib;/home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/aarch64-linux-gnu/libc/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

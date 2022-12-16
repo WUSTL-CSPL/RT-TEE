@@ -12,7 +12,7 @@ OPTROM_FAMILY = GCC
 OPTROM_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 
 ASLDLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -Wl,--entry,ReferenceAcpiTable -u $(IMAGE_ENTRY_POINT) -Wl,--defsym=PECOFF_HEADER_SIZE=0 -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -z common-page-size=0x20
-ASLDLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLDLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLDLINK_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 ASLDLINK_FAMILY = GCC
 
@@ -36,7 +36,7 @@ VFR_FAMILY = GCC
 VFR = VfrCompile
 
 PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $(DEST_DIR_DEBUG)/AutoGen.h
-PP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+PP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 PP_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 PP_FAMILY = GCC
 
@@ -59,7 +59,7 @@ GENFW_FAMILY = GCC
 CCPATH_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 CCPATH_FAMILY = GCC
 
-SLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar
+SLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar
 SLINK_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 SLINK_FAMILY = GCC
 
@@ -73,7 +73,7 @@ PLATFORM_FAMILY = GCC
 RC_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 RC_FLAGS = -I binary -O elf64-littleaarch64 -B aarch64 --rename-section .data=.hii
 RC_FAMILY = GCC
-RC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-objcopy
+RC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-objcopy
 
 DTC_FLAGS = -H epapr
 DTC = dtc
@@ -91,7 +91,7 @@ PKCS7SIGN_FAMILY = GCC
 ASM_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 ASM_FLAGS = $(ARCHASM_FLAGS) $(PLATFORM_FLAGS) -c -x assembler -imacros $(DEST_DIR_DEBUG)/AutoGen.h -mlittle-endian
 ASM_FAMILY = GCC
-ASM = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASM = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 
 ASL_FLAGS = 
 ASL = iasl
@@ -106,7 +106,7 @@ MTOC_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 MTOC_FAMILY = GCC
 
 CC_XIPFLAGS = -mstrict-align -mgeneral-regs-only
-CC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+CC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 CC_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -g -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -ffunction-sections -fdata-sections -include AutoGen.h -fno-common -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -mlittle-endian -fno-short-enums -fverbose-asm -funsigned-char  -ffunction-sections -fdata-sections -Wno-address -fno-asynchronous-unwind-tables -fno-unwind-tables -fno-pic -fno-pie -ffixed-x18 -O0 -mcmodel=small -DDISABLE_NEW_DEPRECATED_INTERFACES -DDISABLE_NEW_DEPRECATED_INTERFACES
 CC_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 CC_FAMILY = GCC
@@ -118,7 +118,7 @@ NASMB_FAMILY = GCC
 VFRPP_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 VFRPP_FAMILY = GCC
-VFRPP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+VFRPP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 
 BROTLI = BrotliCompress
 BROTLI_GUID = 3D532050-5CDA-4FD0-879E-0F7F630D5AFB
@@ -147,7 +147,7 @@ ASM16_FAMILY = GCC
 ASLCC_FLAGS = -x c
 ASLCC_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 ASLCC_FAMILY = GCC
-ASLCC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLCC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 
 DLINK2_FLAGS = -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -Wl,--defsym=PECOFF_HEADER_SIZE=0x228
 DLINK2_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
@@ -155,7 +155,7 @@ DLINK2_FAMILY = GCC
 
 
 DLINK_XIPFLAGS = -z common-page-size=0x20
-DLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+DLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000
 DLINK_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 DLINK_FAMILY = GCC
@@ -178,7 +178,7 @@ CRC32_FAMILY = GCC
 ASLPP_BUILDRULEORDER = nasm asm Asm ASM S s nasmb asm16
 ASLPP_FLAGS = -x c -E -include AutoGen.h
 ASLPP_FAMILY = GCC
-ASLPP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLPP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 
 OBJCOPY_ADDDEBUGFLAG = --add-gnu-debuglink=$(DEBUG_DIR)/$(MODULE_NAME).debug
 OBJCOPY_FLAGS = objcopy not needed for

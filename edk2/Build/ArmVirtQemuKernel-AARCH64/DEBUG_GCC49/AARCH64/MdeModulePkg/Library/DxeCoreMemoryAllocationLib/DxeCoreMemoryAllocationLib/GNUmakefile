@@ -19,7 +19,7 @@ PLATFORM_NAME = ArmVirtQemu
 PLATFORM_GUID = 37d7e986-f7e9-45c2-8067-e371421a626c
 PLATFORM_VERSION = 0.1
 PLATFORM_RELATIVE_DIR = ArmVirtPkg
-PLATFORM_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmVirtPkg
+PLATFORM_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmVirtPkg
 PLATFORM_OUTPUT_DIR = Build/ArmVirtQemuKernel-AARCH64
 
 #
@@ -35,8 +35,8 @@ MODULE_FILE_BASE_NAME = DxeCoreMemoryAllocationLib
 BASE_NAME = $(MODULE_NAME)
 MODULE_RELATIVE_DIR = MdeModulePkg/Library/DxeCoreMemoryAllocationLib
 PACKAGE_RELATIVE_DIR = Library/DxeCoreMemoryAllocationLib
-MODULE_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Library/DxeCoreMemoryAllocationLib
-FFS_OUTPUT_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/FV/Ffs/632F3FAC-1CA4-4725-BAA2-BDECCF9A111CDxeCoreMemoryAllocationLib
+MODULE_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Library/DxeCoreMemoryAllocationLib
+FFS_OUTPUT_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/FV/Ffs/632F3FAC-1CA4-4725-BAA2-BDECCF9A111CDxeCoreMemoryAllocationLib
 
 MODULE_ENTRY_POINT = _ModuleEntryPoint
 ARCH_ENTRY_POINT = _ModuleEntryPoint
@@ -60,13 +60,13 @@ TARGET = DEBUG
 #
 # Build Directory Macro Definition
 #
-# PLATFORM_BUILD_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
-BUILD_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
+# PLATFORM_BUILD_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
+BUILD_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49
 BIN_DIR = $(BUILD_DIR)/AARCH64
 LIB_DIR = $(BIN_DIR)
-MODULE_BUILD_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib
-OUTPUT_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT
-DEBUG_DIR = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/DEBUG
+MODULE_BUILD_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib
+OUTPUT_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT
+DEBUG_DIR = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/DEBUG
 DEST_DIR_OUTPUT = $(OUTPUT_DIR)
 DEST_DIR_DEBUG = $(DEBUG_DIR)
 
@@ -90,7 +90,7 @@ SYMRENAME_FLAGS = Symbol renaming not needed for
 OPTROM = EfiRom
 OPTROM_FLAGS = -e
 
-ASLDLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLDLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLDLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -Wl,--entry,ReferenceAcpiTable -u $(IMAGE_ENTRY_POINT) -Wl,--defsym=PECOFF_HEADER_SIZE=0 -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -z common-page-size=0x20
 
 
@@ -101,7 +101,7 @@ RSA2048SHA256SIGN_GUID =  A7717414-C616-4977-9420-844712A735BF
 VFR = VfrCompile
 VFR_FLAGS = -l -n
 
-PP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+PP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $(DEST_DIR_DEBUG)/AutoGen.h
 
 LZMAF86 = LzmaF86Compress
@@ -113,12 +113,12 @@ GENFW = GenFw
 GENFW_FLAGS = 
 
 
-SLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar
+SLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-ar
 
 
 PLATFORM_FLAGS = 
 
-RC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-objcopy
+RC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-objcopy
 RC_FLAGS = -I binary -O elf64-littleaarch64 -B aarch64 --rename-section .data=.hii
 
 DTC = dtc
@@ -128,7 +128,7 @@ DTC_FLAGS = -H epapr
 PKCS7SIGN = Pkcs7Sign
 PKCS7SIGN_GUID =  4AAFD29D-68DF-49EE-8AA9-347D375665A7
 
-ASM = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASM = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASM_FLAGS = $(ARCHASM_FLAGS) $(PLATFORM_FLAGS) -c -x assembler -imacros $(DEST_DIR_DEBUG)/AutoGen.h -mlittle-endian
 
 ASL = iasl
@@ -138,12 +138,12 @@ ASL_OUTFLAGS =  -p
 
 
 CC_XIPFLAGS =  -mstrict-align -mgeneral-regs-only
-CC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+CC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 CC_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -g -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -ffunction-sections -fdata-sections -include AutoGen.h -fno-common -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -mlittle-endian -fno-short-enums -fverbose-asm -funsigned-char -ffunction-sections -fdata-sections -Wno-address -fno-asynchronous-unwind-tables -fno-unwind-tables -fno-pic -fno-pie -ffixed-x18 -O0 -mcmodel=small -DDISABLE_NEW_DEPRECATED_INTERFACES
 
 NASMB_FLAGS = -f bin
 
-VFRPP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+VFRPP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
 
 BROTLI = BrotliCompress
@@ -158,7 +158,7 @@ LZMA = LzmaCompress
 LZMA_GUID =  EE4E5898-3914-4259-9D6E-DC7BD79403CF
 
 
-ASLCC = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLCC = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLCC_FLAGS = -x c
 
 
@@ -167,7 +167,7 @@ MAKE = make
 DLINK2_FLAGS = -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -Wl,--defsym=PECOFF_HEADER_SIZE=0x228
 
 DLINK_XIPFLAGS =  -z common-page-size=0x20
-DLINK = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+DLINK = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -z common-page-size=0x1000
 
 TIANO = TianoCompress
@@ -179,7 +179,7 @@ VPDTOOL_GUID =  8C3D856A-9BE6-468E-850A-24F7A8D38E08
 CRC32 = GenCrc32
 CRC32_GUID =  FC1BCDB0-7D31-49AA-936A-A4600D9DD083
 
-ASLPP = /home/osboxes/RT-TEE_PRE_RELEASE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
+ASLPP = /home/osboxes/fix_rttee_text/RT-TEE/build/../toolchains/aarch64/bin/aarch64-linux-gnu-gcc
 ASLPP_FLAGS = -x c -E -include AutoGen.h
 
 OBJCOPY_ADDDEBUGFLAG =  --add-gnu-debuglink=$(DEBUG_DIR)/$(MODULE_NAME).debug
@@ -212,47 +212,47 @@ INC =  \
     -I$(WORKSPACE)/MdeModulePkg \
     -I$(WORKSPACE)/MdeModulePkg/Include
 
-OBJECT_FILES_LIST = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT/object_files.lst
+OBJECT_FILES_LIST = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT/object_files.lst
 
 
-COMMON_DEPS = $(WORKSPACE)/MdePkg/Include/Uefi/UefiMultiPhase.h \
-              $(WORKSPACE)/MdePkg/Include/Pi/PiDependency.h \
-              $(WORKSPACE)/MdePkg/Include/Protocol/DevicePath.h \
+COMMON_DEPS = $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextIn.h \
+              $(WORKSPACE)/MdePkg/Include/Guid/HiiFormMapMethodGuid.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi40.h \
               $(WORKSPACE)/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h \
-              $(WORKSPACE)/MdePkg/Include/Uefi/UefiBaseType.h \
+              $(WORKSPACE)/MdePkg/Include/Pi/PiFirmwareVolume.h \
+              $(WORKSPACE)/MdePkg/Include/Guid/WinCertificate.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi10.h \
+              $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h \
+              $(WORKSPACE)/MdePkg/Include/Pi/PiBootMode.h \
+              $(WORKSPACE)/MdePkg/Include/Protocol/DevicePath.h \
+              $(WORKSPACE)/MdePkg/Include/Pi/PiMultiPhase.h \
+              $(WORKSPACE)/MdePkg/Include/PiDxe.h \
+              $(WORKSPACE)/MdePkg/Include/Pi/PiS3BootScript.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Bluetooth.h \
+              $(WORKSPACE)/MdeModulePkg/Include/Guid/MemoryProfile.h \
+              $(WORKSPACE)/MdePkg/Include/Uefi/UefiSpec.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi60.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/PeImage.h \
+              $(WORKSPACE)/MdePkg/Include/Pi/PiDependency.h \
+              $(WORKSPACE)/MdePkg/Include/Base.h \
+              $(WORKSPACE)/MdePkg/Include/Protocol/DebugSupport.h \
+              $(WORKSPACE)/MdePkg/Include/Pi/PiDxeCis.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi30.h \
+              $(DEBUG_DIR)/AutoGen.h \
+              $(WORKSPACE)/MdePkg/Include/Uefi/UefiPxe.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi50.h \
+              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi51.h \
+              $(WORKSPACE)/MdePkg/Include/Pi/PiFirmwareFile.h \
               $(WORKSPACE)/MdePkg/Include/Pi/PiHob.h \
               $(WORKSPACE)/MdePkg/Include/IndustryStandard/AcpiAml.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/PeImage.h \
-              $(WORKSPACE)/MdePkg/Include/Pi/PiFirmwareFile.h \
-              $(WORKSPACE)/MdePkg/Include/Guid/WinCertificate.h \
-              $(WORKSPACE)/MdePkg/Include/Guid/HiiFormMapMethodGuid.h \
-              $(WORKSPACE)/MdePkg/Include/Protocol/DebugSupport.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi50.h \
+              $(WORKSPACE)/MdePkg/Include/Uefi/UefiBaseType.h \
+              $(WORKSPACE)/MdePkg/Include/Guid/PcAnsi.h \
+              $(WORKSPACE)/MdePkg/Include/Uefi/UefiMultiPhase.h \
+              $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextInEx.h \
+              $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextOut.h \
+              $(WORKSPACE)/MdePkg/Include/Pi/PiStatusCode.h \
               $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi20.h \
               $(WORKSPACE)/MdePkg/Include/Uefi/UefiGpt.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi51.h \
-              $(WORKSPACE)/MdePkg/Include/Pi/PiFirmwareVolume.h \
-              $(WORKSPACE)/MdePkg/Include/Pi/PiDxeCis.h \
-              $(WORKSPACE)/MdePkg/Include/Pi/PiMultiPhase.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi40.h \
-              $(WORKSPACE)/MdeModulePkg/Include/Guid/MemoryProfile.h \
-              $(WORKSPACE)/MdePkg/Include/Pi/PiStatusCode.h \
-              $(WORKSPACE)/MdePkg/Include/AArch64/ProcessorBind.h \
-              $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextOut.h \
-              $(WORKSPACE)/MdePkg/Include/Pi/PiS3BootScript.h \
-              $(WORKSPACE)/MdePkg/Include/Uefi/UefiSpec.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi10.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Bluetooth.h \
-              $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextIn.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi60.h \
-              $(WORKSPACE)/MdePkg/Include/IndustryStandard/Acpi30.h \
-              $(WORKSPACE)/MdePkg/Include/PiDxe.h \
-              $(WORKSPACE)/MdePkg/Include/Uefi/UefiPxe.h \
-              $(WORKSPACE)/MdePkg/Include/Base.h \
-              $(WORKSPACE)/MdePkg/Include/Pi/PiBootMode.h \
-              $(WORKSPACE)/MdePkg/Include/Guid/PcAnsi.h \
-              $(DEBUG_DIR)/AutoGen.h \
-              $(WORKSPACE)/MdePkg/Include/Protocol/SimpleTextInEx.h \
               
 
 #
@@ -262,7 +262,7 @@ FORCE_REBUILD = force_build
 INIT_TARGET = init
 PCH_TARGET =
 BC_TARGET = 
-CODA_TARGET = /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT/DxeCoreMemoryAllocationLib.lib \
+CODA_TARGET = /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT/DxeCoreMemoryAllocationLib.lib \
               
 
 #
@@ -336,22 +336,22 @@ gen_fds:
 #
 $(OUTPUT_DIR)/DxeCoreMemoryAllocationLib.lib : $(OBJECT_FILES)
 $(OUTPUT_DIR)/DxeCoreMemoryAllocationLib.lib : $(OBJECT_FILES_LIST)
-	"$(SLINK)" cr /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT/DxeCoreMemoryAllocationLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
-
-$(OUTPUT_DIR)/DxeCoreMemoryProfileLibNull.obj : $(MAKE_FILE)
-$(OUTPUT_DIR)/DxeCoreMemoryProfileLibNull.obj : $(COMMON_DEPS)
-$(OUTPUT_DIR)/DxeCoreMemoryProfileLibNull.obj : $(WORKSPACE)/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryProfileLibNull.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT/./DxeCoreMemoryProfileLibNull.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryProfileLibNull.c
+	"$(SLINK)" cr /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT/DxeCoreMemoryAllocationLib.lib $(SLINK_FLAGS) @$(OBJECT_FILES_LIST)
 
 $(OUTPUT_DIR)/MemoryAllocationLib.obj : $(MAKE_FILE)
 $(OUTPUT_DIR)/MemoryAllocationLib.obj : $(COMMON_DEPS)
 $(OUTPUT_DIR)/MemoryAllocationLib.obj : $(WORKSPACE)/MdePkg/Include/Library/MemoryAllocationLib.h
-$(OUTPUT_DIR)/MemoryAllocationLib.obj : $(WORKSPACE)/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationServices.h
-$(OUTPUT_DIR)/MemoryAllocationLib.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/MemoryProfileLib.h
-$(OUTPUT_DIR)/MemoryAllocationLib.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
 $(OUTPUT_DIR)/MemoryAllocationLib.obj : $(WORKSPACE)/MdePkg/Include/Library/BaseMemoryLib.h
+$(OUTPUT_DIR)/MemoryAllocationLib.obj : $(WORKSPACE)/MdeModulePkg/Include/Library/MemoryProfileLib.h
+$(OUTPUT_DIR)/MemoryAllocationLib.obj : $(WORKSPACE)/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationServices.h
+$(OUTPUT_DIR)/MemoryAllocationLib.obj : $(WORKSPACE)/MdePkg/Include/Library/DebugLib.h
 $(OUTPUT_DIR)/MemoryAllocationLib.obj : $(WORKSPACE)/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/MemoryAllocationLib.c
-	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT/./MemoryAllocationLib.obj $(INC) /home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/MemoryAllocationLib.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT/./MemoryAllocationLib.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/MemoryAllocationLib.c
+
+$(OUTPUT_DIR)/DxeCoreMemoryProfileLibNull.obj : $(MAKE_FILE)
+$(OUTPUT_DIR)/DxeCoreMemoryProfileLibNull.obj : $(COMMON_DEPS)
+$(OUTPUT_DIR)/DxeCoreMemoryProfileLibNull.obj : $(WORKSPACE)/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryProfileLibNull.c
+	"$(CC)" $(CC_FLAGS) -c -o /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT/./DxeCoreMemoryProfileLibNull.obj $(INC) /home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryProfileLibNull.c
 
 
 

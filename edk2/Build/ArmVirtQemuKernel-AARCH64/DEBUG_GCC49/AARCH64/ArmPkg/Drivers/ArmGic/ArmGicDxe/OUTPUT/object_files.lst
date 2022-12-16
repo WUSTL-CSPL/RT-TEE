@@ -1,5 +1,5 @@
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/ArmGicDxe.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/ArmGicCommonDxe.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/GicV2/ArmGicV2Dxe.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/GicV3/ArmGicV3Dxe.obj
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/AutoGen.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/ArmGicDxe.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/ArmGicCommonDxe.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/GicV2/ArmGicV2Dxe.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/GicV3/ArmGicV3Dxe.obj
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Drivers/ArmGic/ArmGicDxe/OUTPUT/AutoGen.obj

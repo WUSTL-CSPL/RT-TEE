@@ -1,19 +1,19 @@
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 31 "<command-line>"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/toolchains/aarch64/aarch64-linux-gnu/libc/usr/include/stdc-predef.h" 1 3 4
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/toolchains/aarch64/aarch64-linux-gnu/libc/usr/include/stdc-predef.h" 1 3 4
 # 32 "<command-line>" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/EbcDxe/EbcDxe/DEBUG/AutoGen.h" 1
-# 16 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/EbcDxe/EbcDxe/DEBUG/AutoGen.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/PiDxe.h" 1
-# 19 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/PiDxe.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiBaseType.h" 1
-# 20 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h" 1
-# 28 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/AArch64/ProcessorBind.h" 1
-# 100 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/AArch64/ProcessorBind.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/EbcDxe/EbcDxe/DEBUG/AutoGen.h" 1
+# 16 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/EbcDxe/EbcDxe/DEBUG/AutoGen.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/PiDxe.h" 1
+# 19 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/PiDxe.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiBaseType.h" 1
+# 20 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h" 1
+# 28 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/AArch64/ProcessorBind.h" 1
+# 100 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/AArch64/ProcessorBind.h"
   typedef unsigned long long UINT64;
   typedef long long INT64;
   typedef unsigned int UINT32;
@@ -39,8 +39,8 @@ typedef UINT64 UINTN;
 
 
 typedef INT64 INTN;
-# 29 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h" 2
-# 54 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 29 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h" 2
+# 54 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
 extern UINT8 _VerifySizeofBOOLEAN[(sizeof(BOOLEAN) == (1)) / (sizeof(BOOLEAN) == (1))];
 extern UINT8 _VerifySizeofINT8[(sizeof(INT8) == (1)) / (sizeof(INT8) == (1))];
 extern UINT8 _VerifySizeofUINT8[(sizeof(UINT8) == (1)) / (sizeof(UINT8) == (1))];
@@ -52,7 +52,7 @@ extern UINT8 _VerifySizeofINT64[(sizeof(INT64) == (8)) / (sizeof(INT64) == (8))]
 extern UINT8 _VerifySizeofUINT64[(sizeof(UINT64) == (8)) / (sizeof(UINT64) == (8))];
 extern UINT8 _VerifySizeofCHAR8[(sizeof(CHAR8) == (1)) / (sizeof(CHAR8) == (1))];
 extern UINT8 _VerifySizeofCHAR16[(sizeof(CHAR16) == (2)) / (sizeof(CHAR16) == (2))];
-# 73 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 73 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
 typedef enum {
   __VerifyUint8EnumValue = 0xff
 } __VERIFY_UINT8_ENUM_SIZE;
@@ -68,7 +68,7 @@ typedef enum {
 extern UINT8 _VerifySizeof__VERIFY_UINT8_ENUM_SIZE[(sizeof(__VERIFY_UINT8_ENUM_SIZE) == (4)) / (sizeof(__VERIFY_UINT8_ENUM_SIZE) == (4))];
 extern UINT8 _VerifySizeof__VERIFY_UINT16_ENUM_SIZE[(sizeof(__VERIFY_UINT16_ENUM_SIZE) == (4)) / (sizeof(__VERIFY_UINT16_ENUM_SIZE) == (4))];
 extern UINT8 _VerifySizeof__VERIFY_UINT32_ENUM_SIZE[(sizeof(__VERIFY_UINT32_ENUM_SIZE) == (4)) / (sizeof(__VERIFY_UINT32_ENUM_SIZE) == (4))];
-# 281 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 281 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
 typedef struct {
   UINT32 Data1;
   UINT16 Data2;
@@ -107,16 +107,16 @@ struct _LIST_ENTRY {
   LIST_ENTRY *ForwardLink;
   LIST_ENTRY *BackLink;
 };
-# 716 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 716 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
 typedef __builtin_va_list VA_LIST;
-# 801 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 801 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
 typedef UINTN *BASE_LIST;
-# 965 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 965 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
 typedef UINTN RETURN_STATUS;
-# 1281 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h"
+# 1281 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h"
   void * __builtin_return_address (unsigned int level);
-# 21 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiBaseType.h" 2
-# 29 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
+# 21 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiBaseType.h" 2
+# 29 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
 typedef GUID EFI_GUID;
 
 
@@ -148,7 +148,7 @@ typedef UINT64 EFI_PHYSICAL_ADDRESS;
 
 
 typedef UINT64 EFI_VIRTUAL_ADDRESS;
-# 72 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
+# 72 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiBaseType.h"
 typedef struct {
   UINT16 Year;
   UINT8 Month;
@@ -190,13 +190,13 @@ typedef union {
   EFI_IPv4_ADDRESS v4;
   EFI_IPv6_ADDRESS v6;
 } EFI_IP_ADDRESS;
-# 20 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/PiDxe.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 1
-# 22 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h" 1
-# 40 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/WinCertificate.h" 1
-# 30 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/WinCertificate.h"
+# 20 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/PiDxe.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 1
+# 22 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h" 1
+# 40 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/WinCertificate.h" 1
+# 30 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/WinCertificate.h"
 typedef struct {
 
 
@@ -221,7 +221,7 @@ typedef struct {
 
 
 } WIN_CERTIFICATE;
-# 64 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/WinCertificate.h"
+# 64 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/WinCertificate.h"
 typedef struct {
   EFI_GUID HashType;
   UINT8 PublicKey[256];
@@ -251,7 +251,7 @@ typedef struct {
 
   UINT8 CertData[1];
 } WIN_CERTIFICATE_UEFI_GUID;
-# 103 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/WinCertificate.h"
+# 103 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/WinCertificate.h"
 typedef struct {
 
 
@@ -263,11 +263,11 @@ typedef struct {
 
 
   EFI_GUID HashAlgorithm;
-# 124 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/WinCertificate.h"
+# 124 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/WinCertificate.h"
 } WIN_CERTIFICATE_EFI_PKCS1_15;
 
 extern EFI_GUID gEfiCertTypeRsa2048Sha256Guid;
-# 41 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h" 2
+# 41 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h" 2
 
 
 
@@ -406,7 +406,7 @@ typedef struct {
 
   UINT32 Reserved;
 } EFI_TABLE_HEADER;
-# 195 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
+# 195 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
 typedef struct {
 
 
@@ -415,10 +415,10 @@ typedef struct {
 
 
   UINT64 MonotonicCount;
-# 211 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
+# 211 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
   WIN_CERTIFICATE_UEFI_GUID AuthInfo;
 } EFI_VARIABLE_AUTHENTICATION;
-# 222 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
+# 222 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiMultiPhase.h"
 typedef struct {
 
 
@@ -430,21 +430,21 @@ typedef struct {
 
   WIN_CERTIFICATE_UEFI_GUID AuthInfo;
  } EFI_VARIABLE_AUTHENTICATION_2;
-# 23 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
+# 23 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
 
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h" 1
-# 22 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/PcAnsi.h" 1
-# 51 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/PcAnsi.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h" 1
+# 22 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/PcAnsi.h" 1
+# 51 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/PcAnsi.h"
 extern EFI_GUID gEfiPcAnsiGuid;
 extern EFI_GUID gEfiVT100Guid;
 extern EFI_GUID gEfiVT100PlusGuid;
 extern EFI_GUID gEfiVTUTF8Guid;
 extern EFI_GUID gEfiUartDevicePathGuid;
 extern EFI_GUID gEfiSasDevicePathGuid;
-# 23 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h" 1
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h"
+# 23 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h" 1
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Bluetooth.h"
 typedef struct {
 
 
@@ -476,23 +476,23 @@ typedef struct {
 
   UINT8 Type;
 } BLUETOOTH_LE_ADDRESS;
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h" 1
-# 18 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h" 1
-# 19 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h" 1
-# 18 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h" 1
-# 17 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h" 1
-# 17 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h" 1
-# 17 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h" 1
-# 17 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h" 1
-# 18 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h" 2
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h" 1
+# 18 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h" 1
+# 19 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h" 1
+# 18 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h" 1
+# 17 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h" 1
+# 17 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h" 1
+# 17 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h" 1
+# 17 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/AcpiAml.h" 1
+# 18 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h" 2
 
 
 
@@ -518,7 +518,7 @@ typedef struct {
   UINT32 CreatorId;
   UINT32 CreatorRevision;
 } EFI_ACPI_DESCRIPTION_HEADER;
-# 121 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
+# 121 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
 typedef struct {
   UINT8 Desc;
   UINT16 Len;
@@ -697,7 +697,7 @@ typedef struct {
   UINT8 Desc;
   UINT8 Checksum;
 } EFI_ACPI_END_TAG_DESCRIPTOR;
-# 396 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
+# 396 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
 typedef struct {
   UINT64 Signature;
   UINT8 Checksum;
@@ -705,7 +705,7 @@ typedef struct {
   UINT8 Reserved;
   UINT32 RsdtAddress;
 } EFI_ACPI_1_0_ROOT_SYSTEM_DESCRIPTION_POINTER;
-# 418 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
+# 418 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 FirmwareCtrl;
@@ -748,7 +748,7 @@ typedef struct {
   UINT8 Reserved6;
   UINT32 Flags;
 } EFI_ACPI_1_0_FIXED_ACPI_DESCRIPTION_TABLE;
-# 487 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
+# 487 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
@@ -758,13 +758,13 @@ typedef struct {
   UINT32 Flags;
   UINT8 Reserved[40];
 } EFI_ACPI_1_0_FIRMWARE_ACPI_CONTROL_STRUCTURE;
-# 507 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
+# 507 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 LocalApicAddress;
   UINT32 Flags;
 } EFI_ACPI_1_0_MULTIPLE_APIC_DESCRIPTION_TABLE_HEADER;
-# 542 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
+# 542 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -772,7 +772,7 @@ typedef struct {
   UINT8 ApicId;
   UINT32 Flags;
 } EFI_ACPI_1_0_PROCESSOR_LOCAL_APIC_STRUCTURE;
-# 558 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
+# 558 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi10.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -824,8 +824,8 @@ typedef struct {
   UINT32 LowEnergyLevel;
   UINT32 CriticalEnergyLevel;
 } EFI_ACPI_1_0_SMART_BATTERY_DESCRIPTION_TABLE;
-# 18 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h" 2
-# 34 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
+# 18 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h" 2
+# 34 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
 typedef struct {
   ACPI_LARGE_RESOURCE_HEADER Header;
   UINT8 AddressSpaceId;
@@ -834,7 +834,7 @@ typedef struct {
   UINT8 AddressSize;
   UINT64 RegisterAddress;
 } EFI_ACPI_GENERIC_REGISTER_DESCRIPTOR;
-# 53 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
+# 53 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
 typedef struct {
   UINT8 AddressSpaceId;
   UINT8 RegisterBitWidth;
@@ -842,7 +842,7 @@ typedef struct {
   UINT8 Reserved;
   UINT64 Address;
 } EFI_ACPI_2_0_GENERIC_ADDRESS_STRUCTURE;
-# 78 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
+# 78 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
 typedef struct {
   UINT64 Signature;
   UINT8 Checksum;
@@ -854,12 +854,12 @@ typedef struct {
   UINT8 ExtendedChecksum;
   UINT8 Reserved[3];
 } EFI_ACPI_2_0_ROOT_SYSTEM_DESCRIPTION_POINTER;
-# 99 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
+# 99 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
 } EFI_ACPI_2_0_COMMON_HEADER;
-# 129 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
+# 129 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 FirmwareCtrl;
@@ -914,7 +914,7 @@ typedef struct {
   EFI_ACPI_2_0_GENERIC_ADDRESS_STRUCTURE XGpe0Blk;
   EFI_ACPI_2_0_GENERIC_ADDRESS_STRUCTURE XGpe1Blk;
 } EFI_ACPI_2_0_FIXED_ACPI_DESCRIPTION_TABLE;
-# 229 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
+# 229 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
@@ -926,13 +926,13 @@ typedef struct {
   UINT8 Version;
   UINT8 Reserved[31];
 } EFI_ACPI_2_0_FIRMWARE_ACPI_CONTROL_STRUCTURE;
-# 256 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
+# 256 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 LocalApicAddress;
   UINT32 Flags;
 } EFI_ACPI_2_0_MULTIPLE_APIC_DESCRIPTION_TABLE_HEADER;
-# 295 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
+# 295 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -940,7 +940,7 @@ typedef struct {
   UINT8 ApicId;
   UINT32 Flags;
 } EFI_ACPI_2_0_PROCESSOR_LOCAL_APIC_STRUCTURE;
-# 311 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
+# 311 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1042,7 +1042,7 @@ typedef struct {
   UINT32 LowEnergyLevel;
   UINT32 CriticalEnergyLevel;
 } EFI_ACPI_2_0_SMART_BATTERY_DESCRIPTION_TABLE;
-# 423 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
+# 423 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi20.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   EFI_ACPI_2_0_GENERIC_ADDRESS_STRUCTURE EcControl;
@@ -1050,8 +1050,8 @@ typedef struct {
   UINT32 Uid;
   UINT8 GpeBit;
 } EFI_ACPI_2_0_EMBEDDED_CONTROLLER_BOOT_RESOURCES_TABLE;
-# 18 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h" 2
-# 34 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 18 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h" 2
+# 34 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   ACPI_LARGE_RESOURCE_HEADER Header;
   UINT8 ResType;
@@ -1066,7 +1066,7 @@ typedef struct {
   UINT64 AddrLen;
   UINT64 TypeSpecificAttribute;
 } EFI_ACPI_EXTENDED_ADDRESS_SPACE_DESCRIPTOR;
-# 69 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 69 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   UINT8 AddressSpaceId;
   UINT8 RegisterBitWidth;
@@ -1074,7 +1074,7 @@ typedef struct {
   UINT8 AccessSize;
   UINT64 Address;
 } EFI_ACPI_3_0_GENERIC_ADDRESS_STRUCTURE;
-# 103 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 103 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   UINT64 Signature;
   UINT8 Checksum;
@@ -1086,12 +1086,12 @@ typedef struct {
   UINT8 ExtendedChecksum;
   UINT8 Reserved[3];
 } EFI_ACPI_3_0_ROOT_SYSTEM_DESCRIPTION_POINTER;
-# 124 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 124 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
 } EFI_ACPI_3_0_COMMON_HEADER;
-# 154 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 154 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 FirmwareCtrl;
@@ -1146,7 +1146,7 @@ typedef struct {
   EFI_ACPI_3_0_GENERIC_ADDRESS_STRUCTURE XGpe0Blk;
   EFI_ACPI_3_0_GENERIC_ADDRESS_STRUCTURE XGpe1Blk;
 } EFI_ACPI_3_0_FIXED_ACPI_DESCRIPTION_TABLE;
-# 264 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 264 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
@@ -1158,13 +1158,13 @@ typedef struct {
   UINT8 Version;
   UINT8 Reserved[31];
 } EFI_ACPI_3_0_FIRMWARE_ACPI_CONTROL_STRUCTURE;
-# 301 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 301 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 LocalApicAddress;
   UINT32 Flags;
 } EFI_ACPI_3_0_MULTIPLE_APIC_DESCRIPTION_TABLE_HEADER;
-# 340 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 340 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1172,7 +1172,7 @@ typedef struct {
   UINT8 ApicId;
   UINT32 Flags;
 } EFI_ACPI_3_0_PROCESSOR_LOCAL_APIC_STRUCTURE;
-# 356 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 356 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1210,7 +1210,7 @@ typedef struct {
   UINT8 CpeiProcessorOverride;
   UINT8 Reserved[31];
 } EFI_ACPI_3_0_PLATFORM_INTERRUPT_APIC_STRUCTURE;
-# 404 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 404 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1280,14 +1280,14 @@ typedef struct {
   UINT32 GlobalSystemInterrupt;
   UINT32 PlatformInterruptSourceFlags;
 } EFI_ACPI_3_0_PLATFORM_INTERRUPT_SOURCES_STRUCTURE;
-# 483 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 483 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 WarningEnergyLevel;
   UINT32 LowEnergyLevel;
   UINT32 CriticalEnergyLevel;
 } EFI_ACPI_3_0_SMART_BATTERY_DESCRIPTION_TABLE;
-# 500 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 500 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   EFI_ACPI_3_0_GENERIC_ADDRESS_STRUCTURE EcControl;
@@ -1295,13 +1295,13 @@ typedef struct {
   UINT32 Uid;
   UINT8 GpeBit;
 } EFI_ACPI_3_0_EMBEDDED_CONTROLLER_BOOT_RESOURCES_TABLE;
-# 517 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 517 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 Reserved1;
   UINT64 Reserved2;
 } EFI_ACPI_3_0_SYSTEM_RESOURCE_AFFINITY_TABLE_HEADER;
-# 539 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 539 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1312,7 +1312,7 @@ typedef struct {
   UINT8 ProximityDomain31To8[3];
   UINT8 Reserved[4];
 } EFI_ACPI_3_0_PROCESSOR_LOCAL_APIC_SAPIC_AFFINITY_STRUCTURE;
-# 558 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 558 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1326,13 +1326,13 @@ typedef struct {
   UINT32 Flags;
   UINT64 Reserved3;
 } EFI_ACPI_3_0_MEMORY_AFFINITY_STRUCTURE;
-# 583 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
+# 583 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi30.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT64 NumberOfSystemLocalities;
 } EFI_ACPI_3_0_SYSTEM_LOCALITY_DISTANCE_INFORMATION_TABLE_HEADER;
-# 18 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h" 2
-# 27 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 18 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h" 2
+# 27 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 AddressSpaceId;
   UINT8 RegisterBitWidth;
@@ -1340,7 +1340,7 @@ typedef struct {
   UINT8 AccessSize;
   UINT64 Address;
 } EFI_ACPI_4_0_GENERIC_ADDRESS_STRUCTURE;
-# 61 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 61 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT64 Signature;
   UINT8 Checksum;
@@ -1352,12 +1352,12 @@ typedef struct {
   UINT8 ExtendedChecksum;
   UINT8 Reserved[3];
 } EFI_ACPI_4_0_ROOT_SYSTEM_DESCRIPTION_POINTER;
-# 82 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 82 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
 } EFI_ACPI_4_0_COMMON_HEADER;
-# 112 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 112 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 FirmwareCtrl;
@@ -1412,7 +1412,7 @@ typedef struct {
   EFI_ACPI_4_0_GENERIC_ADDRESS_STRUCTURE XGpe0Blk;
   EFI_ACPI_4_0_GENERIC_ADDRESS_STRUCTURE XGpe1Blk;
 } EFI_ACPI_4_0_FIXED_ACPI_DESCRIPTION_TABLE;
-# 222 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 222 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
@@ -1426,13 +1426,13 @@ typedef struct {
   UINT32 OspmFlags;
   UINT8 Reserved1[24];
 } EFI_ACPI_4_0_FIRMWARE_ACPI_CONTROL_STRUCTURE;
-# 268 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 268 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 LocalApicAddress;
   UINT32 Flags;
 } EFI_ACPI_4_0_MULTIPLE_APIC_DESCRIPTION_TABLE_HEADER;
-# 309 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 309 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1440,7 +1440,7 @@ typedef struct {
   UINT8 ApicId;
   UINT32 Flags;
 } EFI_ACPI_4_0_PROCESSOR_LOCAL_APIC_STRUCTURE;
-# 325 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 325 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1478,7 +1478,7 @@ typedef struct {
   UINT8 CpeiProcessorOverride;
   UINT8 Reserved[31];
 } EFI_ACPI_4_0_PLATFORM_INTERRUPT_APIC_STRUCTURE;
-# 373 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 373 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1548,7 +1548,7 @@ typedef struct {
   UINT32 GlobalSystemInterrupt;
   UINT32 PlatformInterruptSourceFlags;
 } EFI_ACPI_4_0_PLATFORM_INTERRUPT_SOURCES_STRUCTURE;
-# 452 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 452 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1579,7 +1579,7 @@ typedef struct {
   UINT32 LowEnergyLevel;
   UINT32 CriticalEnergyLevel;
 } EFI_ACPI_4_0_SMART_BATTERY_DESCRIPTION_TABLE;
-# 493 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 493 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   EFI_ACPI_4_0_GENERIC_ADDRESS_STRUCTURE EcControl;
@@ -1587,13 +1587,13 @@ typedef struct {
   UINT32 Uid;
   UINT8 GpeBit;
 } EFI_ACPI_4_0_EMBEDDED_CONTROLLER_BOOT_RESOURCES_TABLE;
-# 510 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 510 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 Reserved1;
   UINT64 Reserved2;
 } EFI_ACPI_4_0_SYSTEM_RESOURCE_AFFINITY_TABLE_HEADER;
-# 533 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 533 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1604,7 +1604,7 @@ typedef struct {
   UINT8 ProximityDomain31To8[3];
   UINT32 ClockDomain;
 } EFI_ACPI_4_0_PROCESSOR_LOCAL_APIC_SAPIC_AFFINITY_STRUCTURE;
-# 552 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 552 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1618,7 +1618,7 @@ typedef struct {
   UINT32 Flags;
   UINT64 Reserved3;
 } EFI_ACPI_4_0_MEMORY_AFFINITY_STRUCTURE;
-# 576 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 576 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1638,12 +1638,12 @@ typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT64 NumberOfSystemLocalities;
 } EFI_ACPI_4_0_SYSTEM_LOCALITY_DISTANCE_INFORMATION_TABLE_HEADER;
-# 604 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 604 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT8 Reserved[8];
 } EFI_ACPI_4_0_CORRECTED_PLATFORM_ERROR_POLLING_TABLE_HEADER;
-# 622 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 622 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -1662,7 +1662,7 @@ typedef struct {
   UINT32 MaximumNumberOfClockDomains;
   UINT64 MaximumPhysicalAddress;
 } EFI_ACPI_4_0_MAXIMUM_SYSTEM_CHARACTERISTICS_TABLE_HEADER;
-# 649 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 649 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 Revision;
   UINT8 Length;
@@ -1680,7 +1680,7 @@ typedef struct {
   UINT32 BootErrorRegionLength;
   UINT64 BootErrorRegion;
 } EFI_ACPI_4_0_BOOT_ERROR_RECORD_TABLE_HEADER;
-# 675 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 675 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT32 UncorrectableErrorValid:1;
   UINT32 CorrectableErrorValid:1;
@@ -1700,7 +1700,7 @@ typedef struct {
   UINT32 DataLength;
   UINT32 ErrorSeverity;
 } EFI_ACPI_4_0_BOOT_ERROR_REGION_STRUCTURE;
-# 706 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 706 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 SectionType[16];
   UINT32 ErrorSeverity;
@@ -1711,12 +1711,12 @@ typedef struct {
   UINT8 FruId[16];
   UINT8 FruText[20];
 } EFI_ACPI_4_0_GENERIC_ERROR_DATA_ENTRY_STRUCTURE;
-# 725 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 725 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 ErrorSourceCount;
 } EFI_ACPI_4_0_HARDWARE_ERROR_SOURCE_TABLE_HEADER;
-# 755 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 755 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT16 Type;
   UINT16 SourceId;
@@ -1745,7 +1745,7 @@ typedef struct {
   UINT32 AddressRegisterMsrAddress;
   UINT32 MiscRegisterMsrAddress;
 } EFI_ACPI_4_0_IA32_ARCHITECTURE_MACHINE_CHECK_ERROR_BANK_STRUCTURE;
-# 803 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 803 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT16 Type:1;
   UINT16 PollInterval:1;
@@ -1906,7 +1906,7 @@ typedef struct {
   UINT8 Reserved0[4];
   UINT32 InstructionEntryCount;
 } EFI_ACPI_4_0_ERROR_RECORD_SERIALIZATION_TABLE_HEADER;
-# 1029 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 1029 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 SerializationAction;
   UINT8 Instruction;
@@ -1927,7 +1927,7 @@ typedef struct {
   UINT8 Reserved0[3];
   UINT32 InjectionEntryCount;
 } EFI_ACPI_4_0_ERROR_INJECTION_TABLE_HEADER;
-# 1108 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
+# 1108 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi40.h"
 typedef struct {
   UINT8 InjectionAction;
   UINT8 Instruction;
@@ -1947,8 +1947,8 @@ typedef struct {
   UINT32 TableSize;
   UINT32 EntryCount;
 } EFI_ACPI_4_0_EINJ_TRIGGER_ACTION_TABLE;
-# 19 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h" 2
-# 36 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 19 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h" 2
+# 36 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   ACPI_SMALL_RESOURCE_HEADER Header;
   UINT16 DmaRequestLine;
@@ -1992,7 +1992,7 @@ typedef struct {
   UINT16 TypeDataLength;
 
 } EFI_ACPI_SERIAL_BUS_RESOURCE_DESCRIPTOR;
-# 87 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 87 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   ACPI_LARGE_RESOURCE_HEADER Header;
   UINT8 RevisionId;
@@ -2043,7 +2043,7 @@ typedef struct {
   UINT8 Parity;
   UINT8 SerialLinesEnabled;
 } EFI_ACPI_SERIAL_BUS_RESOURCE_UART_DESCRIPTOR;
-# 148 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 148 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 AddressSpaceId;
   UINT8 RegisterBitWidth;
@@ -2051,7 +2051,7 @@ typedef struct {
   UINT8 AccessSize;
   UINT64 Address;
 } EFI_ACPI_5_0_GENERIC_ADDRESS_STRUCTURE;
-# 183 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 183 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT64 Signature;
   UINT8 Checksum;
@@ -2063,12 +2063,12 @@ typedef struct {
   UINT8 ExtendedChecksum;
   UINT8 Reserved[3];
 } EFI_ACPI_5_0_ROOT_SYSTEM_DESCRIPTION_POINTER;
-# 204 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 204 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
 } EFI_ACPI_5_0_COMMON_HEADER;
-# 234 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 234 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 FirmwareCtrl;
@@ -2125,7 +2125,7 @@ typedef struct {
   EFI_ACPI_5_0_GENERIC_ADDRESS_STRUCTURE SleepControlReg;
   EFI_ACPI_5_0_GENERIC_ADDRESS_STRUCTURE SleepStatusReg;
 } EFI_ACPI_5_0_FIXED_ACPI_DESCRIPTION_TABLE;
-# 350 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 350 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
@@ -2139,13 +2139,13 @@ typedef struct {
   UINT32 OspmFlags;
   UINT8 Reserved1[24];
 } EFI_ACPI_5_0_FIRMWARE_ACPI_CONTROL_STRUCTURE;
-# 396 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 396 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 LocalApicAddress;
   UINT32 Flags;
 } EFI_ACPI_5_0_MULTIPLE_APIC_DESCRIPTION_TABLE_HEADER;
-# 439 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 439 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -2153,7 +2153,7 @@ typedef struct {
   UINT8 ApicId;
   UINT32 Flags;
 } EFI_ACPI_5_0_PROCESSOR_LOCAL_APIC_STRUCTURE;
-# 455 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 455 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -2191,7 +2191,7 @@ typedef struct {
   UINT8 CpeiProcessorOverride;
   UINT8 Reserved[31];
 } EFI_ACPI_5_0_PLATFORM_INTERRUPT_APIC_STRUCTURE;
-# 503 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 503 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -2261,7 +2261,7 @@ typedef struct {
   UINT32 GlobalSystemInterrupt;
   UINT32 PlatformInterruptSourceFlags;
 } EFI_ACPI_5_0_PLATFORM_INTERRUPT_SOURCES_STRUCTURE;
-# 582 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 582 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -2298,7 +2298,7 @@ typedef struct {
   UINT64 ParkedAddress;
   UINT64 PhysicalBaseAddress;
 } EFI_ACPI_5_0_GIC_STRUCTURE;
-# 628 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 628 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -2318,7 +2318,7 @@ typedef struct {
   UINT32 LowEnergyLevel;
   UINT32 CriticalEnergyLevel;
 } EFI_ACPI_5_0_SMART_BATTERY_DESCRIPTION_TABLE;
-# 658 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 658 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   EFI_ACPI_5_0_GENERIC_ADDRESS_STRUCTURE EcControl;
@@ -2326,13 +2326,13 @@ typedef struct {
   UINT32 Uid;
   UINT8 GpeBit;
 } EFI_ACPI_5_0_EMBEDDED_CONTROLLER_BOOT_RESOURCES_TABLE;
-# 675 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 675 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 Reserved1;
   UINT64 Reserved2;
 } EFI_ACPI_5_0_SYSTEM_RESOURCE_AFFINITY_TABLE_HEADER;
-# 698 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 698 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -2343,7 +2343,7 @@ typedef struct {
   UINT8 ProximityDomain31To8[3];
   UINT32 ClockDomain;
 } EFI_ACPI_5_0_PROCESSOR_LOCAL_APIC_SAPIC_AFFINITY_STRUCTURE;
-# 717 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 717 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -2357,7 +2357,7 @@ typedef struct {
   UINT32 Flags;
   UINT64 Reserved3;
 } EFI_ACPI_5_0_MEMORY_AFFINITY_STRUCTURE;
-# 741 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 741 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -2377,12 +2377,12 @@ typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT64 NumberOfSystemLocalities;
 } EFI_ACPI_5_0_SYSTEM_LOCALITY_DISTANCE_INFORMATION_TABLE_HEADER;
-# 769 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 769 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT8 Reserved[8];
 } EFI_ACPI_5_0_CORRECTED_PLATFORM_ERROR_POLLING_TABLE_HEADER;
-# 787 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 787 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -2401,7 +2401,7 @@ typedef struct {
   UINT32 MaximumNumberOfClockDomains;
   UINT64 MaximumPhysicalAddress;
 } EFI_ACPI_5_0_MAXIMUM_SYSTEM_CHARACTERISTICS_TABLE_HEADER;
-# 814 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 814 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 Revision;
   UINT8 Length;
@@ -2418,7 +2418,7 @@ typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT8 PlatformCommunicationChannelIdentifier[12];
 } EFI_ACPI_5_0_RAS_FEATURE_TABLE;
-# 839 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 839 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT32 Signature;
   UINT16 Command;
@@ -2429,7 +2429,7 @@ typedef struct {
   UINT16 NumberOfRASFParameterBlocks;
   UINT32 SetRASCapabilitiesStatus;
 } EFI_ACPI_5_0_RASF_PLATFORM_COMMUNICATION_CHANNEL_SHARED_MEMORY_REGION;
-# 864 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 864 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT16 Type;
   UINT16 Version;
@@ -2440,7 +2440,7 @@ typedef struct {
   UINT16 Flags;
   UINT8 RequestedSpeed;
 } EFI_ACPI_5_0_RASF_PATROL_SCRUB_PLATFORM_BLOCK_STRUCTURE;
-# 885 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 885 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT8 PlatformCommunicationChannelIdentifier;
@@ -2448,7 +2448,7 @@ typedef struct {
 
 
 } EFI_ACPI_5_0_MEMORY_POWER_STATUS_TABLE;
-# 901 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 901 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT32 Signature;
   UINT16 Command;
@@ -2460,7 +2460,7 @@ typedef struct {
   UINT64 MemoryEnergyConsumed;
   UINT64 ExpectedAveragePowerComsuned;
 } EFI_ACPI_5_0_MPST_PLATFORM_COMMUNICATION_CHANNEL_SHARED_MEMORY_REGION;
-# 929 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 929 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 PowerStateValue;
   UINT8 PowerStateInformationIndex;
@@ -2516,7 +2516,7 @@ typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 Reserved;
 } EFI_ACPI_5_0_MEMORY_TOPOLOGY_TABLE;
-# 993 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 993 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 Type;
   UINT8 Reserved;
@@ -2524,7 +2524,7 @@ typedef struct {
   UINT16 Flags;
   UINT16 Reserved1;
 } EFI_ACPI_5_0_PMMT_COMMON_MEMORY_AGGREGATOR_DEVICE_STRUCTURE;
-# 1011 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1011 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   EFI_ACPI_5_0_PMMT_COMMON_MEMORY_AGGREGATOR_DEVICE_STRUCTURE Header;
   UINT16 SocketIdentifier;
@@ -2599,7 +2599,7 @@ typedef struct {
 
   UINT32 ImageOffsetY;
 } EFI_ACPI_5_0_BOOT_GRAPHICS_RESOURCE_TABLE;
-# 1143 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1143 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT16 Type;
   UINT8 Length;
@@ -2673,14 +2673,14 @@ typedef struct {
 
   UINT64 ExitBootServicesExit;
 } EFI_ACPI_5_0_FPDT_FIRMWARE_BASIC_BOOT_RECORD;
-# 1225 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1225 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   EFI_ACPI_5_0_FPDT_PERFORMANCE_TABLE_HEADER Header;
 
 
 
 } EFI_ACPI_5_0_FPDT_FIRMWARE_BASIC_BOOT_TABLE;
-# 1240 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1240 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   EFI_ACPI_5_0_FPDT_PERFORMANCE_TABLE_HEADER Header;
 
@@ -2751,13 +2751,13 @@ typedef struct {
   UINT32 NonSecurePL2TimerGSIV;
   UINT32 NonSecurePL2TimerFlags;
 } EFI_ACPI_5_0_GENERIC_TIMER_DESCRIPTION_TABLE;
-# 1331 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1331 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 BootErrorRegionLength;
   UINT64 BootErrorRegion;
 } EFI_ACPI_5_0_BOOT_ERROR_RECORD_TABLE_HEADER;
-# 1345 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1345 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT32 UncorrectableErrorValid:1;
   UINT32 CorrectableErrorValid:1;
@@ -2777,7 +2777,7 @@ typedef struct {
   UINT32 DataLength;
   UINT32 ErrorSeverity;
 } EFI_ACPI_5_0_BOOT_ERROR_REGION_STRUCTURE;
-# 1376 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1376 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 SectionType[16];
   UINT32 ErrorSeverity;
@@ -2788,12 +2788,12 @@ typedef struct {
   UINT8 FruId[16];
   UINT8 FruText[20];
 } EFI_ACPI_5_0_GENERIC_ERROR_DATA_ENTRY_STRUCTURE;
-# 1395 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1395 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 ErrorSourceCount;
 } EFI_ACPI_5_0_HARDWARE_ERROR_SOURCE_TABLE_HEADER;
-# 1425 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1425 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT16 Type;
   UINT16 SourceId;
@@ -2822,7 +2822,7 @@ typedef struct {
   UINT32 AddressRegisterMsrAddress;
   UINT32 MiscRegisterMsrAddress;
 } EFI_ACPI_5_0_IA32_ARCHITECTURE_MACHINE_CHECK_ERROR_BANK_STRUCTURE;
-# 1473 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1473 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT16 Type:1;
   UINT16 PollInterval:1;
@@ -2983,7 +2983,7 @@ typedef struct {
   UINT8 Reserved0[4];
   UINT32 InstructionEntryCount;
 } EFI_ACPI_5_0_ERROR_RECORD_SERIALIZATION_TABLE_HEADER;
-# 1699 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1699 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 SerializationAction;
   UINT8 Instruction;
@@ -3004,7 +3004,7 @@ typedef struct {
   UINT8 Reserved0[3];
   UINT32 InjectionEntryCount;
 } EFI_ACPI_5_0_ERROR_INJECTION_TABLE_HEADER;
-# 1778 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1778 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 InjectionAction;
   UINT8 Instruction;
@@ -3033,7 +3033,7 @@ typedef struct {
   UINT32 Flags;
   UINT64 Reserved;
 } EFI_ACPI_5_0_PLATFORM_COMMUNICATION_CHANNEL_TABLE_HEADER;
-# 1825 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
+# 1825 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi50.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -3080,8 +3080,8 @@ typedef struct {
   EFI_ACPI_5_0_PCCT_GENERIC_SHARED_MEMORY_REGION_COMMAND Command;
   EFI_ACPI_5_0_PCCT_GENERIC_SHARED_MEMORY_REGION_STATUS Status;
 } EFI_ACPI_5_0_PCCT_GENERIC_SHARED_MEMORY_REGION_HEADER;
-# 20 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h" 2
-# 29 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 20 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h" 2
+# 29 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 AddressSpaceId;
   UINT8 RegisterBitWidth;
@@ -3089,7 +3089,7 @@ typedef struct {
   UINT8 AccessSize;
   UINT64 Address;
 } EFI_ACPI_5_1_GENERIC_ADDRESS_STRUCTURE;
-# 64 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 64 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT64 Signature;
   UINT8 Checksum;
@@ -3101,12 +3101,12 @@ typedef struct {
   UINT8 ExtendedChecksum;
   UINT8 Reserved[3];
 } EFI_ACPI_5_1_ROOT_SYSTEM_DESCRIPTION_POINTER;
-# 85 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 85 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
 } EFI_ACPI_5_1_COMMON_HEADER;
-# 115 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 115 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 FirmwareCtrl;
@@ -3164,7 +3164,7 @@ typedef struct {
   EFI_ACPI_5_1_GENERIC_ADDRESS_STRUCTURE SleepControlReg;
   EFI_ACPI_5_1_GENERIC_ADDRESS_STRUCTURE SleepStatusReg;
 } EFI_ACPI_5_1_FIXED_ACPI_DESCRIPTION_TABLE;
-# 240 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 240 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
@@ -3178,13 +3178,13 @@ typedef struct {
   UINT32 OspmFlags;
   UINT8 Reserved1[24];
 } EFI_ACPI_5_1_FIRMWARE_ACPI_CONTROL_STRUCTURE;
-# 286 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 286 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 LocalApicAddress;
   UINT32 Flags;
 } EFI_ACPI_5_1_MULTIPLE_APIC_DESCRIPTION_TABLE_HEADER;
-# 331 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 331 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -3192,7 +3192,7 @@ typedef struct {
   UINT8 ApicId;
   UINT32 Flags;
 } EFI_ACPI_5_1_PROCESSOR_LOCAL_APIC_STRUCTURE;
-# 347 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 347 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -3230,7 +3230,7 @@ typedef struct {
   UINT8 CpeiProcessorOverride;
   UINT8 Reserved[31];
 } EFI_ACPI_5_1_PLATFORM_INTERRUPT_APIC_STRUCTURE;
-# 395 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 395 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -3300,7 +3300,7 @@ typedef struct {
   UINT32 GlobalSystemInterrupt;
   UINT32 PlatformInterruptSourceFlags;
 } EFI_ACPI_5_1_PLATFORM_INTERRUPT_SOURCES_STRUCTURE;
-# 474 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 474 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -3342,7 +3342,7 @@ typedef struct {
   UINT64 GICRBaseAddress;
   UINT64 MPIDR;
 } EFI_ACPI_5_1_GIC_STRUCTURE;
-# 526 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 526 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -3353,7 +3353,7 @@ typedef struct {
   UINT8 GicVersion;
   UINT8 Reserved2[3];
 } EFI_ACPI_5_1_GIC_DISTRIBUTOR_STRUCTURE;
-# 548 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 548 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -3364,7 +3364,7 @@ typedef struct {
   UINT16 SPICount;
   UINT16 SPIBase;
 } EFI_ACPI_5_1_GIC_MSI_FRAME_STRUCTURE;
-# 567 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 567 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -3382,7 +3382,7 @@ typedef struct {
   UINT32 LowEnergyLevel;
   UINT32 CriticalEnergyLevel;
 } EFI_ACPI_5_1_SMART_BATTERY_DESCRIPTION_TABLE;
-# 595 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 595 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   EFI_ACPI_5_1_GENERIC_ADDRESS_STRUCTURE EcControl;
@@ -3390,13 +3390,13 @@ typedef struct {
   UINT32 Uid;
   UINT8 GpeBit;
 } EFI_ACPI_5_1_EMBEDDED_CONTROLLER_BOOT_RESOURCES_TABLE;
-# 612 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 612 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 Reserved1;
   UINT64 Reserved2;
 } EFI_ACPI_5_1_SYSTEM_RESOURCE_AFFINITY_TABLE_HEADER;
-# 636 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 636 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -3407,7 +3407,7 @@ typedef struct {
   UINT8 ProximityDomain31To8[3];
   UINT32 ClockDomain;
 } EFI_ACPI_5_1_PROCESSOR_LOCAL_APIC_SAPIC_AFFINITY_STRUCTURE;
-# 655 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 655 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -3421,7 +3421,7 @@ typedef struct {
   UINT32 Flags;
   UINT64 Reserved3;
 } EFI_ACPI_5_1_MEMORY_AFFINITY_STRUCTURE;
-# 679 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 679 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -3444,17 +3444,17 @@ typedef struct {
   UINT32 Flags;
   UINT32 ClockDomain;
 } EFI_ACPI_5_1_GICC_AFFINITY_STRUCTURE;
-# 711 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 711 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT64 NumberOfSystemLocalities;
 } EFI_ACPI_5_1_SYSTEM_LOCALITY_DISTANCE_INFORMATION_TABLE_HEADER;
-# 724 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 724 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT8 Reserved[8];
 } EFI_ACPI_5_1_CORRECTED_PLATFORM_ERROR_POLLING_TABLE_HEADER;
-# 742 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 742 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -3473,7 +3473,7 @@ typedef struct {
   UINT32 MaximumNumberOfClockDomains;
   UINT64 MaximumPhysicalAddress;
 } EFI_ACPI_5_1_MAXIMUM_SYSTEM_CHARACTERISTICS_TABLE_HEADER;
-# 769 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 769 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Revision;
   UINT8 Length;
@@ -3490,7 +3490,7 @@ typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT8 PlatformCommunicationChannelIdentifier[12];
 } EFI_ACPI_5_1_RAS_FEATURE_TABLE;
-# 794 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 794 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT32 Signature;
   UINT16 Command;
@@ -3501,7 +3501,7 @@ typedef struct {
   UINT16 NumberOfRASFParameterBlocks;
   UINT32 SetRASCapabilitiesStatus;
 } EFI_ACPI_5_1_RASF_PLATFORM_COMMUNICATION_CHANNEL_SHARED_MEMORY_REGION;
-# 819 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 819 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT16 Type;
   UINT16 Version;
@@ -3512,7 +3512,7 @@ typedef struct {
   UINT16 Flags;
   UINT8 RequestedSpeed;
 } EFI_ACPI_5_1_RASF_PATROL_SCRUB_PLATFORM_BLOCK_STRUCTURE;
-# 840 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 840 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT8 PlatformCommunicationChannelIdentifier;
@@ -3520,7 +3520,7 @@ typedef struct {
 
 
 } EFI_ACPI_5_1_MEMORY_POWER_STATUS_TABLE;
-# 856 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 856 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT32 Signature;
   UINT16 Command;
@@ -3532,7 +3532,7 @@ typedef struct {
   UINT64 MemoryEnergyConsumed;
   UINT64 ExpectedAveragePowerComsuned;
 } EFI_ACPI_5_1_MPST_PLATFORM_COMMUNICATION_CHANNEL_SHARED_MEMORY_REGION;
-# 884 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 884 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 PowerStateValue;
   UINT8 PowerStateInformationIndex;
@@ -3588,7 +3588,7 @@ typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 Reserved;
 } EFI_ACPI_5_1_MEMORY_TOPOLOGY_TABLE;
-# 948 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 948 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Reserved;
@@ -3596,7 +3596,7 @@ typedef struct {
   UINT16 Flags;
   UINT16 Reserved1;
 } EFI_ACPI_5_1_PMMT_COMMON_MEMORY_AGGREGATOR_DEVICE_STRUCTURE;
-# 966 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 966 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   EFI_ACPI_5_1_PMMT_COMMON_MEMORY_AGGREGATOR_DEVICE_STRUCTURE Header;
   UINT16 SocketIdentifier;
@@ -3671,7 +3671,7 @@ typedef struct {
 
   UINT32 ImageOffsetY;
 } EFI_ACPI_5_1_BOOT_GRAPHICS_RESOURCE_TABLE;
-# 1096 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1096 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT16 Type;
   UINT8 Length;
@@ -3745,14 +3745,14 @@ typedef struct {
 
   UINT64 ExitBootServicesExit;
 } EFI_ACPI_5_1_FPDT_FIRMWARE_BASIC_BOOT_RECORD;
-# 1178 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1178 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   EFI_ACPI_5_1_FPDT_PERFORMANCE_TABLE_HEADER Header;
 
 
 
 } EFI_ACPI_5_1_FPDT_FIRMWARE_BASIC_BOOT_TABLE;
-# 1193 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1193 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   EFI_ACPI_5_1_FPDT_PERFORMANCE_TABLE_HEADER Header;
 
@@ -3826,7 +3826,7 @@ typedef struct {
   UINT32 PlatformTimerCount;
   UINT32 PlatformTimerOffset;
 } EFI_ACPI_5_1_GENERIC_TIMER_DESCRIPTION_TABLE;
-# 1288 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1288 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT16 Length;
@@ -3850,7 +3850,7 @@ typedef struct {
   UINT32 GTxVirtualTimerFlags;
   UINT32 GTxCommonFlags;
 } EFI_ACPI_5_1_GTDT_GT_BLOCK_TIMER_STRUCTURE;
-# 1327 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1327 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT16 Length;
@@ -3860,13 +3860,13 @@ typedef struct {
   UINT32 WatchdogTimerGSIV;
   UINT32 WatchdogTimerFlags;
 } EFI_ACPI_5_1_GTDT_SBSA_GENERIC_WATCHDOG_STRUCTURE;
-# 1347 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1347 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 BootErrorRegionLength;
   UINT64 BootErrorRegion;
 } EFI_ACPI_5_1_BOOT_ERROR_RECORD_TABLE_HEADER;
-# 1361 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1361 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT32 UncorrectableErrorValid:1;
   UINT32 CorrectableErrorValid:1;
@@ -3886,7 +3886,7 @@ typedef struct {
   UINT32 DataLength;
   UINT32 ErrorSeverity;
 } EFI_ACPI_5_1_BOOT_ERROR_REGION_STRUCTURE;
-# 1392 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1392 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 SectionType[16];
   UINT32 ErrorSeverity;
@@ -3897,12 +3897,12 @@ typedef struct {
   UINT8 FruId[16];
   UINT8 FruText[20];
 } EFI_ACPI_5_1_GENERIC_ERROR_DATA_ENTRY_STRUCTURE;
-# 1411 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1411 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 ErrorSourceCount;
 } EFI_ACPI_5_1_HARDWARE_ERROR_SOURCE_TABLE_HEADER;
-# 1441 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1441 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT16 Type;
   UINT16 SourceId;
@@ -3931,7 +3931,7 @@ typedef struct {
   UINT32 AddressRegisterMsrAddress;
   UINT32 MiscRegisterMsrAddress;
 } EFI_ACPI_5_1_IA32_ARCHITECTURE_MACHINE_CHECK_ERROR_BANK_STRUCTURE;
-# 1489 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1489 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT16 Type:1;
   UINT16 PollInterval:1;
@@ -4092,7 +4092,7 @@ typedef struct {
   UINT8 Reserved0[4];
   UINT32 InstructionEntryCount;
 } EFI_ACPI_5_1_ERROR_RECORD_SERIALIZATION_TABLE_HEADER;
-# 1715 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1715 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 SerializationAction;
   UINT8 Instruction;
@@ -4113,7 +4113,7 @@ typedef struct {
   UINT8 Reserved0[3];
   UINT32 InjectionEntryCount;
 } EFI_ACPI_5_1_ERROR_INJECTION_TABLE_HEADER;
-# 1794 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1794 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 InjectionAction;
   UINT8 Instruction;
@@ -4142,7 +4142,7 @@ typedef struct {
   UINT32 Flags;
   UINT64 Reserved;
 } EFI_ACPI_5_1_PLATFORM_COMMUNICATION_CHANNEL_TABLE_HEADER;
-# 1841 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
+# 1841 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi51.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -4189,8 +4189,8 @@ typedef struct {
   EFI_ACPI_5_1_PCCT_GENERIC_SHARED_MEMORY_REGION_COMMAND Command;
   EFI_ACPI_5_1_PCCT_GENERIC_SHARED_MEMORY_REGION_STATUS Status;
 } EFI_ACPI_5_1_PCCT_GENERIC_SHARED_MEMORY_REGION_HEADER;
-# 19 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h" 2
-# 28 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 19 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h" 2
+# 28 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 AddressSpaceId;
   UINT8 RegisterBitWidth;
@@ -4198,7 +4198,7 @@ typedef struct {
   UINT8 AccessSize;
   UINT64 Address;
 } EFI_ACPI_6_0_GENERIC_ADDRESS_STRUCTURE;
-# 63 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 63 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT64 Signature;
   UINT8 Checksum;
@@ -4210,12 +4210,12 @@ typedef struct {
   UINT8 ExtendedChecksum;
   UINT8 Reserved[3];
 } EFI_ACPI_6_0_ROOT_SYSTEM_DESCRIPTION_POINTER;
-# 84 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 84 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
 } EFI_ACPI_6_0_COMMON_HEADER;
-# 114 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 114 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 FirmwareCtrl;
@@ -4274,7 +4274,7 @@ typedef struct {
   EFI_ACPI_6_0_GENERIC_ADDRESS_STRUCTURE SleepStatusReg;
   UINT64 HypervisorVendorIdentity;
 } EFI_ACPI_6_0_FIXED_ACPI_DESCRIPTION_TABLE;
-# 240 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 240 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT32 Signature;
   UINT32 Length;
@@ -4288,13 +4288,13 @@ typedef struct {
   UINT32 OspmFlags;
   UINT8 Reserved1[24];
 } EFI_ACPI_6_0_FIRMWARE_ACPI_CONTROL_STRUCTURE;
-# 286 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 286 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 LocalApicAddress;
   UINT32 Flags;
 } EFI_ACPI_6_0_MULTIPLE_APIC_DESCRIPTION_TABLE_HEADER;
-# 332 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 332 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -4302,7 +4302,7 @@ typedef struct {
   UINT8 ApicId;
   UINT32 Flags;
 } EFI_ACPI_6_0_PROCESSOR_LOCAL_APIC_STRUCTURE;
-# 348 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 348 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -4340,7 +4340,7 @@ typedef struct {
   UINT8 CpeiProcessorOverride;
   UINT8 Reserved[31];
 } EFI_ACPI_6_0_PLATFORM_INTERRUPT_APIC_STRUCTURE;
-# 396 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 396 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -4410,7 +4410,7 @@ typedef struct {
   UINT32 GlobalSystemInterrupt;
   UINT32 PlatformInterruptSourceFlags;
 } EFI_ACPI_6_0_PLATFORM_INTERRUPT_SOURCES_STRUCTURE;
-# 475 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 475 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -4454,7 +4454,7 @@ typedef struct {
   UINT8 ProcessorPowerEfficiencyClass;
   UINT8 Reserved2[3];
 } EFI_ACPI_6_0_GIC_STRUCTURE;
-# 529 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 529 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -4465,7 +4465,7 @@ typedef struct {
   UINT8 GicVersion;
   UINT8 Reserved2[3];
 } EFI_ACPI_6_0_GIC_DISTRIBUTOR_STRUCTURE;
-# 551 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 551 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -4476,7 +4476,7 @@ typedef struct {
   UINT16 SPICount;
   UINT16 SPIBase;
 } EFI_ACPI_6_0_GIC_MSI_FRAME_STRUCTURE;
-# 570 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 570 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -4506,7 +4506,7 @@ typedef struct {
   UINT32 LowEnergyLevel;
   UINT32 CriticalEnergyLevel;
 } EFI_ACPI_6_0_SMART_BATTERY_DESCRIPTION_TABLE;
-# 610 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 610 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   EFI_ACPI_6_0_GENERIC_ADDRESS_STRUCTURE EcControl;
@@ -4514,13 +4514,13 @@ typedef struct {
   UINT32 Uid;
   UINT8 GpeBit;
 } EFI_ACPI_6_0_EMBEDDED_CONTROLLER_BOOT_RESOURCES_TABLE;
-# 627 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 627 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 Reserved1;
   UINT64 Reserved2;
 } EFI_ACPI_6_0_SYSTEM_RESOURCE_AFFINITY_TABLE_HEADER;
-# 651 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 651 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -4531,7 +4531,7 @@ typedef struct {
   UINT8 ProximityDomain31To8[3];
   UINT32 ClockDomain;
 } EFI_ACPI_6_0_PROCESSOR_LOCAL_APIC_SAPIC_AFFINITY_STRUCTURE;
-# 670 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 670 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -4545,7 +4545,7 @@ typedef struct {
   UINT32 Flags;
   UINT64 Reserved3;
 } EFI_ACPI_6_0_MEMORY_AFFINITY_STRUCTURE;
-# 694 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 694 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -4568,17 +4568,17 @@ typedef struct {
   UINT32 Flags;
   UINT32 ClockDomain;
 } EFI_ACPI_6_0_GICC_AFFINITY_STRUCTURE;
-# 726 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 726 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT64 NumberOfSystemLocalities;
 } EFI_ACPI_6_0_SYSTEM_LOCALITY_DISTANCE_INFORMATION_TABLE_HEADER;
-# 739 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 739 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT8 Reserved[8];
 } EFI_ACPI_6_0_CORRECTED_PLATFORM_ERROR_POLLING_TABLE_HEADER;
-# 757 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 757 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -4597,7 +4597,7 @@ typedef struct {
   UINT32 MaximumNumberOfClockDomains;
   UINT64 MaximumPhysicalAddress;
 } EFI_ACPI_6_0_MAXIMUM_SYSTEM_CHARACTERISTICS_TABLE_HEADER;
-# 784 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 784 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Revision;
   UINT8 Length;
@@ -4614,7 +4614,7 @@ typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT8 PlatformCommunicationChannelIdentifier[12];
 } EFI_ACPI_6_0_RAS_FEATURE_TABLE;
-# 809 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 809 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT32 Signature;
   UINT16 Command;
@@ -4625,7 +4625,7 @@ typedef struct {
   UINT16 NumberOfRASFParameterBlocks;
   UINT32 SetRASCapabilitiesStatus;
 } EFI_ACPI_6_0_RASF_PLATFORM_COMMUNICATION_CHANNEL_SHARED_MEMORY_REGION;
-# 834 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 834 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT16 Type;
   UINT16 Version;
@@ -4636,7 +4636,7 @@ typedef struct {
   UINT16 Flags;
   UINT8 RequestedSpeed;
 } EFI_ACPI_6_0_RASF_PATROL_SCRUB_PLATFORM_BLOCK_STRUCTURE;
-# 855 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 855 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT8 PlatformCommunicationChannelIdentifier;
@@ -4644,7 +4644,7 @@ typedef struct {
 
 
 } EFI_ACPI_6_0_MEMORY_POWER_STATUS_TABLE;
-# 871 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 871 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT32 Signature;
   UINT16 Command;
@@ -4656,7 +4656,7 @@ typedef struct {
   UINT64 MemoryEnergyConsumed;
   UINT64 ExpectedAveragePowerComsuned;
 } EFI_ACPI_6_0_MPST_PLATFORM_COMMUNICATION_CHANNEL_SHARED_MEMORY_REGION;
-# 899 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 899 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 PowerStateValue;
   UINT8 PowerStateInformationIndex;
@@ -4712,7 +4712,7 @@ typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 Reserved;
 } EFI_ACPI_6_0_MEMORY_TOPOLOGY_TABLE;
-# 963 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 963 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Reserved;
@@ -4720,7 +4720,7 @@ typedef struct {
   UINT16 Flags;
   UINT16 Reserved1;
 } EFI_ACPI_6_0_PMMT_COMMON_MEMORY_AGGREGATOR_DEVICE_STRUCTURE;
-# 981 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 981 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   EFI_ACPI_6_0_PMMT_COMMON_MEMORY_AGGREGATOR_DEVICE_STRUCTURE Header;
   UINT16 SocketIdentifier;
@@ -4795,7 +4795,7 @@ typedef struct {
 
   UINT32 ImageOffsetY;
 } EFI_ACPI_6_0_BOOT_GRAPHICS_RESOURCE_TABLE;
-# 1111 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1111 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT16 Type;
   UINT8 Length;
@@ -4869,14 +4869,14 @@ typedef struct {
 
   UINT64 ExitBootServicesExit;
 } EFI_ACPI_6_0_FPDT_FIRMWARE_BASIC_BOOT_RECORD;
-# 1193 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1193 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   EFI_ACPI_6_0_FPDT_PERFORMANCE_TABLE_HEADER Header;
 
 
 
 } EFI_ACPI_6_0_FPDT_FIRMWARE_BASIC_BOOT_TABLE;
-# 1208 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1208 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   EFI_ACPI_6_0_FPDT_PERFORMANCE_TABLE_HEADER Header;
 
@@ -4950,7 +4950,7 @@ typedef struct {
   UINT32 PlatformTimerCount;
   UINT32 PlatformTimerOffset;
 } EFI_ACPI_6_0_GENERIC_TIMER_DESCRIPTION_TABLE;
-# 1303 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1303 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT16 Length;
@@ -4974,7 +4974,7 @@ typedef struct {
   UINT32 GTxVirtualTimerFlags;
   UINT32 GTxCommonFlags;
 } EFI_ACPI_6_0_GTDT_GT_BLOCK_TIMER_STRUCTURE;
-# 1342 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1342 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT16 Length;
@@ -4984,17 +4984,17 @@ typedef struct {
   UINT32 WatchdogTimerGSIV;
   UINT32 WatchdogTimerFlags;
 } EFI_ACPI_6_0_GTDT_SBSA_GENERIC_WATCHDOG_STRUCTURE;
-# 1362 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1362 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 Reserved;
 } EFI_ACPI_6_0_NVDIMM_FIRMWARE_INTERFACE_TABLE;
-# 1386 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1386 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT16 Type;
   UINT16 Length;
 } EFI_ACPI_6_0_NFIT_STRUCTURE_HEADER;
-# 1404 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1404 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT16 Type;
   UINT16 Length;
@@ -5127,7 +5127,7 @@ typedef struct {
   UINT32 BootErrorRegionLength;
   UINT64 BootErrorRegion;
 } EFI_ACPI_6_0_BOOT_ERROR_RECORD_TABLE_HEADER;
-# 1545 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1545 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT32 UncorrectableErrorValid:1;
   UINT32 CorrectableErrorValid:1;
@@ -5147,7 +5147,7 @@ typedef struct {
   UINT32 DataLength;
   UINT32 ErrorSeverity;
 } EFI_ACPI_6_0_BOOT_ERROR_REGION_STRUCTURE;
-# 1576 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1576 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 SectionType[16];
   UINT32 ErrorSeverity;
@@ -5158,12 +5158,12 @@ typedef struct {
   UINT8 FruId[16];
   UINT8 FruText[20];
 } EFI_ACPI_6_0_GENERIC_ERROR_DATA_ENTRY_STRUCTURE;
-# 1595 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1595 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   EFI_ACPI_DESCRIPTION_HEADER Header;
   UINT32 ErrorSourceCount;
 } EFI_ACPI_6_0_HARDWARE_ERROR_SOURCE_TABLE_HEADER;
-# 1625 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1625 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT16 Type;
   UINT16 SourceId;
@@ -5192,7 +5192,7 @@ typedef struct {
   UINT32 AddressRegisterMsrAddress;
   UINT32 MiscRegisterMsrAddress;
 } EFI_ACPI_6_0_IA32_ARCHITECTURE_MACHINE_CHECK_ERROR_BANK_STRUCTURE;
-# 1676 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1676 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT16 Type:1;
   UINT16 PollInterval:1;
@@ -5353,7 +5353,7 @@ typedef struct {
   UINT8 Reserved0[4];
   UINT32 InstructionEntryCount;
 } EFI_ACPI_6_0_ERROR_RECORD_SERIALIZATION_TABLE_HEADER;
-# 1902 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1902 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 SerializationAction;
   UINT8 Instruction;
@@ -5374,7 +5374,7 @@ typedef struct {
   UINT8 Reserved0[3];
   UINT32 InjectionEntryCount;
 } EFI_ACPI_6_0_ERROR_INJECTION_TABLE_HEADER;
-# 1981 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 1981 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 InjectionAction;
   UINT8 Instruction;
@@ -5403,7 +5403,7 @@ typedef struct {
   UINT32 Flags;
   UINT64 Reserved;
 } EFI_ACPI_6_0_PLATFORM_COMMUNICATION_CHANNEL_TABLE_HEADER;
-# 2030 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
+# 2030 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/Acpi60.h"
 typedef struct {
   UINT8 Type;
   UINT8 Length;
@@ -5494,8 +5494,8 @@ typedef struct {
   UINT64 DoorbellAckPreserve;
   UINT64 DoorbellAckWrite;
 } EFI_ACPI_6_0_PCCT_SUBSPACE_2_HW_REDUCED_COMMUNICATIONS;
-# 25 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h" 2
-# 49 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 25 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h" 2
+# 49 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   UINT8 Type;
 
@@ -5518,7 +5518,7 @@ typedef struct {
 
 
 typedef EFI_DEVICE_PATH_PROTOCOL EFI_DEVICE_PATH;
-# 85 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 85 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -5530,7 +5530,7 @@ typedef struct {
 
   UINT8 Device;
 } PCI_DEVICE_PATH;
-# 105 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 105 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -5538,7 +5538,7 @@ typedef struct {
 
   UINT8 FunctionNumber;
 } PCCARD_DEVICE_PATH;
-# 121 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 121 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -5554,7 +5554,7 @@ typedef struct {
 
   EFI_PHYSICAL_ADDRESS EndingAddress;
 } MEMMAP_DEVICE_PATH;
-# 147 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 147 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -5565,7 +5565,7 @@ typedef struct {
 
 
 } VENDOR_DEVICE_PATH;
-# 166 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 166 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -5573,7 +5573,7 @@ typedef struct {
 
   UINT32 ControllerNumber;
 } CONTROLLER_DEVICE_PATH;
-# 182 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 182 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -5585,7 +5585,7 @@ typedef struct {
 
   UINT8 BaseAddress[8];
 } BMC_DEVICE_PATH;
-# 203 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 203 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -5635,7 +5635,7 @@ typedef struct {
 
 
 } ACPI_EXTENDED_HID_DEVICE_PATH;
-# 278 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 278 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -5648,7 +5648,7 @@ typedef struct {
 
 
 } ACPI_ADR_DEVICE_PATH;
-# 319 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 319 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -5785,7 +5785,7 @@ typedef struct {
 
   UINT8 DeviceProtocol;
 } USB_CLASS_DEVICE_PATH;
-# 464 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 464 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -5843,7 +5843,7 @@ typedef struct {
 
   UINT16 Lun;
 } SATA_DEVICE_PATH;
-# 531 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 531 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -5959,7 +5959,7 @@ typedef struct {
 
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
-# 655 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 655 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
   UINT32 ResourceFlags;
 
 
@@ -5979,7 +5979,7 @@ typedef struct {
 
   UINT64 DeviceId;
 } INFINIBAND_DEVICE_PATH;
-# 685 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 685 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -5996,7 +5996,7 @@ typedef struct {
 
 
   UINT8 DataBits;
-# 710 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 710 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
   UINT8 Parity;
 
 
@@ -6013,7 +6013,7 @@ typedef struct {
 
 
 typedef VENDOR_DEVICE_PATH VENDOR_DEFINED_DEVICE_PATH;
-# 736 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 736 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -6028,7 +6028,7 @@ typedef struct {
 
   UINT32 FlowControlMap;
 } UART_FLOW_CONTROL_DEVICE_PATH;
-# 758 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 758 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -6182,7 +6182,7 @@ typedef struct {
 
 
 } ISCSI_DEVICE_PATH;
-# 925 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 925 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -6223,7 +6223,7 @@ typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
   BLUETOOTH_LE_ADDRESS Address;
 } BLUETOOTH_LE_DEVICE_PATH;
-# 979 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 979 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -6263,7 +6263,7 @@ typedef struct {
 
   UINT8 SignatureType;
 } HARDDRIVE_DEVICE_PATH;
-# 1034 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 1034 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -6279,7 +6279,7 @@ typedef struct {
 
   UINT64 PartitionSize;
 } CDROM_DEVICE_PATH;
-# 1059 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 1059 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -6287,7 +6287,7 @@ typedef struct {
 
   CHAR16 PathName[1];
 } FILEPATH_DEVICE_PATH;
-# 1079 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 1079 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -6295,7 +6295,7 @@ typedef struct {
 
   EFI_GUID Protocol;
 } MEDIA_PROTOCOL_DEVICE_PATH;
-# 1095 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 1095 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -6303,7 +6303,7 @@ typedef struct {
 
   EFI_GUID FvFileName;
 } MEDIA_FW_VOL_FILEPATH_DEVICE_PATH;
-# 1111 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 1111 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -6311,7 +6311,7 @@ typedef struct {
 
   EFI_GUID FvName;
 } MEDIA_FW_VOL_DEVICE_PATH;
-# 1127 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 1127 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
   UINT32 Reserved;
@@ -6346,7 +6346,7 @@ extern EFI_GUID gEfiPersistentVirtualDiskGuid;
 
 
 extern EFI_GUID gEfiPersistentVirtualCdGuid;
-# 1170 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 1170 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -6366,7 +6366,7 @@ typedef struct {
 
   UINT16 Instance;
 } MEDIA_RAM_DISK_DEVICE_PATH;
-# 1203 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 1203 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef struct {
   EFI_DEVICE_PATH_PROTOCOL Header;
 
@@ -6382,7 +6382,7 @@ typedef struct {
 
   CHAR8 String[1];
 } BBS_BBS_DEVICE_PATH;
-# 1235 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DevicePath.h"
+# 1235 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DevicePath.h"
 typedef union {
   EFI_DEVICE_PATH_PROTOCOL DevPath;
   PCI_DEVICE_PATH Pci;
@@ -6505,11 +6505,11 @@ typedef union {
 
 
 extern EFI_GUID gEfiDevicePathProtocolGuid;
-# 25 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextIn.h" 1
-# 26 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextIn.h"
+# 25 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextIn.h" 1
+# 26 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextIn.h"
 typedef struct _EFI_SIMPLE_TEXT_INPUT_PROTOCOL EFI_SIMPLE_TEXT_INPUT_PROTOCOL;
-# 36 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextIn.h"
+# 36 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextIn.h"
 typedef struct _EFI_SIMPLE_TEXT_INPUT_PROTOCOL SIMPLE_INPUT_INTERFACE;
 
 
@@ -6519,14 +6519,14 @@ typedef struct {
   UINT16 ScanCode;
   CHAR16 UnicodeChar;
 } EFI_INPUT_KEY;
-# 90 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextIn.h"
+# 90 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextIn.h"
 typedef
 EFI_STATUS
 ( *EFI_INPUT_RESET)(
   EFI_SIMPLE_TEXT_INPUT_PROTOCOL *This,
   BOOLEAN ExtendedVerification
   );
-# 111 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextIn.h"
+# 111 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextIn.h"
 typedef
 EFI_STATUS
 ( *EFI_INPUT_READ_KEY)(
@@ -6548,11 +6548,11 @@ struct _EFI_SIMPLE_TEXT_INPUT_PROTOCOL {
 };
 
 extern EFI_GUID gEfiSimpleTextInProtocolGuid;
-# 26 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h" 1
-# 28 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
+# 26 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h" 1
+# 28 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
 typedef struct _EFI_SIMPLE_TEXT_INPUT_EX_PROTOCOL EFI_SIMPLE_TEXT_INPUT_EX_PROTOCOL;
-# 55 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
+# 55 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
 typedef
 EFI_STATUS
 ( *EFI_INPUT_RESET_EX)(
@@ -6595,14 +6595,14 @@ typedef struct {
 
   EFI_KEY_STATE KeyState;
 } EFI_KEY_DATA;
-# 200 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
+# 200 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
 typedef
 EFI_STATUS
 ( *EFI_INPUT_READ_KEY_EX)(
   EFI_SIMPLE_TEXT_INPUT_EX_PROTOCOL *This,
   EFI_KEY_DATA *KeyData
 );
-# 227 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
+# 227 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
 typedef
 EFI_STATUS
 ( *EFI_SET_STATE)(
@@ -6618,7 +6618,7 @@ EFI_STATUS
 ( *EFI_KEY_NOTIFY_FUNCTION)(
   EFI_KEY_DATA *KeyData
 );
-# 269 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
+# 269 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
 typedef
 EFI_STATUS
 ( *EFI_REGISTER_KEYSTROKE_NOTIFY)(
@@ -6627,14 +6627,14 @@ EFI_STATUS
   EFI_KEY_NOTIFY_FUNCTION KeyNotificationFunction,
   void **NotifyHandle
 );
-# 293 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
+# 293 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
 typedef
 EFI_STATUS
 ( *EFI_UNREGISTER_KEYSTROKE_NOTIFY)(
   EFI_SIMPLE_TEXT_INPUT_EX_PROTOCOL *This,
   void *NotificationHandle
 );
-# 307 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
+# 307 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextInEx.h"
 struct _EFI_SIMPLE_TEXT_INPUT_EX_PROTOCOL{
   EFI_INPUT_RESET_EX Reset;
   EFI_INPUT_READ_KEY_EX ReadKeyStrokeEx;
@@ -6649,37 +6649,37 @@ struct _EFI_SIMPLE_TEXT_INPUT_EX_PROTOCOL{
 
 
 extern EFI_GUID gEfiSimpleTextInputExProtocolGuid;
-# 27 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h" 1
-# 33 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
+# 27 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h" 1
+# 33 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
 typedef struct _EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL;
 
 
 
 
 typedef EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL SIMPLE_TEXT_OUTPUT_INTERFACE;
-# 171 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
+# 171 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
 typedef
 EFI_STATUS
 ( *EFI_TEXT_RESET)(
   EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL *This,
   BOOLEAN ExtendedVerification
   );
-# 196 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
+# 196 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
 typedef
 EFI_STATUS
 ( *EFI_TEXT_STRING)(
   EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL *This,
   CHAR16 *String
   );
-# 217 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
+# 217 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
 typedef
 EFI_STATUS
 ( *EFI_TEXT_TEST_STRING)(
   EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL *This,
   CHAR16 *String
   );
-# 240 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
+# 240 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
 typedef
 EFI_STATUS
 ( *EFI_TEXT_QUERY_MODE)(
@@ -6688,27 +6688,27 @@ EFI_STATUS
   UINTN *Columns,
   UINTN *Rows
   );
-# 260 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
+# 260 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
 typedef
 EFI_STATUS
 ( *EFI_TEXT_SET_MODE)(
   EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL *This,
   UINTN ModeNumber
   );
-# 281 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
+# 281 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
 typedef
 EFI_STATUS
 ( *EFI_TEXT_SET_ATTRIBUTE)(
   EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL *This,
   UINTN Attribute
   );
-# 299 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
+# 299 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
 typedef
 EFI_STATUS
 ( *EFI_TEXT_CLEAR_SCREEN)(
   EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL *This
   );
-# 322 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
+# 322 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
 typedef
 EFI_STATUS
 ( *EFI_TEXT_SET_CURSOR_POSITION)(
@@ -6716,7 +6716,7 @@ EFI_STATUS
   UINTN Column,
   UINTN Row
   );
-# 344 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
+# 344 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
 typedef
 EFI_STATUS
 ( *EFI_TEXT_ENABLE_CURSOR)(
@@ -6733,7 +6733,7 @@ typedef struct {
 
 
   INT32 MaxMode;
-# 368 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
+# 368 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/SimpleTextOut.h"
   INT32 Mode;
 
 
@@ -6780,7 +6780,7 @@ struct _EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL {
 };
 
 extern EFI_GUID gEfiSimpleTextOutProtocolGuid;
-# 28 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
+# 28 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
 
 
 
@@ -6804,7 +6804,7 @@ typedef enum {
 
   MaxAllocateType
 } EFI_ALLOCATE_TYPE;
-# 104 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 104 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef struct {
 
 
@@ -6838,7 +6838,7 @@ typedef struct {
 
   UINT64 Attribute;
 } EFI_MEMORY_DESCRIPTOR;
-# 162 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 162 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_ALLOCATE_PAGES)(
@@ -6847,14 +6847,14 @@ EFI_STATUS
   UINTN Pages,
   EFI_PHYSICAL_ADDRESS *Memory
   );
-# 183 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 183 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_FREE_PAGES)(
   EFI_PHYSICAL_ADDRESS Memory,
   UINTN Pages
   );
-# 215 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 215 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_MEMORY_MAP)(
@@ -6864,7 +6864,7 @@ EFI_STATUS
   UINTN *DescriptorSize,
   UINT32 *DescriptorVersion
   );
-# 244 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 244 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_ALLOCATE_POOL)(
@@ -6872,13 +6872,13 @@ EFI_STATUS
   UINTN Size,
   void **Buffer
   );
-# 261 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 261 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_FREE_POOL)(
   void *Buffer
   );
-# 286 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 286 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_SET_VIRTUAL_ADDRESS_MAP)(
@@ -6887,7 +6887,7 @@ EFI_STATUS
   UINT32 DescriptorVersion,
   EFI_MEMORY_DESCRIPTOR *VirtualMap
   );
-# 320 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 320 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_CONNECT_CONTROLLER)(
@@ -6896,7 +6896,7 @@ EFI_STATUS
   EFI_DEVICE_PATH_PROTOCOL *RemainingDevicePath,
   BOOLEAN Recursive
   );
-# 353 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 353 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_DISCONNECT_CONTROLLER)(
@@ -6904,21 +6904,21 @@ EFI_STATUS
   EFI_HANDLE DriverImageHandle,
   EFI_HANDLE ChildHandle
   );
-# 383 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 383 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_CONVERT_POINTER)(
   UINTN DebugDisposition,
   void **Address
   );
-# 420 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 420 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 void
 ( *EFI_EVENT_NOTIFY)(
   EFI_EVENT Event,
   void *Context
   );
-# 443 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 443 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_CREATE_EVENT)(
@@ -6928,7 +6928,7 @@ EFI_STATUS
   void *NotifyContext,
   EFI_EVENT *Event
   );
-# 472 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 472 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_CREATE_EVENT_EX)(
@@ -6957,7 +6957,7 @@ typedef enum {
 
   TimerRelative
 } EFI_TIMER_DELAY;
-# 517 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 517 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_SET_TIMER)(
@@ -6965,13 +6965,13 @@ EFI_STATUS
   EFI_TIMER_DELAY Type,
   UINT64 TriggerTime
   );
-# 533 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 533 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_SIGNAL_EVENT)(
   EFI_EVENT Event
   );
-# 553 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 553 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_WAIT_FOR_EVENT)(
@@ -6979,19 +6979,19 @@ EFI_STATUS
   EFI_EVENT *Event,
   UINTN *Index
   );
-# 569 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 569 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_CLOSE_EVENT)(
   EFI_EVENT Event
   );
-# 585 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 585 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_CHECK_EVENT)(
   EFI_EVENT Event
   );
-# 609 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 609 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_TPL
 ( *EFI_RAISE_TPL)(
@@ -7009,7 +7009,7 @@ void
 ( *EFI_RESTORE_TPL)(
   EFI_TPL OldTpl
   );
-# 651 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 651 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_VARIABLE)(
@@ -7019,7 +7019,7 @@ EFI_STATUS
   UINTN *DataSize,
   void *Data
   );
-# 687 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 687 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_NEXT_VARIABLE_NAME)(
@@ -7027,7 +7027,7 @@ EFI_STATUS
   CHAR16 *VariableName,
   EFI_GUID *VendorGuid
   );
-# 729 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 729 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_SET_VARIABLE)(
@@ -7067,20 +7067,20 @@ typedef struct {
 
   BOOLEAN SetsToZero;
 } EFI_TIME_CAPABILITIES;
-# 782 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 782 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_TIME)(
   EFI_TIME *Time,
   EFI_TIME_CAPABILITIES *Capabilities
   );
-# 799 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 799 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_SET_TIME)(
   EFI_TIME *Time
   );
-# 820 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 820 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_WAKEUP_TIME)(
@@ -7088,14 +7088,14 @@ EFI_STATUS
   BOOLEAN *Pending,
   EFI_TIME *Time
   );
-# 842 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 842 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_SET_WAKEUP_TIME)(
   BOOLEAN Enable,
   EFI_TIME *Time
   );
-# 879 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 879 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_IMAGE_LOAD)(
@@ -7106,7 +7106,7 @@ EFI_STATUS
   UINTN SourceSize,
   EFI_HANDLE *ImageHandle
   );
-# 904 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 904 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_IMAGE_START)(
@@ -7114,7 +7114,7 @@ EFI_STATUS
   UINTN *ExitDataSize,
   CHAR16 **ExitData
   );
-# 932 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 932 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_EXIT)(
@@ -7123,26 +7123,26 @@ EFI_STATUS
   UINTN ExitDataSize,
   CHAR16 *ExitData
   );
-# 950 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 950 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_IMAGE_UNLOAD)(
   EFI_HANDLE ImageHandle
   );
-# 966 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 966 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_EXIT_BOOT_SERVICES)(
   EFI_HANDLE ImageHandle,
   UINTN MapKey
   );
-# 982 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 982 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_STALL)(
   UINTN Microseconds
   );
-# 1004 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1004 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_SET_WATCHDOG_TIMER)(
@@ -7151,7 +7151,7 @@ EFI_STATUS
   UINTN DataSize,
   CHAR16 *WatchdogData
   );
-# 1031 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1031 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 void
 ( *EFI_RESET_SYSTEM)(
@@ -7160,19 +7160,19 @@ void
   UINTN DataSize,
   void *ResetData
   );
-# 1050 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1050 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_NEXT_MONOTONIC_COUNT)(
   UINT64 *Count
   );
-# 1066 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1066 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_NEXT_HIGH_MONO_COUNT)(
   UINT32 *HighCount
   );
-# 1087 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1087 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_CALCULATE_CRC32)(
@@ -7180,7 +7180,7 @@ EFI_STATUS
   UINTN DataSize,
   UINT32 *Crc32
   );
-# 1103 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1103 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 void
 ( *EFI_COPY_MEM)(
@@ -7188,7 +7188,7 @@ void
   void *Source,
   UINTN Length
   );
-# 1119 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1119 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 void
 ( *EFI_SET_MEM)(
@@ -7206,7 +7206,7 @@ typedef enum {
 
   EFI_NATIVE_INTERFACE
 } EFI_INTERFACE_TYPE;
-# 1157 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1157 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_INSTALL_PROTOCOL_INTERFACE)(
@@ -7215,14 +7215,14 @@ EFI_STATUS
   EFI_INTERFACE_TYPE InterfaceType,
   void *Interface
   );
-# 1182 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1182 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_INSTALL_MULTIPLE_PROTOCOL_INTERFACES)(
   EFI_HANDLE *Handle,
   ...
   );
-# 1207 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1207 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_REINSTALL_PROTOCOL_INTERFACE)(
@@ -7231,7 +7231,7 @@ EFI_STATUS
   void *OldInterface,
   void *NewInterface
   );
-# 1233 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1233 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_UNINSTALL_PROTOCOL_INTERFACE)(
@@ -7239,14 +7239,14 @@ EFI_STATUS
   EFI_GUID *Protocol,
   void *Interface
   );
-# 1252 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1252 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_UNINSTALL_MULTIPLE_PROTOCOL_INTERFACES)(
   EFI_HANDLE Handle,
   ...
   );
-# 1274 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1274 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_HANDLE_PROTOCOL)(
@@ -7254,7 +7254,7 @@ EFI_STATUS
   EFI_GUID *Protocol,
   void **Interface
   );
-# 1316 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1316 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_OPEN_PROTOCOL)(
@@ -7265,7 +7265,7 @@ EFI_STATUS
   EFI_HANDLE ControllerHandle,
   UINT32 Attributes
   );
-# 1349 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1349 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_CLOSE_PROTOCOL)(
@@ -7284,7 +7284,7 @@ typedef struct {
   UINT32 Attributes;
   UINT32 OpenCount;
 } EFI_OPEN_PROTOCOL_INFORMATION_ENTRY;
-# 1383 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1383 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_OPEN_PROTOCOL_INFORMATION)(
@@ -7293,7 +7293,7 @@ EFI_STATUS
   EFI_OPEN_PROTOCOL_INFORMATION_ENTRY **EntryBuffer,
   UINTN *EntryCount
   );
-# 1413 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1413 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_PROTOCOLS_PER_HANDLE)(
@@ -7301,7 +7301,7 @@ EFI_STATUS
   EFI_GUID ***ProtocolBuffer,
   UINTN *ProtocolBufferCount
   );
-# 1436 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1436 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_REGISTER_PROTOCOL_NOTIFY)(
@@ -7328,7 +7328,7 @@ typedef enum {
 
   ByProtocol
 } EFI_LOCATE_SEARCH_TYPE;
-# 1485 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1485 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_LOCATE_HANDLE)(
@@ -7338,7 +7338,7 @@ EFI_STATUS
   UINTN *BufferSize,
   EFI_HANDLE *Buffer
   );
-# 1511 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1511 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_LOCATE_DEVICE_PATH)(
@@ -7346,14 +7346,14 @@ EFI_STATUS
   EFI_DEVICE_PATH_PROTOCOL **DevicePath,
   EFI_HANDLE *Device
   );
-# 1532 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1532 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_INSTALL_CONFIGURATION_TABLE)(
   EFI_GUID *Guid,
   void *Table
   );
-# 1558 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1558 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_LOCATE_HANDLE_BUFFER)(
@@ -7363,7 +7363,7 @@ EFI_STATUS
   UINTN *NoHandles,
   EFI_HANDLE **Buffer
   );
-# 1585 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1585 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_LOCATE_PROTOCOL)(
@@ -7437,7 +7437,7 @@ typedef struct {
 
   void* CapsulePtr[1];
 } EFI_CAPSULE_TABLE;
-# 1693 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1693 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_UPDATE_CAPSULE)(
@@ -7445,7 +7445,7 @@ EFI_STATUS
   UINTN CapsuleCount,
   EFI_PHYSICAL_ADDRESS ScatterGatherList
   );
-# 1724 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1724 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_QUERY_CAPSULE_CAPABILITIES)(
@@ -7454,7 +7454,7 @@ EFI_STATUS
   UINT64 *MaximumCapsuleSize,
   EFI_RESET_TYPE *ResetType
   );
-# 1755 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1755 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_QUERY_VARIABLE_INFO)(
@@ -7463,7 +7463,7 @@ EFI_STATUS
   UINT64 *RemainingVariableStorageSize,
   UINT64 *MaximumVariableSize
   );
-# 1798 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1798 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef struct {
 
 
@@ -7508,7 +7508,7 @@ typedef struct {
 
   EFI_QUERY_VARIABLE_INFO QueryVariableInfo;
 } EFI_RUNTIME_SERVICES;
-# 1850 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1850 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef struct {
 
 
@@ -7684,14 +7684,14 @@ typedef struct {
 
   EFI_CONFIGURATION_TABLE *ConfigurationTable;
 } EFI_SYSTEM_TABLE;
-# 2037 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 2037 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef
 EFI_STATUS
 ( *EFI_IMAGE_ENTRY_POINT)(
   EFI_HANDLE ImageHandle,
   EFI_SYSTEM_TABLE *SystemTable
   );
-# 2053 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 2053 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef struct _EFI_LOAD_OPTION {
 
 
@@ -7704,9 +7704,9 @@ typedef struct _EFI_LOAD_OPTION {
 
 
   UINT16 FilePathListLength;
-# 2090 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 2090 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 } EFI_LOAD_OPTION;
-# 2112 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 2112 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
 typedef union {
   struct {
 
@@ -7775,9 +7775,9 @@ typedef struct {
 
 
 } EFI_KEY_OPTION;
-# 2206 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h" 1
-# 72 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 2206 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h" 1
+# 72 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef void PXE_VOID;
 typedef UINT8 PXE_UINT8;
 typedef UINT16 PXE_UINT16;
@@ -7794,19 +7794,19 @@ typedef PXE_UINT8 PXE_BOOL;
 
 
 typedef PXE_UINT16 PXE_OPCODE;
-# 184 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 184 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef PXE_UINT16 PXE_OPFLAGS;
-# 408 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 408 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef PXE_UINT16 PXE_STATFLAGS;
-# 601 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 601 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef PXE_UINT16 PXE_STATCODE;
-# 631 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 631 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef PXE_UINT16 PXE_IFNUM;
-# 644 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 644 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef PXE_UINT16 PXE_CONTROL;
-# 665 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 665 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef PXE_UINT8 PXE_FRAME_TYPE;
-# 676 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 676 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef PXE_UINT32 PXE_IPV4;
 
 typedef PXE_UINT32 PXE_IPV6[4];
@@ -7816,7 +7816,7 @@ typedef PXE_UINT8 PXE_MAC_ADDR[32];
 
 typedef PXE_UINT8 PXE_IFTYPE;
 typedef UINT16 PXE_MEDIA_PROTOCOL;
-# 717 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 717 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef struct s_pxe_hw_undi {
   PXE_UINT32 Signature;
   PXE_UINT8 Len;
@@ -7834,7 +7834,7 @@ typedef struct s_pxe_hw_undi {
 
 
 } PXE_HW_UNDI;
-# 814 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 814 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef struct s_pxe_sw_undi {
   PXE_UINT32 Signature;
   PXE_UINT8 Len;
@@ -7856,7 +7856,7 @@ typedef union u_pxe_undi {
   PXE_HW_UNDI hw;
   PXE_SW_UNDI sw;
 } PXE_UNDI;
-# 880 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 880 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef struct s_pxe_cdb {
   PXE_OPCODE OpCode;
   PXE_OPFLAGS OpFlags;
@@ -7899,32 +7899,32 @@ typedef union pxe_device {
   PCI, PCC;
 
 } PXE_DEVICE;
-# 931 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 931 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef struct s_pxe_cpb_start_30 {
-# 942 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 942 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   UINT64 Delay;
-# 958 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 958 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   UINT64 Block;
-# 972 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 972 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   UINT64 Virt2Phys;
-# 983 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 983 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   UINT64 Mem_IO;
 } PXE_CPB_START_30;
 
 typedef struct s_pxe_cpb_start_31 {
-# 997 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 997 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   UINT64 Delay;
-# 1013 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1013 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   UINT64 Block;
-# 1027 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1027 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   UINT64 Virt2Phys;
-# 1038 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1038 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   UINT64 Mem_IO;
-# 1055 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1055 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   UINT64 Map_Mem;
-# 1066 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1066 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   UINT64 UnMap_Mem;
-# 1078 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1078 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   UINT64 Sync_Mem;
 
 
@@ -7935,9 +7935,9 @@ typedef struct s_pxe_cpb_start_31 {
 
   UINT64 Unique_ID;
 } PXE_CPB_START_31;
-# 1100 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1100 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef struct s_pxe_db_get_init_info {
-# 1109 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1109 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   PXE_UINT32 MemoryRequired;
 
 
@@ -7979,7 +7979,7 @@ typedef struct s_pxe_db_get_init_info {
 
 
   PXE_UINT16 MCastFilterCnt;
-# 1158 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1158 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   PXE_UINT16 TxBufCnt;
   PXE_UINT16 TxBufSize;
   PXE_UINT16 RxBufCnt;
@@ -8002,7 +8002,7 @@ typedef struct s_pxe_db_get_init_info {
 
   PXE_UINT8 SupportedLoopBackModes;
 } PXE_DB_GET_INIT_INFO;
-# 1192 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1192 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef struct s_pxe_pci_config_info {
 
 
@@ -8080,7 +8080,7 @@ typedef struct s_pxe_cpb_initialize {
 
 
   PXE_UINT32 LinkSpeed;
-# 1280 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1280 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   PXE_UINT16 TxBufCnt;
   PXE_UINT16 TxBufSize;
   PXE_UINT16 RxBufCnt;
@@ -8094,9 +8094,9 @@ typedef struct s_pxe_cpb_initialize {
 
   PXE_UINT8 LoopBackMode;
 } PXE_CPB_INITIALIZE;
-# 1304 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1304 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef struct s_pxe_db_initialize {
-# 1313 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1313 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   PXE_UINT32 MemoryUsed;
 
 
@@ -8150,7 +8150,7 @@ typedef struct s_pxe_dpb_station_address {
 } PXE_DB_STATION_ADDRESS;
 
 typedef struct s_pxe_db_statistics {
-# 1375 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1375 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
   PXE_UINT64 Supported;
 
 
@@ -8158,7 +8158,7 @@ typedef struct s_pxe_db_statistics {
 
   PXE_UINT64 Data[64];
 } PXE_DB_STATISTICS;
-# 1481 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
+# 1481 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiPxe.h"
 typedef struct s_pxe_cpb_mcast_ip_to_mac {
 
 
@@ -8467,9 +8467,9 @@ typedef struct s_pxe_db_receive {
   PXE_UINT8 reserved[7];
 
 } PXE_DB_RECEIVE;
-# 2207 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiGpt.h" 1
-# 33 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiGpt.h"
+# 2207 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiGpt.h" 1
+# 33 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiGpt.h"
 typedef struct {
 
 
@@ -8545,20 +8545,20 @@ typedef struct {
 
 
   EFI_LBA EndingLBA;
-# 131 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiGpt.h"
+# 131 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiGpt.h"
   UINT64 Attributes;
 
 
 
   CHAR16 PartitionName[36];
 } EFI_PARTITION_ENTRY;
-# 2208 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h" 1
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h" 1
-# 23 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h"
+# 2208 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h" 1
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h" 1
+# 23 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Guid/HiiFormMapMethodGuid.h"
 extern EFI_GUID gEfiHiiStandardFormGuid;
-# 25 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h" 2
+# 25 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h" 2
 
 
 
@@ -8575,7 +8575,7 @@ typedef UINT16 EFI_ANIMATION_ID;
 typedef UINT16 EFI_DEFAULT_ID;
 
 typedef UINT32 EFI_HII_FONT_STYLE;
-# 54 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 54 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct {
   EFI_GUID PackageListGuid;
   UINT32 PackageLength;
@@ -8589,7 +8589,7 @@ typedef struct {
   UINT32 Type:8;
 
 } EFI_HII_PACKAGE_HEADER;
-# 101 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 101 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct {
 
 
@@ -8653,7 +8653,7 @@ typedef struct _EFI_HII_SIMPLE_FONT_PACKAGE_HDR {
 
 
 } EFI_HII_SIMPLE_FONT_PACKAGE_HDR;
-# 182 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 182 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_HII_GLYPH_INFO {
   UINT16 Width;
   UINT16 Height;
@@ -8676,7 +8676,7 @@ typedef struct _EFI_HII_FONT_PACKAGE_HDR {
   EFI_HII_FONT_STYLE FontStyle;
   CHAR16 FontFamily[1];
 } EFI_HII_FONT_PACKAGE_HDR;
-# 222 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 222 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_HII_GLYPH_BLOCK {
   UINT8 BlockType;
 } EFI_HII_GLYPH_BLOCK;
@@ -8757,18 +8757,18 @@ typedef struct _EFI_HII_GIBT_SKIP2_BLOCK {
   EFI_HII_GLYPH_BLOCK Header;
   UINT16 SkipCount;
 } EFI_HII_GIBT_SKIP2_BLOCK;
-# 312 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 312 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_HII_DEVICE_PATH_PACKAGE_HDR {
   EFI_HII_PACKAGE_HEADER Header;
 
 } EFI_HII_DEVICE_PATH_PACKAGE_HDR;
-# 325 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 325 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_HII_GUID_PACKAGE_HDR {
   EFI_HII_PACKAGE_HEADER Header;
   EFI_GUID Guid;
 
 } EFI_HII_GUID_PACKAGE_HDR;
-# 343 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 343 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_HII_STRING_PACKAGE_HDR {
   EFI_HII_PACKAGE_HEADER Header;
   UINT32 HdrSize;
@@ -8781,7 +8781,7 @@ typedef struct _EFI_HII_STRING_PACKAGE_HDR {
 typedef struct {
   UINT8 BlockType;
 } EFI_HII_STRING_BLOCK;
-# 380 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 380 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_HII_SIBT_DUPLICATE_BLOCK {
   EFI_HII_STRING_BLOCK Header;
   EFI_STRING_ID StringId;
@@ -8889,7 +8889,7 @@ typedef struct _EFI_HII_IMAGE_PACKAGE_HDR {
 typedef struct _EFI_HII_IMAGE_BLOCK {
   UINT8 BlockType;
 } EFI_HII_IMAGE_BLOCK;
-# 513 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 513 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_HII_IIBT_END_BLOCK {
   EFI_HII_IMAGE_BLOCK Header;
 } EFI_HII_IIBT_END_BLOCK;
@@ -9027,7 +9027,7 @@ typedef struct _EFI_HII_IMAGE_PALETTE_INFO {
   UINT16 PaletteSize;
   EFI_HII_RGB_PIXEL PaletteValue[1];
 } EFI_HII_IMAGE_PALETTE_INFO;
-# 659 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 659 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_HII_FORM_PACKAGE_HDR {
   EFI_HII_PACKAGE_HEADER Header;
 
@@ -9065,7 +9065,7 @@ typedef union {
   EFI_HII_REF ref;
 
 } EFI_IFR_TYPE_VALUE;
-# 806 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 806 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_IFR_OP_HEADER {
   UINT8 OpCode;
   UINT8 Length:7;
@@ -9087,13 +9087,13 @@ typedef struct _EFI_IFR_QUESTION_HEADER {
   } VarStoreInfo;
   UINT8 Flags;
 } EFI_IFR_QUESTION_HEADER;
-# 841 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 841 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_IFR_DEFAULTSTORE {
   EFI_IFR_OP_HEADER Header;
   EFI_STRING_ID DefaultName;
   UINT16 DefaultId;
 } EFI_IFR_DEFAULTSTORE;
-# 860 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 860 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_IFR_VARSTORE {
   EFI_IFR_OP_HEADER Header;
   EFI_GUID Guid;
@@ -9251,7 +9251,7 @@ typedef struct _EFI_IFR_DATE {
   EFI_IFR_QUESTION_HEADER Question;
   UINT8 Flags;
 } EFI_IFR_DATE;
-# 1030 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 1030 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef union {
   struct {
     UINT8 MinValue;
@@ -9281,7 +9281,7 @@ typedef struct _EFI_IFR_NUMERIC {
   UINT8 Flags;
   MINMAXSTEP_DATA data;
 } EFI_IFR_NUMERIC;
-# 1074 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 1074 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_IFR_ONE_OF {
   EFI_IFR_OP_HEADER Header;
   EFI_IFR_QUESTION_HEADER Question;
@@ -9321,7 +9321,7 @@ typedef struct _EFI_IFR_TIME {
   EFI_IFR_QUESTION_HEADER Question;
   UINT8 Flags;
 } EFI_IFR_TIME;
-# 1126 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 1126 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_IFR_DISABLE_IF {
   EFI_IFR_OP_HEADER Header;
 } EFI_IFR_DISABLE_IF;
@@ -9367,7 +9367,7 @@ typedef struct _EFI_IFR_ONE_OF_OPTION {
   UINT8 Type;
   EFI_IFR_TYPE_VALUE Value;
 } EFI_IFR_ONE_OF_OPTION;
-# 1192 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 1192 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_IFR_GUID {
   EFI_IFR_OP_HEADER Header;
   EFI_GUID Guid;
@@ -9507,7 +9507,7 @@ typedef struct _EFI_IFR_BITWISE_NOT {
 typedef struct _EFI_IFR_TO_BOOLEAN {
   EFI_IFR_OP_HEADER Header;
 } EFI_IFR_TO_BOOLEAN;
-# 1355 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 1355 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_IFR_TO_STRING {
   EFI_IFR_OP_HEADER Header;
   UINT8 Format;
@@ -9628,7 +9628,7 @@ typedef struct _EFI_IFR_MID {
 typedef struct _EFI_IFR_TOKEN {
   EFI_IFR_OP_HEADER Header;
 } EFI_IFR_TOKEN;
-# 1483 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 1483 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_IFR_SPAN {
   EFI_IFR_OP_HEADER Header;
   UINT8 Flags;
@@ -9739,7 +9739,7 @@ typedef struct _EFI_IFR_WRITE {
 typedef struct _EFI_IFR_MAP {
   EFI_IFR_OP_HEADER Header;
 } EFI_IFR_MAP;
-# 1601 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 1601 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef enum {
   EfiKeyLCtrl,
   EfiKeyA0,
@@ -9877,7 +9877,7 @@ typedef struct {
   UINT16 Modifier;
   UINT16 AffectedAttribute;
 } EFI_KEY_DESCRIPTOR;
-# 1759 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 1759 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct {
   UINT16 LayoutLength;
   EFI_GUID Guid;
@@ -9891,7 +9891,7 @@ typedef struct {
   UINT16 LayoutCount;
 
 } EFI_HII_KEYBOARD_PACKAGE_HDR;
-# 1831 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 1831 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_IFR_ANIMATION {
 
 
@@ -9927,7 +9927,7 @@ typedef struct _EFI_HII_ANIMATION_BLOCK {
   UINT8 BlockType;
 
 } EFI_HII_ANIMATION_BLOCK;
-# 1889 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 1889 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
 typedef struct _EFI_HII_AIBT_EXT1_BLOCK {
 
 
@@ -10002,7 +10002,7 @@ typedef struct _EFI_HII_ANIMATION_CELL {
 
 
 typedef struct _EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK {
-# 1971 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 1971 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
   EFI_IMAGE_ID DftImageId;
 
 
@@ -10029,7 +10029,7 @@ typedef struct _EFI_HII_AIBT_OVERLAY_IMAGES_BLOCK {
 
 
 typedef struct _EFI_HII_AIBT_CLEAR_IMAGES_BLOCK {
-# 2005 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 2005 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
   EFI_IMAGE_ID DftImageId;
 
 
@@ -10061,7 +10061,7 @@ typedef struct _EFI_HII_AIBT_CLEAR_IMAGES_BLOCK {
 
 
 typedef struct _EFI_HII_AIBT_RESTORE_SCRN_BLOCK {
-# 2044 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
+# 2044 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiInternalFormRepresentation.h"
   EFI_IMAGE_ID DftImageId;
 
 
@@ -10132,19 +10132,19 @@ typedef struct _EFI_HII_AIBT_SKIP2_BLOCK {
 
   UINT16 SkipCount;
 } EFI_HII_AIBT_SKIP2_BLOCK;
-# 2209 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
-# 21 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/PiDxe.h" 2
+# 2209 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Uefi/UefiSpec.h" 2
+# 21 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/PiDxe.h" 2
 
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h" 1
-# 22 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 1
-# 21 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h" 1
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h" 1
+# 22 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 1
+# 21 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h" 1
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
 typedef UINT32 EFI_FV_FILE_ATTRIBUTES;
-# 36 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
+# 36 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
 typedef UINT32 EFI_FVB_ATTRIBUTES_2;
-# 91 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
+# 91 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
 typedef struct {
 
 
@@ -10209,7 +10209,7 @@ typedef struct {
 
   EFI_FV_BLOCK_MAP_ENTRY BlockMap[1];
 } EFI_FIRMWARE_VOLUME_HEADER;
-# 166 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
+# 166 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareVolume.h"
 typedef struct {
 
 
@@ -10296,9 +10296,9 @@ typedef struct {
 
   UINT32 UsedSize;
 } EFI_FIRMWARE_VOLUME_EXT_ENTRY_USED_SIZE_TYPE;
-# 22 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h" 1
-# 26 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 22 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h" 1
+# 26 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef union {
   struct {
 
@@ -10307,7 +10307,7 @@ typedef union {
 
 
     UINT8 Header;
-# 43 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 43 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
     UINT8 File;
   } Checksum;
 
@@ -10325,7 +10325,7 @@ typedef union {
 typedef UINT8 EFI_FV_FILETYPE;
 typedef UINT8 EFI_FFS_FILE_ATTRIBUTES;
 typedef UINT8 EFI_FFS_FILE_STATE;
-# 114 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 114 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef struct {
 
 
@@ -10375,7 +10375,7 @@ typedef struct {
 
 
   EFI_FFS_FILE_ATTRIBUTES Attributes;
-# 171 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 171 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
   UINT8 Size[3];
 
 
@@ -10389,9 +10389,9 @@ typedef struct {
 
   UINT64 ExtendedSize;
 } EFI_FFS_FILE_HEADER2;
-# 194 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 194 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef UINT8 EFI_SECTION_TYPE;
-# 231 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 231 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef struct {
 
 
@@ -10426,7 +10426,7 @@ typedef struct {
 
 typedef EFI_COMMON_SECTION_HEADER EFI_COMPATIBILITY16_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_COMPATIBILITY16_SECTION2;
-# 275 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 275 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef struct {
 
 
@@ -10456,7 +10456,7 @@ typedef struct {
 
   UINT8 CompressionType;
 } EFI_COMPRESSION_SECTION2;
-# 314 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 314 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef EFI_COMMON_SECTION_HEADER EFI_DISPOSABLE_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_DISPOSABLE_SECTION2;
 
@@ -10496,7 +10496,7 @@ typedef struct {
 
   EFI_GUID SubTypeGuid;
 } EFI_FREEFORM_SUBTYPE_GUID_SECTION2;
-# 362 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 362 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef struct {
 
 
@@ -10546,7 +10546,7 @@ typedef EFI_COMMON_SECTION_HEADER2 EFI_PE32_SECTION2;
 
 typedef EFI_COMMON_SECTION_HEADER EFI_PEI_DEPEX_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_PEI_DEPEX_SECTION2;
-# 421 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 421 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef EFI_COMMON_SECTION_HEADER EFI_PIC_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_PIC_SECTION2;
 
@@ -10561,7 +10561,7 @@ typedef EFI_COMMON_SECTION_HEADER2 EFI_TE_SECTION2;
 
 typedef EFI_COMMON_SECTION_HEADER EFI_RAW_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_RAW_SECTION2;
-# 444 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
+# 444 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiFirmwareFile.h"
 typedef EFI_COMMON_SECTION_HEADER EFI_SMM_DEPEX_SECTION;
 typedef EFI_COMMON_SECTION_HEADER2 EFI_SMM_DEPEX_SECTION2;
 
@@ -10606,13 +10606,13 @@ typedef struct {
   UINT16 BuildNumber;
   CHAR16 VersionString[1];
 } EFI_VERSION_SECTION2;
-# 23 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiBootMode.h" 1
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiBootMode.h"
+# 23 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiBootMode.h" 1
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiBootMode.h"
 typedef UINT32 EFI_BOOT_MODE;
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiHob.h" 1
-# 42 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiHob.h"
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiHob.h" 1
+# 42 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef struct {
 
 
@@ -10627,7 +10627,7 @@ typedef struct {
 
   UINT32 Reserved;
 } EFI_HOB_GENERIC_HEADER;
-# 67 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiHob.h"
+# 67 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef struct {
 
 
@@ -10793,9 +10793,9 @@ typedef struct {
 
 
 typedef UINT32 EFI_RESOURCE_TYPE;
-# 248 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiHob.h"
+# 248 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef UINT32 EFI_RESOURCE_ATTRIBUTE_TYPE;
-# 312 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiHob.h"
+# 312 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef struct {
 
 
@@ -10957,7 +10957,7 @@ typedef struct {
 
   EFI_HOB_GENERIC_HEADER Header;
 } EFI_HOB_MEMORY_POOL;
-# 481 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiHob.h"
+# 481 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiHob.h"
 typedef struct {
 
 
@@ -10993,15 +10993,15 @@ typedef union {
   EFI_HOB_UEFI_CAPSULE *Capsule;
   UINT8 *Raw;
 } EFI_PEI_HOB_POINTERS;
-# 25 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDependency.h" 1
-# 26 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiStatusCode.h" 1
-# 25 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiStatusCode.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h" 1
-# 24 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h" 1
-# 56 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 25 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDependency.h" 1
+# 26 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiStatusCode.h" 1
+# 25 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiStatusCode.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h" 1
+# 24 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h" 1
+# 56 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT16 e_magic;
   UINT16 e_cblp;
@@ -11036,12 +11036,12 @@ typedef struct {
   UINT16 SizeOfOptionalHeader;
   UINT16 Characteristics;
 } EFI_IMAGE_FILE_HEADER;
-# 113 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 113 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 VirtualAddress;
   UINT32 Size;
 } EFI_IMAGE_DATA_DIRECTORY;
-# 146 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 146 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
 
 
@@ -11081,7 +11081,7 @@ typedef struct {
   UINT32 NumberOfRvaAndSizes;
   EFI_IMAGE_DATA_DIRECTORY DataDirectory[16];
 } EFI_IMAGE_OPTIONAL_HEADER32;
-# 197 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 197 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
 
 
@@ -11143,7 +11143,7 @@ typedef struct {
   EFI_IMAGE_FILE_HEADER FileHeader;
   EFI_IMAGE_OPTIONAL_HEADER64 OptionalHeader;
 } EFI_IMAGE_NT_HEADERS64;
-# 279 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 279 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT8 Name[8];
   union {
@@ -11159,18 +11159,18 @@ typedef struct {
   UINT16 NumberOfLinenumbers;
   UINT32 Characteristics;
 } EFI_IMAGE_SECTION_HEADER;
-# 429 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 429 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 VirtualAddress;
   UINT32 SymbolTableIndex;
   UINT16 Type;
 } EFI_IMAGE_RELOCATION;
-# 477 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 477 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 VirtualAddress;
   UINT32 SizeOfBlock;
 } EFI_IMAGE_BASE_RELOCATION;
-# 505 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 505 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   union {
     UINT32 SymbolTableIndex;
@@ -11178,7 +11178,7 @@ typedef struct {
   } Type;
   UINT16 Linenumber;
 } EFI_IMAGE_LINENUMBER;
-# 531 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 531 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT8 Name[16];
   UINT8 Date[12];
@@ -11188,7 +11188,7 @@ typedef struct {
   UINT8 Size[10];
   UINT8 EndHeader[2];
 } EFI_IMAGE_ARCHIVE_MEMBER_HEADER;
-# 554 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 554 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 Characteristics;
   UINT32 TimeDateStamp;
@@ -11221,7 +11221,7 @@ typedef struct {
     EFI_IMAGE_IMPORT_BY_NAME *AddressOfData;
   } u1;
 } EFI_IMAGE_THUNK_DATA;
-# 594 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 594 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef struct {
   UINT32 Characteristics;
   UINT32 TimeDateStamp;
@@ -11357,7 +11357,7 @@ typedef struct {
   UINT64 ImageBase;
   EFI_IMAGE_DATA_DIRECTORY DataDirectory[2];
 } EFI_TE_IMAGE_HEADER;
-# 743 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
+# 743 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/IndustryStandard/PeImage.h"
 typedef union {
   EFI_IMAGE_NT_HEADERS32 Pe32;
   EFI_IMAGE_NT_HEADERS64 Pe32Plus;
@@ -11370,12 +11370,12 @@ typedef union {
   EFI_TE_IMAGE_HEADER *Te;
   EFI_IMAGE_OPTIONAL_HEADER_UNION *Union;
 } EFI_IMAGE_OPTIONAL_HEADER_PTR_UNION;
-# 25 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h" 2
+# 25 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h" 2
 
 typedef struct _EFI_DEBUG_SUPPORT_PROTOCOL EFI_DEBUG_SUPPORT_PROTOCOL;
-# 40 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 40 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef INTN EFI_EXCEPTION_TYPE;
-# 67 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 67 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
   UINT16 Fcw;
   UINT16 Fsw;
@@ -11444,7 +11444,7 @@ typedef struct {
   UINT32 Ecx;
   UINT32 Eax;
 } EFI_SYSTEM_CONTEXT_IA32;
-# 161 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 161 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
   UINT16 Fcw;
   UINT16 Fsw;
@@ -11522,7 +11522,7 @@ typedef struct {
   UINT64 R14;
   UINT64 R15;
 } EFI_SYSTEM_CONTEXT_X64;
-# 287 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 287 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
 
 
@@ -11675,7 +11675,7 @@ typedef struct {
   UINT64 IntNat;
 
 } EFI_SYSTEM_CONTEXT_IPF;
-# 462 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 462 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
   UINT64 R0;
   UINT64 R1;
@@ -11689,7 +11689,7 @@ typedef struct {
   UINT64 ControlFlags;
   UINT64 Ip;
 } EFI_SYSTEM_CONTEXT_EBC;
-# 498 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 498 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
   UINT32 R0;
   UINT32 R1;
@@ -11713,7 +11713,7 @@ typedef struct {
   UINT32 IFSR;
   UINT32 IFAR;
 } EFI_SYSTEM_CONTEXT_ARM;
-# 536 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 536 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef struct {
 
   UINT64 X0;
@@ -11802,7 +11802,7 @@ typedef union {
   EFI_SYSTEM_CONTEXT_ARM *SystemContextArm;
   EFI_SYSTEM_CONTEXT_AARCH64 *SystemContextAArch64;
 } EFI_SYSTEM_CONTEXT;
-# 636 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 636 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 void
 ( *EFI_EXCEPTION_CALLBACK)(
@@ -11833,14 +11833,14 @@ typedef enum {
   IsaArm = 0x01c2,
   IsaAArch64 = 0xAA64
 } EFI_INSTRUCTION_SET_ARCHITECTURE;
-# 683 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 683 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_MAXIMUM_PROCESSOR_INDEX)(
   EFI_DEBUG_SUPPORT_PROTOCOL *This,
   UINTN *MaxProcessorIndex
   );
-# 705 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 705 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 EFI_STATUS
 ( *EFI_REGISTER_PERIODIC_CALLBACK)(
@@ -11848,7 +11848,7 @@ EFI_STATUS
   UINTN ProcessorIndex,
   EFI_PERIODIC_CALLBACK PeriodicCallback
   );
-# 729 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 729 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 EFI_STATUS
 ( *EFI_REGISTER_EXCEPTION_CALLBACK)(
@@ -11857,7 +11857,7 @@ EFI_STATUS
   EFI_EXCEPTION_CALLBACK ExceptionCallback,
   EFI_EXCEPTION_TYPE ExceptionType
   );
-# 751 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
+# 751 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Protocol/DebugSupport.h"
 typedef
 EFI_STATUS
 ( *EFI_INVALIDATE_INSTRUCTION_CACHE)(
@@ -11884,15 +11884,15 @@ struct _EFI_DEBUG_SUPPORT_PROTOCOL {
 };
 
 extern EFI_GUID gEfiDebugSupportProtocolGuid;
-# 26 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiStatusCode.h" 2
+# 26 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiStatusCode.h" 2
 
 
 
 
 typedef UINT32 EFI_STATUS_CODE_TYPE;
-# 73 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiStatusCode.h"
+# 73 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiStatusCode.h"
 typedef UINT32 EFI_STATUS_CODE_VALUE;
-# 90 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiStatusCode.h"
+# 90 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiStatusCode.h"
 typedef struct {
 
 
@@ -11907,9 +11907,9 @@ typedef struct {
 
   EFI_GUID Type;
 } EFI_STATUS_CODE_DATA;
-# 27 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiS3BootScript.h" 1
-# 43 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiS3BootScript.h"
+# 27 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiS3BootScript.h" 1
+# 43 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiS3BootScript.h"
 typedef enum {
   EfiBootScriptWidthUint8,
   EfiBootScriptWidthUint16,
@@ -11925,8 +11925,8 @@ typedef enum {
   EfiBootScriptWidthFillUint64,
   EfiBootScriptWidthMaximum
 } EFI_BOOT_SCRIPT_WIDTH;
-# 28 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
-# 115 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
+# 28 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h" 2
+# 115 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
 typedef struct {
 
 
@@ -11982,13 +11982,13 @@ typedef struct {
 
   CHAR8 *PcdName;
 } EFI_PCD_INFO;
-# 179 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
+# 179 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiMultiPhase.h"
 typedef
 void
 ( *EFI_AP_PROCEDURE)(
   void *Buffer
   );
-# 23 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h" 2
+# 23 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h" 2
 
 
 
@@ -12128,7 +12128,7 @@ typedef struct {
 
 
   EFI_HANDLE ImageHandle;
-# 170 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 170 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
   EFI_HANDLE DeviceHandle;
 } EFI_GCD_MEMORY_SPACE_DESCRIPTOR;
 
@@ -12161,10 +12161,10 @@ typedef struct {
 
 
   EFI_HANDLE ImageHandle;
-# 210 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 210 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
   EFI_HANDLE DeviceHandle;
 } EFI_GCD_IO_SPACE_DESCRIPTOR;
-# 245 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 245 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_ADD_MEMORY_SPACE)(
@@ -12173,7 +12173,7 @@ EFI_STATUS
   UINT64 Length,
   UINT64 Capabilities
   );
-# 284 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 284 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_ALLOCATE_MEMORY_SPACE)(
@@ -12185,28 +12185,28 @@ EFI_STATUS
   EFI_HANDLE ImageHandle,
   EFI_HANDLE DeviceHandle
   );
-# 314 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 314 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_FREE_MEMORY_SPACE)(
   EFI_PHYSICAL_ADDRESS BaseAddress,
   UINT64 Length
   );
-# 342 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 342 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_REMOVE_MEMORY_SPACE)(
   EFI_PHYSICAL_ADDRESS BaseAddress,
   UINT64 Length
   );
-# 361 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 361 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_MEMORY_SPACE_DESCRIPTOR)(
   EFI_PHYSICAL_ADDRESS BaseAddress,
   EFI_GCD_MEMORY_SPACE_DESCRIPTOR *Descriptor
   );
-# 389 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 389 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_SET_MEMORY_SPACE_ATTRIBUTES)(
@@ -12214,7 +12214,7 @@ EFI_STATUS
   UINT64 Length,
   UINT64 Attributes
   );
-# 414 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 414 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_SET_MEMORY_SPACE_CAPABILITIES) (
@@ -12222,14 +12222,14 @@ EFI_STATUS
   UINT64 Length,
   UINT64 Capabilities
   );
-# 437 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 437 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_MEMORY_SPACE_MAP)(
   UINTN *NumberOfDescriptors,
   EFI_GCD_MEMORY_SPACE_DESCRIPTOR **MemorySpaceMap
   );
-# 468 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 468 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_ADD_IO_SPACE)(
@@ -12237,7 +12237,7 @@ EFI_STATUS
   EFI_PHYSICAL_ADDRESS BaseAddress,
   UINT64 Length
   );
-# 500 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 500 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_ALLOCATE_IO_SPACE)(
@@ -12249,55 +12249,55 @@ EFI_STATUS
   EFI_HANDLE ImageHandle,
   EFI_HANDLE DeviceHandle
   );
-# 530 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 530 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_FREE_IO_SPACE)(
   EFI_PHYSICAL_ADDRESS BaseAddress,
   UINT64 Length
   );
-# 560 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 560 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_REMOVE_IO_SPACE)(
   EFI_PHYSICAL_ADDRESS BaseAddress,
   UINT64 Length
   );
-# 579 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 579 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_IO_SPACE_DESCRIPTOR)(
   EFI_PHYSICAL_ADDRESS BaseAddress,
   EFI_GCD_IO_SPACE_DESCRIPTOR *Descriptor
   );
-# 601 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 601 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_GET_IO_SPACE_MAP)(
   UINTN *NumberOfDescriptors,
   EFI_GCD_IO_SPACE_DESCRIPTOR **IoSpaceMap
   );
-# 626 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 626 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_DISPATCH)(
   void
   );
-# 643 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 643 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_SCHEDULE)(
   EFI_HANDLE FirmwareVolumeHandle,
   const EFI_GUID *FileName
   );
-# 661 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 661 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_TRUST)(
   EFI_HANDLE FirmwareVolumeHandle,
   const EFI_GUID *FileName
   );
-# 686 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 686 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef
 EFI_STATUS
 ( *EFI_PROCESS_FIRMWARE_VOLUME)(
@@ -12305,7 +12305,7 @@ EFI_STATUS
   UINTN Size,
   EFI_HANDLE *FirmwareVolumeHandle
   );
-# 702 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
+# 702 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Pi/PiDxeCis.h"
 typedef struct {
 
 
@@ -12347,8 +12347,8 @@ typedef struct {
 } DXE_SERVICES;
 
 typedef DXE_SERVICES EFI_DXE_SERVICES;
-# 23 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/PiDxe.h" 2
-# 17 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/EbcDxe/EbcDxe/DEBUG/AutoGen.h" 2
+# 23 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/PiDxe.h" 2
+# 17 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/EbcDxe/EbcDxe/DEBUG/AutoGen.h" 2
 
 extern GUID gEfiCallerIdGuid;
 extern CHAR8 *gEfiCallerBaseName;
@@ -12387,14 +12387,14 @@ InitializeEbcDriver (
   EFI_SYSTEM_TABLE *SystemTable
   );
 # 32 "<command-line>" 2
-# 1 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
-# 20 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
+# 1 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
+# 20 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
 .globl EbcLLCALLEXNative
 .globl EbcLLEbcInterpret
 .globl EbcLLExecuteEbcImageEntryPoint
 
 .globl mEbcInstructionBufferTemplate
-# 37 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
+# 37 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
 EbcLLCALLEXNative:
     mov x8, x0
     mov x9, x1
@@ -12408,7 +12408,7 @@ EbcLLCALLEXNative:
     sub x3, x2, x1
     cmp x3, #64
     b.gt 1f
-# 58 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
+# 58 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
     adr x0, 0f
     bic x3, x3, #7
     sub x0, x0, x3, lsr #1
@@ -12458,7 +12458,7 @@ EbcLLCALLEXNative:
     mov sp, x29
     ldp x29, x30, [sp], #16
     ret
-# 117 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
+# 117 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
 EbcLLEbcInterpret:
     stp x29, x30, [sp, #-16]!
     mov x29, sp
@@ -12473,7 +12473,7 @@ EbcLLEbcInterpret:
     add sp, sp, #16
     ldp x29, x30, [sp], #16
     ret
-# 140 "/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
+# 140 "/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/EbcDxe/AArch64/EbcLowLevel.S"
 EbcLLExecuteEbcImageEntryPoint:
     mov x2, x16
 

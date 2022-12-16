@@ -1,8 +1,8 @@
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmPkg/Library/CompilerIntrinsicsLib/memset.c
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmPkg/Library/CompilerIntrinsicsLib/memset_ms.c
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmPkg/Library/CompilerIntrinsicsLib/memcpy.c
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmPkg/Library/CompilerIntrinsicsLib/memcpy_ms.c
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/DEBUG/AutoGen.h
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmPkg/Library/CompilerIntrinsicsLib/memcpy_ms.c
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmPkg/Library/CompilerIntrinsicsLib/memset_ms.c
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/DEBUG/AutoGen.h
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/AArch64/ProcessorBind.h
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmPkg/Library/CompilerIntrinsicsLib/memcpy.c
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/ArmPkg/Library/CompilerIntrinsicsLib/memset.c

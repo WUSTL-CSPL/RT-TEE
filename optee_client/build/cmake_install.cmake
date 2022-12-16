@@ -1,4 +1,4 @@
-# Install script for directory: /home/osboxes/rttee_qemu/optee_client
+# Install script for directory: /home/osboxes/fix_rttee_text/RT-TEE/optee_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/osboxes/rttee_qemu/optee_client/build/libteec/cmake_install.cmake")
-  include("/home/osboxes/rttee_qemu/optee_client/build/tee-supplicant/cmake_install.cmake")
-  include("/home/osboxes/rttee_qemu/optee_client/build/public/cmake_install.cmake")
+  include("/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec/cmake_install.cmake")
+  include("/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant/cmake_install.cmake")
+  include("/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/public/cmake_install.cmake")
 
 endif()
 
@@ -48,5 +48,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/osboxes/rttee_qemu/optee_client/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

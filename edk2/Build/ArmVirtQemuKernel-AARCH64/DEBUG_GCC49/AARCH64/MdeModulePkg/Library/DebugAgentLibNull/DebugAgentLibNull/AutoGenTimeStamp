@@ -1,6 +1,6 @@
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull/DEBUG/AutoGen.h
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull.c
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Include/Library/DebugAgentLib.h
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/Base.h
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/AArch64/ProcessorBind.h
-/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull.inf
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/Base.h
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull.inf
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull.c
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull/DEBUG/AutoGen.h
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Include/Library/DebugAgentLib.h
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/AArch64/ProcessorBind.h

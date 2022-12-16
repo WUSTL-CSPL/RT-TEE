@@ -1,4 +1,4 @@
-# Install script for directory: /home/osboxes/rttee_qemu/optee_client/tee-supplicant
+# Install script for directory: /home/osboxes/fix_rttee_text/RT-TEE/optee_client/tee-supplicant
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/sbin/tee-supplicant"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sbin" TYPE EXECUTABLE FILES "/home/osboxes/rttee_qemu/optee_client/build/tee-supplicant/tee-supplicant")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sbin" TYPE EXECUTABLE FILES "/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/tee-supplicant/tee-supplicant")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/sbin/tee-supplicant" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/sbin/tee-supplicant")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/sbin/tee-supplicant"
-         OLD_RPATH "/home/osboxes/rttee_qemu/optee_client/build/libteec:"
+         OLD_RPATH "/home/osboxes/fix_rttee_text/RT-TEE/optee_client/build/libteec:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/sbin/tee-supplicant")

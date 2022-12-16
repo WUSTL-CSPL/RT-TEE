@@ -1,7 +1,7 @@
--I/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Universal/Disk/RamDiskDxe
--I/home/osboxes/RT-TEE_PRE_RELEASE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/RamDiskDxe/RamDiskDxe/DEBUG
--I/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg
--I/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include
--I/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdePkg/Include/AArch64
--I/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg
--I/home/osboxes/RT-TEE_PRE_RELEASE/edk2/MdeModulePkg/Include
+-I/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Universal/Disk/RamDiskDxe
+-I/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/RamDiskDxe/RamDiskDxe/DEBUG
+-I/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg
+-I/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include
+-I/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdePkg/Include/AArch64
+-I/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg
+-I/home/osboxes/fix_rttee_text/RT-TEE/edk2/MdeModulePkg/Include
