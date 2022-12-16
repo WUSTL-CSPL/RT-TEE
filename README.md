@@ -3,7 +3,7 @@
 Jinwen Wang, Ao Li, Haoran Li, Chenyang Lu, and Ning Zhang. "RT-TEE: Real-time System Availability for Cyber-physical Systems using ARM TrustZone." 2022 IEEE Symposium on Security and Privacy (SP), pp. 1573-1573. IEEE Computer Society, 2022.
 
 ## Dependencies
-RT-TEE is migrated on QEMU. Install prerequisite folowing [this](https://optee.readthedocs.io/en/latest/building/prerequisites.html).
+RT-TEE is migrated on QEMU. The testing environmet is Ubuntu 16.04. Install prerequisite folowing [this](https://optee.readthedocs.io/en/latest/building/prerequisites.html).
 
 ## Project Structure
 The main RT-TEE codes are distributed in directory structure as follows.
@@ -30,20 +30,26 @@ To setup RT-TEE for the first time, clone the repo and follow next steps. REPO_R
 1. Build Toolchain
 ```
 cd REPO_ROOT
-mkdir toolchains
-cd toolchains
+cd build
+make toolchains
 ```
-Download and decompress following toolchains.
-gcc-arm-8.2-2018.08-x86_64-aarch64-linux-gnu.tar.xz
-gcc-arm-8.2-2018.08-x86_64-arm-linux-gnueabihf.tar.xz
 
 2. Build Project 
 ```
 cd REPO_ROOT
 cd build
+make clean
 source start_qemu.txt
 ```
 3. Build trusted application and configure scheduling parameters. 
+
+Please modify the RTTEE_PATH in REPO_ROOT/optee_examples/hello_world/envi_setup.txt to your project root directory path first.
+
+```
+cd REPO_ROOT/optee_client
+source ./client_compile.txt
+```
+
 ```
 cd REPO_ROOT
 cd build
@@ -55,6 +61,7 @@ An example of configuring RT-TEE scheduling parameters is shown in /optee_exampl
 ## Running
 - start qemu
 ```
+cd REPO_ROOT
 cd build
 source start_qemu.txt
 ```
