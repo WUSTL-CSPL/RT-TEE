@@ -1,0 +1,6 @@
+ArmVirtPrePiUniCoreRelocatable (Fixed Flash Address, BaseAddress=0x00000080a0, EntryPoint=0x0000008180)
+(GUID=F7D9FD14-9335-4389-80C5-334D6ABFCCED .textbaseaddress=0x0000008180 .databaseaddress=0x0000007f40)
+(IMAGE=/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/PrePi/ArmVirtPrePiUniCoreRelocatable/DEBUG/ArmVirtPrePiUniCoreRelocatable.efi)
+
+
+

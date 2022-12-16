@@ -1,0 +1,9 @@
+EFI_FV_TOTAL_SIZE = 0x1f8000
+EFI_FV_TAKEN_SIZE = 0xf58b0
+EFI_FV_SPACE_SIZE = 0x102750
+
+ArmVirtPrePiUniCoreRelocatable (Fixed Flash Address, BaseAddress=0x00000080a0, EntryPoint=0x0000008180)
+(GUID=F7D9FD14-9335-4389-80C5-334D6ABFCCED .textbaseaddress=0x0000008180 .databaseaddress=0x0000007f40)
+
+
+

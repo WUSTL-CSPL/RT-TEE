@@ -1,0 +1,1223 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj) (gEfiLoadedImageProtocolGuid)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj) (InitializeUnicodeCollationEng)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj) (HobLibConstructor)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj) (FdtPL011SerialPortLibInitialize)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj) (BaseDebugLibSerialPortConstructor)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj) (gImageHandle)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj) (CompareGuid)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj) (SetMem)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj) (InternalMemSetMem)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj) (InternalMemCopyMem)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj) (InternalMemCompareGuid)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj) (SetMem64)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj) (CpuDeadLoop)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj) (AsciiStrLen)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj) (CpuBreakpoint)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj) (StrDecimalToUintnS)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj) (SwapBytes32)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj) (SwapBytes16)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj) (RShiftU64)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj) (MultU64x32)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj) (LShiftU64)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj) (DivU64x32)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj) (InternalMathLShiftU64)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj) (PL011UartInitializePort)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj) (GetDebugPrintErrorLevel)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj) (AsciiVSPrint)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj) (BasePrintLibConvertValueToStringS)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj) (ZeroMem)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj) (CopyMem)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj) (DivU64x32Remainder)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj) (ReadUnaligned16)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj) (MmioRead8)
+/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(ArmVirtMmio.obj)
+                              /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj) (MmioRead8Internal)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .text.EfiMain  0x0000000000000000       0x24 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .data.gEfiCallerIdGuid
+                0x0000000000000000       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .data.gEfiMdeModulePkgTokenSpaceGuid
+                0x0000000000000000       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .data.gEfiMdePkgTokenSpaceGuid
+                0x0000000000000000       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .data.gArmPlatformTokenSpaceGuid
+                0x0000000000000000       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .data.gPcdProtocolGuid
+                0x0000000000000000       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .data.gEfiPcdProtocolGuid
+                0x0000000000000000       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .data.gGetPcdInfoProtocolGuid
+                0x0000000000000000       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .data.gEfiGetPcdInfoProtocolGuid
+                0x0000000000000000       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .bss._gPcd_SkuId_Array
+                0x0000000000000000        0x8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdVerifyNodeInList
+                0x0000000000000000        0x1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+                0x0000000000000000        0x4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdSerialBaudRate
+                0x0000000000000000        0x4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PL011UartInteger
+                0x0000000000000000        0x4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PL011UartFractional
+                0x0000000000000000        0x4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PL011UartRegOffsetVariant
+                0x0000000000000000        0x1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PL011UartClkInHz
+                0x0000000000000000        0x4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdDebugClearMemoryValue
+                0x0000000000000000        0x1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .rodata._gDxeRevision
+                0x0000000000000000        0x4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .text.ExitDriver
+                0x0000000000000000       0x74 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.GetFirstHob
+                0x0000000000000000       0x28 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.GetBootModeHob
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.BuildModuleHob
+                0x0000000000000000       0x28 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.BuildResourceDescriptorHob
+                0x0000000000000000       0x28 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.BuildGuidHob
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.BuildGuidDataHob
+                0x0000000000000000       0x24 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.BuildFvHob
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.BuildFv2Hob
+                0x0000000000000000       0x28 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.BuildFv3Hob
+                0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.BuildCvHob
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.BuildCpuHob
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.BuildStackHob
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.BuildBspStoreHob
+                0x0000000000000000       0x24 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text.BuildMemoryAllocationHob
+                0x0000000000000000       0x24 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .text.SerialPortRead
+                0x0000000000000000       0x4c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .text.SerialPortPoll
+                0x0000000000000000       0x40 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .text.SerialPortSetAttributes
+                0x0000000000000000       0x7c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .text.SerialPortSetControl
+                0x0000000000000000       0x50 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .text.SerialPortGetControl
+                0x0000000000000000       0x50 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .text.DebugClearMemory
+                0x0000000000000000       0x68 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .text.DebugCodeEnabled
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .text.DebugClearMemoryEnabled
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .text.CopyGuid
+                0x0000000000000000       0x90 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .text.ScanGuid
+                0x0000000000000000      0x128 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .text.IsZeroGuid
+                0x0000000000000000       0x58 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .rodata        0x0000000000000000       0x94 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .text.SetMem   0x0000000000000000       0x80 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .text.SetMemN  0x0000000000000000       0x2c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .debug_info    0x0000000000000000      0x2af /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .debug_abbrev  0x0000000000000000       0xed /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .debug_aranges
+                0x0000000000000000       0x40 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .debug_ranges  0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .debug_line    0x0000000000000000      0x204 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .debug_str     0x0000000000000000      0x49a /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .debug_frame   0x0000000000000000       0x60 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+ .text          0x0000000000000000      0x200 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .text          0x0000000000000000      0x218 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .rodata        0x0000000000000000      0x105 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .text.SetMem64
+                0x0000000000000000      0x12c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .debug_info    0x0000000000000000      0x25f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .debug_abbrev  0x0000000000000000       0xcf /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .debug_line    0x0000000000000000      0x211 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .debug_str     0x0000000000000000      0x496 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .debug_frame   0x0000000000000000       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.StrLen   0x0000000000000000      0x10c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.StrSize  0x0000000000000000       0x24 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.StrCmp   0x0000000000000000       0xe8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.StrnCmp  0x0000000000000000      0x180 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.StrStr   0x0000000000000000      0x144 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.InternalIsDecimalDigitCharacter
+                0x0000000000000000       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.InternalCharToUpper
+                0x0000000000000000       0x3c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.InternalHexCharToUintn
+                0x0000000000000000       0x4c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.InternalIsHexaDecimalDigitCharacter
+                0x0000000000000000       0x68 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.StrDecimalToUintn
+                0x0000000000000000       0x2c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.StrDecimalToUint64
+                0x0000000000000000       0x2c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.StrHexToUintn
+                0x0000000000000000       0x2c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.StrHexToUint64
+                0x0000000000000000       0x2c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.InternalAsciiIsDecimalDigitCharacter
+                0x0000000000000000       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.InternalAsciiIsHexaDecimalDigitCharacter
+                0x0000000000000000       0x68 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.AsciiStrSize
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.AsciiStrCmp
+                0x0000000000000000       0xe8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.InternalBaseLibAsciiToUpper
+                0x0000000000000000       0x3c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.InternalAsciiHexCharToUintn
+                0x0000000000000000       0x50 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.AsciiStriCmp
+                0x0000000000000000      0x114 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.AsciiStrnCmp
+                0x0000000000000000      0x180 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.AsciiStrStr
+                0x0000000000000000      0x144 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.AsciiStrDecimalToUintn
+                0x0000000000000000       0x2c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.AsciiStrDecimalToUint64
+                0x0000000000000000       0x2c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.AsciiStrHexToUintn
+                0x0000000000000000       0x2c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.AsciiStrHexToUint64
+                0x0000000000000000       0x2c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.DecimalToBcd8
+                0x0000000000000000       0xac /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .text.BcdToDecimal8
+                0x0000000000000000       0xb8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.InternalSafeStringIsOverlap
+                0x0000000000000000       0x78 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.InternalSafeStringNoStrOverlap
+                0x0000000000000000       0x50 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.InternalSafeStringNoAsciiStrOverlap
+                0x0000000000000000       0x44 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrnSizeS
+                0x0000000000000000       0x40 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrCpyS  0x0000000000000000      0x310 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrnCpyS
+                0x0000000000000000      0x3d4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrCatS  0x0000000000000000      0x394 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrnCatS
+                0x0000000000000000      0x458 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrDecimalToUintnS
+                0x0000000000000000      0x2f8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrDecimalToUint64S
+                0x0000000000000000      0x2f0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrHexToUintnS
+                0x0000000000000000      0x324 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrHexToUint64S
+                0x0000000000000000      0x330 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrToIpv6Address
+                0x0000000000000000      0x48c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrToIpv4Address
+                0x0000000000000000      0x280 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrToGuid
+                0x0000000000000000      0x2a8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.StrHexToBytes
+                0x0000000000000000      0x340 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrnSizeS
+                0x0000000000000000       0x3c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrCpyS
+                0x0000000000000000      0x2a0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrnCpyS
+                0x0000000000000000      0x364 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrCatS
+                0x0000000000000000      0x320 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrnCatS
+                0x0000000000000000      0x3e4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrDecimalToUintnS
+                0x0000000000000000      0x2c0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrDecimalToUint64S
+                0x0000000000000000      0x2b8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrHexToUintnS
+                0x0000000000000000      0x2ec /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrHexToUint64S
+                0x0000000000000000      0x2f8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.UnicodeStrToAsciiStrS
+                0x0000000000000000      0x39c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.UnicodeStrnToAsciiStrS
+                0x0000000000000000      0x528 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrToUnicodeStrS
+                0x0000000000000000      0x364 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrnToUnicodeStrS
+                0x0000000000000000      0x4f0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrToIpv6Address
+                0x0000000000000000      0x454 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrToIpv4Address
+                0x0000000000000000      0x248 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrToGuid
+                0x0000000000000000      0x270 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text.AsciiStrHexToBytes
+                0x0000000000000000      0x2fc /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .text.SwapBytes32
+                0x0000000000000000       0x50 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_info    0x0000000000000000      0x2a8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_abbrev  0x0000000000000000       0xe0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_line    0x0000000000000000      0x1bf /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_str     0x0000000000000000      0x56a /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_frame   0x0000000000000000       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .text.SwapBytes16
+                0x0000000000000000       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_info    0x0000000000000000      0x28a /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_abbrev  0x0000000000000000       0xcf /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_line    0x0000000000000000      0x1b3 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_str     0x0000000000000000      0x553 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_frame   0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .rodata        0x0000000000000000       0x5c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .text.RShiftU64
+                0x0000000000000000       0x58 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_info    0x0000000000000000      0x2a5 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_abbrev  0x0000000000000000       0xcf /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_line    0x0000000000000000      0x1ba /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_str     0x0000000000000000      0x55d /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_frame   0x0000000000000000       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .text.MultU64x32
+                0x0000000000000000       0x2c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .debug_info    0x0000000000000000      0x2a8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .debug_abbrev  0x0000000000000000       0xe0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .debug_line    0x0000000000000000      0x1af /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .debug_str     0x0000000000000000      0x56a /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .debug_frame   0x0000000000000000       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .rodata        0x0000000000000000       0x5c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .text.LShiftU64
+                0x0000000000000000       0x58 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_info    0x0000000000000000      0x2a5 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_abbrev  0x0000000000000000       0xcf /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_line    0x0000000000000000      0x1ba /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_str     0x0000000000000000      0x55d /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_frame   0x0000000000000000       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .rodata        0x0000000000000000       0x5c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .text.DivU64x32
+                0x0000000000000000       0x58 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .debug_info    0x0000000000000000      0x299 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .debug_abbrev  0x0000000000000000       0xcf /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .debug_line    0x0000000000000000      0x1ba /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .debug_str     0x0000000000000000      0x55a /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .debug_frame   0x0000000000000000       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathLShiftU64
+                0x0000000000000000       0x24 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathRShiftU64
+                0x0000000000000000       0x24 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathARShiftU64
+                0x0000000000000000       0x74 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathLRotU64
+                0x0000000000000000       0x24 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathRRotU64
+                0x0000000000000000       0x24 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathSwapBytes64
+                0x0000000000000000       0x48 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathMultU64x32
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathMultU64x64
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathDivU64x32
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathModU64x32
+                0x0000000000000000       0x28 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathDivRemU64x64
+                0x0000000000000000       0x50 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathDivRemS64x64
+                0x0000000000000000       0x50 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .rodata.mInvalidControlBits
+                0x0000000000000000        0x4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .text.PL011UartSetControl
+                0x0000000000000000      0x108 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .text.PL011UartGetControl
+                0x0000000000000000      0x1ac /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .text.PL011UartRead
+                0x0000000000000000       0x80 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .text.PL011UartPoll
+                0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+ .text.SetDebugPrintErrorLevel
+                0x0000000000000000       0x14 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .bss.gNullVaList
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .rodata        0x0000000000000000       0xc1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.UnicodeVSPrint
+                0x0000000000000000       0xdc /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.UnicodeBSPrint
+                0x0000000000000000       0xe0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.UnicodeSPrint
+                0x0000000000000000       0x94 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.UnicodeVSPrintAsciiFormat
+                0x0000000000000000       0xa4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.UnicodeBSPrintAsciiFormat
+                0x0000000000000000       0xa8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.UnicodeSPrintAsciiFormat
+                0x0000000000000000       0x94 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.UnicodeValueToStringS
+                0x0000000000000000       0x78 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.AsciiBSPrint
+                0x0000000000000000       0x68 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.AsciiVSPrintUnicodeFormat
+                0x0000000000000000       0xa0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.AsciiBSPrintUnicodeFormat
+                0x0000000000000000       0xa0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.AsciiSPrintUnicodeFormat
+                0x0000000000000000       0x94 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.AsciiValueToStringS
+                0x0000000000000000       0x40 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.SPrintLength
+                0x0000000000000000       0x98 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text.SPrintLengthAsciiFormat
+                0x0000000000000000       0x60 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .text.BasePrintLibConvertValueToString
+                0x0000000000000000      0x380 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .text.BasePrintLibConvertValueToStringS
+                0x0000000000000000      0x650 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .rodata        0x0000000000000000       0xae /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .text.ZeroMem  0x0000000000000000       0xa8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .debug_info    0x0000000000000000      0x250 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .debug_abbrev  0x0000000000000000       0xcf /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .debug_line    0x0000000000000000      0x1f6 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .debug_str     0x0000000000000000      0x48e /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .debug_frame   0x0000000000000000       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .rodata        0x0000000000000000       0xe6 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .text.CopyMem  0x0000000000000000       0xd8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .debug_info    0x0000000000000000      0x26a /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .debug_abbrev  0x0000000000000000       0xd6 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .debug_line    0x0000000000000000      0x1fc /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .debug_str     0x0000000000000000      0x4a6 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .debug_frame   0x0000000000000000       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.WriteUnaligned16
+                0x0000000000000000       0x7c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.ReadUnaligned24
+                0x0000000000000000       0x6c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.WriteUnaligned24
+                0x0000000000000000       0x7c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.WriteUnaligned32
+                0x0000000000000000       0x84 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.ReadUnaligned64
+                0x0000000000000000       0x80 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.WriteUnaligned64
+                0x0000000000000000       0x88 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoRead8  0x0000000000000000       0x40 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoWrite8
+                0x0000000000000000       0x44 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoRead16
+                0x0000000000000000       0x40 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoWrite16
+                0x0000000000000000       0x44 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoRead32
+                0x0000000000000000       0x40 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoWrite32
+                0x0000000000000000       0x44 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoRead64
+                0x0000000000000000       0x40 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoWrite64
+                0x0000000000000000       0x44 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoReadFifo8
+                0x0000000000000000       0x48 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoWriteFifo8
+                0x0000000000000000       0x48 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoReadFifo16
+                0x0000000000000000       0x48 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoWriteFifo16
+                0x0000000000000000       0x48 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoReadFifo32
+                0x0000000000000000       0x48 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.IoWriteFifo32
+                0x0000000000000000       0x48 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.MmioRead8
+                0x0000000000000000       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.MmioRead16
+                0x0000000000000000       0x58 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.MmioWrite16
+                0x0000000000000000       0x60 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.MmioRead64
+                0x0000000000000000       0x54 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .text.MmioWrite64
+                0x0000000000000000       0x60 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .comment       0x0000000000000000       0x5f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ .data          0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(ArmVirtMmio.obj)
+ .bss           0x0000000000000000        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(ArmVirtMmio.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+LOAD /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000001000     0x57f8
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text._DriverUnloadHandler
+                0x0000000000001000       0x48 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                0x0000000000001000                _DriverUnloadHandler
+ .text._ModuleEntryPoint
+                0x0000000000001048      0x148 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                0x0000000000001048                _ModuleEntryPoint
+ .text.ProcessLibraryConstructorList
+                0x0000000000001190      0x1fc /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x0000000000001190                ProcessLibraryConstructorList
+ .text.ProcessLibraryDestructorList
+                0x000000000000138c       0x18 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x000000000000138c                ProcessLibraryDestructorList
+ .text.ProcessModuleEntryPointList
+                0x00000000000013a4       0x24 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000013a4                ProcessModuleEntryPointList
+ .text.ProcessModuleUnloadList
+                0x00000000000013c8       0x14 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000013c8                ProcessModuleUnloadList
+ .text.InitializeUnicodeCollationEng
+                0x00000000000013dc      0x474 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x00000000000013dc                InitializeUnicodeCollationEng
+ .text.EngStriColl
+                0x0000000000001850      0x14c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x0000000000001850                EngStriColl
+ .text.EngStrLwr
+                0x000000000000199c       0x7c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x000000000000199c                EngStrLwr
+ .text.EngStrUpr
+                0x0000000000001a18       0x7c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x0000000000001a18                EngStrUpr
+ .text.EngMetaiMatch
+                0x0000000000001a94      0x3a4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x0000000000001a94                EngMetaiMatch
+ .text.EngFatToStr
+                0x0000000000001e38       0x80 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x0000000000001e38                EngFatToStr
+ .text.EngStrToFat
+                0x0000000000001eb8       0xfc /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x0000000000001eb8                EngStrToFat
+ .text.HobLibConstructor
+                0x0000000000001fb4       0xbc /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+                0x0000000000001fb4                HobLibConstructor
+ .text.GetHobList
+                0x0000000000002070       0x34 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+                0x0000000000002070                GetHobList
+ .text.GetNextHob
+                0x00000000000020a4       0x8c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+                0x00000000000020a4                GetNextHob
+ .text.GetNextGuidHob
+                0x0000000000002130       0x90 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+                0x0000000000002130                GetNextGuidHob
+ .text.GetFirstGuidHob
+                0x00000000000021c0       0x28 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+                0x00000000000021c0                GetFirstGuidHob
+ .text.SerialPortInitialize
+                0x00000000000021e8        0x8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+                0x00000000000021e8                SerialPortInitialize
+ .text.FdtPL011SerialPortLibInitialize
+                0x00000000000021f0      0x114 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+                0x00000000000021f0                FdtPL011SerialPortLibInitialize
+ .text.SerialPortWrite
+                0x0000000000002304       0x4c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+                0x0000000000002304                SerialPortWrite
+ .text.BaseDebugLibSerialPortConstructor
+                0x0000000000002350       0x14 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                0x0000000000002350                BaseDebugLibSerialPortConstructor
+ .text.DebugPrint
+                0x0000000000002364       0xe4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                0x0000000000002364                DebugPrint
+ .text.DebugAssert
+                0x0000000000002448       0xa4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                0x0000000000002448                DebugAssert
+ .text.DebugAssertEnabled
+                0x00000000000024ec       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                0x00000000000024ec                DebugAssertEnabled
+ .text.DebugPrintEnabled
+                0x000000000000250c       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                0x000000000000250c                DebugPrintEnabled
+ .text.DebugPrintLevelEnabled
+                0x000000000000252c       0x34 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                0x000000000000252c                DebugPrintLevelEnabled
+ .text.UefiBootServicesTableLibConstructor
+                0x0000000000002560      0x104 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                0x0000000000002560                UefiBootServicesTableLibConstructor
+ .text.CompareGuid
+                0x0000000000002664       0x90 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                0x0000000000002664                CompareGuid
+ *fill*         0x00000000000026f4        0xc 
+ .text          0x0000000000002700       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x0000000000002700                InternalMemCompareGuid
+ .text.CpuDeadLoop
+                0x0000000000002720       0x24 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                0x0000000000002720                CpuDeadLoop
+ .text.AsciiStrLen
+                0x0000000000002744       0xd4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                0x0000000000002744                AsciiStrLen
+ .text          0x0000000000002818        0x8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                0x0000000000002818                CpuBreakpoint
+ .text.StrnLenS
+                0x0000000000002820       0xc0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                0x0000000000002820                StrnLenS
+ .text.AsciiStrnLenS
+                0x00000000000028e0       0x80 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                0x00000000000028e0                AsciiStrnLenS
+ .text.InternalMathDivRemU64x32
+                0x0000000000002960       0x50 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                0x0000000000002960                InternalMathDivRemU64x32
+ .text.PL011UartInitializePort
+                0x00000000000029b0      0x3b0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+                0x00000000000029b0                PL011UartInitializePort
+ .text.PL011UartWrite
+                0x0000000000002d60       0x7c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+                0x0000000000002d60                PL011UartWrite
+ .text.GetDebugPrintErrorLevel
+                0x0000000000002ddc       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                0x0000000000002ddc                GetDebugPrintErrorLevel
+ .text.AsciiVSPrint
+                0x0000000000002dec       0x68 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                0x0000000000002dec                AsciiVSPrint
+ .text.AsciiSPrint
+                0x0000000000002e54       0x94 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                0x0000000000002e54                AsciiSPrint
+ .text.BasePrintLibFillBuffer
+                0x0000000000002ee8       0x9c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                0x0000000000002ee8                BasePrintLibFillBuffer
+ .text.BasePrintLibValueToString
+                0x0000000000002f84       0x7c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                0x0000000000002f84                BasePrintLibValueToString
+ .text.BasePrintLibSPrintMarker
+                0x0000000000003000     0x1bcc /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                0x0000000000003000                BasePrintLibSPrintMarker
+ .text.BasePrintLibSPrint
+                0x0000000000004bcc       0x9c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                0x0000000000004bcc                BasePrintLibSPrint
+ .text.DivU64x32Remainder
+                0x0000000000004c68       0x60 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                0x0000000000004c68                DivU64x32Remainder
+ .text.ReadUnaligned16
+                0x0000000000004cc8       0x88 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                0x0000000000004cc8                ReadUnaligned16
+ .text.ReadUnaligned32
+                0x0000000000004d50       0x74 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                0x0000000000004d50                ReadUnaligned32
+ .text.MmioWrite8
+                0x0000000000004dc4       0x28 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+                0x0000000000004dc4                MmioWrite8
+ .text.MmioRead32
+                0x0000000000004dec       0x54 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+                0x0000000000004dec                MmioRead32
+ .text.MmioWrite32
+                0x0000000000004e40       0x60 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+                0x0000000000004e40                MmioWrite32
+ .text          0x0000000000004ea0       0x60 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(ArmVirtMmio.obj)
+                0x0000000000004ea0                MmioRead8Internal
+                0x0000000000004eac                MmioWrite8Internal
+                0x0000000000004eb8                MmioRead16Internal
+                0x0000000000004ec4                MmioWrite16Internal
+                0x0000000000004ed0                MmioRead32Internal
+                0x0000000000004edc                MmioWrite32Internal
+                0x0000000000004ee8                MmioRead64Internal
+                0x0000000000004ef4                MmioWrite64Internal
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000004f00       0xa0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rodata        0x0000000000004fa0      0x100 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdUnicodeCollationSupport
+                0x00000000000050a0        0x1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050a0                _gPcd_FixedAtBuild_PcdUnicodeCollationSupport
+ .rodata._gPcd_FixedAtBuild_PcdUnicodeCollation2Support
+                0x00000000000050a1        0x1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050a1                _gPcd_FixedAtBuild_PcdUnicodeCollation2Support
+ *fill*         0x00000000000050a2        0x2 
+ .rodata._gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+                0x00000000000050a4        0x4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050a4                _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x00000000000050a8        0x4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050a8                _gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+ .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
+                0x00000000000050ac        0x1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050ac                _gPcd_FixedAtBuild_PcdDebugPropertyMask
+ *fill*         0x00000000000050ad        0x3 
+ .rodata._gPcd_FixedAtBuild_PcdDebugPrintErrorLevel
+                0x00000000000050b0        0x4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050b0                _gPcd_FixedAtBuild_PcdDebugPrintErrorLevel
+ *fill*         0x00000000000050b4        0x4 
+ .rodata._gPcd_FixedAtBuild_PcdUartDefaultBaudRate
+                0x00000000000050b8        0x8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050b8                _gPcd_FixedAtBuild_PcdUartDefaultBaudRate
+ .rodata._gPcd_FixedAtBuild_PcdUartDefaultDataBits
+                0x00000000000050c0        0x1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050c0                _gPcd_FixedAtBuild_PcdUartDefaultDataBits
+ .rodata._gPcd_FixedAtBuild_PcdUartDefaultParity
+                0x00000000000050c1        0x1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050c1                _gPcd_FixedAtBuild_PcdUartDefaultParity
+ .rodata._gPcd_FixedAtBuild_PcdUartDefaultStopBits
+                0x00000000000050c2        0x1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050c2                _gPcd_FixedAtBuild_PcdUartDefaultStopBits
+ *fill*         0x00000000000050c3        0x1 
+ .rodata._gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+                0x00000000000050c4        0x4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050c4                _gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+ .rodata._gUefiDriverRevision
+                0x00000000000050c8        0x4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050c8                _gUefiDriverRevision
+ .rodata._gDriverUnloadImageCount
+                0x00000000000050cc        0x1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000050cc                _gDriverUnloadImageCount
+ *fill*         0x00000000000050cd        0x3 
+ .rodata        0x00000000000050d0       0xda /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+ *fill*         0x00000000000051aa        0x6 
+ .rodata        0x00000000000051b0       0xa7 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ *fill*         0x0000000000005257        0x1 
+ .rodata        0x0000000000005258       0xbc /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ *fill*         0x0000000000005314        0x4 
+ .rodata        0x0000000000005318      0x17d /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ *fill*         0x0000000000005495        0x3 
+ .rodata        0x0000000000005498      0x2bc /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ *fill*         0x0000000000005754        0x4 
+ .rodata        0x0000000000005758      0x644 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ *fill*         0x0000000000005d9c        0x4 
+ .rodata.mHexStr
+                0x0000000000005da0       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                0x0000000000005da0                mHexStr
+ .rodata        0x0000000000005db0      0x72a /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ *fill*         0x00000000000064da        0x6 
+ .rodata.mStatusString
+                0x00000000000064e0      0x138 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                0x00000000000064e0                mStatusString
+ .rodata        0x0000000000006618       0x65 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+ *fill*         0x000000000000667d        0x3 
+ .rodata        0x0000000000006680       0x68 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .rodata        0x00000000000066e8       0xbb /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+ *(.got .got.*)
+ *:AutoGen.obj(.data.g*Guid)
+ *fill*         0x00000000000067a3        0x5 
+ .data.gEfiHobListGuid
+                0x00000000000067a8       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000067a8                gEfiHobListGuid
+ .data.gEarlyPL011BaseAddressGuid
+                0x00000000000067b8       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000067b8                gEarlyPL011BaseAddressGuid
+ .data.gEfiUnicodeCollationProtocolGuid
+                0x00000000000067c8       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000067c8                gEfiUnicodeCollationProtocolGuid
+ .data.gEfiUnicodeCollation2ProtocolGuid
+                0x00000000000067d8       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000067d8                gEfiUnicodeCollation2ProtocolGuid
+ .data.gEfiLoadedImageProtocolGuid
+                0x00000000000067e8       0x10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x00000000000067e8                gEfiLoadedImageProtocolGuid
+
+.iplt           0x00000000000067f8        0x0
+ .iplt          0x00000000000067f8        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+
+.data           0x0000000000007000      0x3c8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.gEfiCallerBaseName
+                0x0000000000007000        0x8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                0x0000000000007000                gEfiCallerBaseName
+ .data.mOtherChars
+                0x0000000000007008       0x1d /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x0000000000007008                mOtherChars
+ *fill*         0x0000000000007025        0x3 
+ .data.UnicodeEng
+                0x0000000000007028       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x0000000000007028                UnicodeEng
+ .data.Unicode2Eng
+                0x0000000000007060       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x0000000000007060                Unicode2Eng
+ *(.bss .bss.*)
+ .bss.mEngUpperMap
+                0x0000000000007098      0x100 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x0000000000007098                mEngUpperMap
+ .bss.mEngLowerMap
+                0x0000000000007198      0x100 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x0000000000007198                mEngLowerMap
+ .bss.mEngInfoMap
+                0x0000000000007298      0x100 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x0000000000007298                mEngInfoMap
+ .bss.mHandle   0x0000000000007398        0x8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                0x0000000000007398                mHandle
+ .bss.mHobList  0x00000000000073a0        0x8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+                0x00000000000073a0                mHobList
+ .bss.mSerialBaseAddress
+                0x00000000000073a8        0x8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .bss.gImageHandle
+                0x00000000000073b0        0x8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                0x00000000000073b0                gImageHandle
+ .bss.gST       0x00000000000073b8        0x8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                0x00000000000073b8                gST
+ .bss.gBS       0x00000000000073c0        0x8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                0x00000000000073c0                gBS
+
+.igot.plt       0x00000000000073c8        0x0
+ .igot.plt      0x00000000000073c8        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x00000000000073c8        0x0
+ *(.rela .rela.*)
+ .rela.iplt     0x00000000000073c8        0x0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+
+.hii
+ *(.hii)
+
+.build-id
+ *(.note.gnu.build-id)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/DEBUG/EnglishDxe.dll elf64-littleaarch64)
+
+.debug_info     0x0000000000000000     0xf6b9
+ .debug_info    0x0000000000000000     0x1b62 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_info    0x0000000000001b62     0x1e68 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .debug_info    0x00000000000039ca     0x1ef6 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+ .debug_info    0x00000000000058c0     0x253b /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .debug_info    0x0000000000007dfb      0x5f8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .debug_info    0x00000000000083f3      0x4aa /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .debug_info    0x000000000000889d     0x19d4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_info    0x000000000000a271      0x33e /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .debug_info    0x000000000000a5af      0x297 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+ .debug_info    0x000000000000a846      0xa10 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .debug_info    0x000000000000b256     0x1310 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .debug_info    0x000000000000c566      0x635 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_info    0x000000000000cb9b      0x689 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .debug_info    0x000000000000d224      0x272 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+ .debug_info    0x000000000000d496      0x94d /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .debug_info    0x000000000000dde3      0x9c7 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .debug_info    0x000000000000e7aa      0x2b2 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+ .debug_info    0x000000000000ea5c      0x4b5 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .debug_info    0x000000000000ef11      0x7a8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+
+.debug_abbrev   0x0000000000000000     0x1dc0
+ .debug_abbrev  0x0000000000000000      0x203 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_abbrev  0x0000000000000203      0x299 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .debug_abbrev  0x000000000000049c      0x2ce /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+ .debug_abbrev  0x000000000000076a      0x2a8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .debug_abbrev  0x0000000000000a12      0x1c1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .debug_abbrev  0x0000000000000bd3      0x1bc /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .debug_abbrev  0x0000000000000d8f      0x1f0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_abbrev  0x0000000000000f7f       0xee /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .debug_abbrev  0x000000000000106d       0xd4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+ .debug_abbrev  0x0000000000001141      0x16d /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .debug_abbrev  0x00000000000012ae      0x174 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .debug_abbrev  0x0000000000001422      0x14b /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_abbrev  0x000000000000156d      0x151 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .debug_abbrev  0x00000000000016be       0xed /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+ .debug_abbrev  0x00000000000017ab      0x179 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .debug_abbrev  0x0000000000001924      0x1aa /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .debug_abbrev  0x0000000000001ace       0xd1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+ .debug_abbrev  0x0000000000001b9f       0xe9 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .debug_abbrev  0x0000000000001c88      0x138 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+
+.debug_aranges  0x0000000000000000      0xe90
+ .debug_aranges
+                0x0000000000000000       0x50 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_aranges
+                0x0000000000000050       0x70 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .debug_aranges
+                0x00000000000000c0       0x90 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+ .debug_aranges
+                0x0000000000000150      0x150 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .debug_aranges
+                0x00000000000002a0       0xa0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .debug_aranges
+                0x0000000000000340       0xb0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .debug_aranges
+                0x00000000000003f0       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_aranges
+                0x0000000000000420       0x60 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .debug_aranges
+                0x0000000000000480       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+ .debug_aranges
+                0x00000000000004b0      0x1f0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .debug_aranges
+                0x00000000000006a0      0x250 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .debug_aranges
+                0x00000000000008f0       0xf0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_aranges
+                0x00000000000009e0       0x80 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .debug_aranges
+                0x0000000000000a60       0x40 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+ .debug_aranges
+                0x0000000000000aa0      0x120 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .debug_aranges
+                0x0000000000000bc0       0x80 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .debug_aranges
+                0x0000000000000c40       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+ .debug_aranges
+                0x0000000000000c70       0xa0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .debug_aranges
+                0x0000000000000d10      0x180 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+
+.debug_ranges   0x0000000000000000      0xd60
+ .debug_ranges  0x0000000000000000       0x40 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_ranges  0x0000000000000040       0x60 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .debug_ranges  0x00000000000000a0       0x80 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+ .debug_ranges  0x0000000000000120      0x140 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .debug_ranges  0x0000000000000260       0x90 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .debug_ranges  0x00000000000002f0       0xa0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .debug_ranges  0x0000000000000390       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_ranges  0x00000000000003b0       0x50 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .debug_ranges  0x0000000000000400       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+ .debug_ranges  0x0000000000000420      0x1e0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .debug_ranges  0x0000000000000600      0x240 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .debug_ranges  0x0000000000000840       0xe0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_ranges  0x0000000000000920       0x70 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .debug_ranges  0x0000000000000990       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+ .debug_ranges  0x00000000000009c0      0x110 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .debug_ranges  0x0000000000000ad0       0x70 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .debug_ranges  0x0000000000000b40       0x20 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+ .debug_ranges  0x0000000000000b60       0x90 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .debug_ranges  0x0000000000000bf0      0x170 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+
+.debug_line     0x0000000000000000     0x790e
+ .debug_line    0x0000000000000000      0x46d /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_line    0x000000000000046d      0x470 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .debug_line    0x00000000000008dd      0x831 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+ .debug_line    0x000000000000110e      0x6f2 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .debug_line    0x0000000000001800      0x46f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .debug_line    0x0000000000001c6f      0x3b8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .debug_line    0x0000000000002027      0x3f6 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_line    0x000000000000241d      0x2b1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .debug_line    0x00000000000026ce      0x1be /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+ .debug_line    0x000000000000288c      0x8e4 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .debug_line    0x0000000000003170     0x1ffc /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .debug_line    0x000000000000516c      0x354 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_line    0x00000000000054c0      0x5c6 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .debug_line    0x0000000000005a86      0x214 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+ .debug_line    0x0000000000005c9a      0x41c /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .debug_line    0x00000000000060b6      0xe4f /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .debug_line    0x0000000000006f05      0x1c3 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+ .debug_line    0x00000000000070c8      0x349 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .debug_line    0x0000000000007411      0x4fd /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+
+.debug_str      0x0000000000000000     0x40e5
+ .debug_str     0x0000000000000000     0x1687 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                                       0x17c6 (size before relaxing)
+ .debug_str     0x0000000000001687      0x60b /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+                                       0x1bea (size before relaxing)
+ .debug_str     0x0000000000001c92      0x261 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+                                       0x1ab6 (size before relaxing)
+ .debug_str     0x0000000000001ef3      0x738 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+                                       0x1d0b (size before relaxing)
+ .debug_str     0x000000000000262b      0x3b3 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+                                        0x7e3 (size before relaxing)
+ .debug_str     0x00000000000029de      0x1fa /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                                        0x67e (size before relaxing)
+ .debug_str     0x0000000000002bd8      0x12e /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                                       0x16a3 (size before relaxing)
+ .debug_str     0x0000000000002d06      0x149 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                                        0x4e3 (size before relaxing)
+ .debug_str     0x0000000000002e4f       0xd6 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                                        0x559 (size before relaxing)
+ .debug_str     0x0000000000002f25      0x24d /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                                        0x7f1 (size before relaxing)
+ .debug_str     0x0000000000003172      0x2f1 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                                        0x918 (size before relaxing)
+ .debug_str     0x0000000000003463      0x1c3 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                                        0x6d7 (size before relaxing)
+ .debug_str     0x0000000000003626      0x1aa /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+                                        0x8d9 (size before relaxing)
+ .debug_str     0x00000000000037d0      0x146 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                                        0x516 (size before relaxing)
+ .debug_str     0x0000000000003916      0x258 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                                        0x6d8 (size before relaxing)
+ .debug_str     0x0000000000003b6e      0x240 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                                        0x834 (size before relaxing)
+ .debug_str     0x0000000000003dae       0x68 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                                        0x576 (size before relaxing)
+ .debug_str     0x0000000000003e16       0xe9 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                                        0x600 (size before relaxing)
+ .debug_str     0x0000000000003eff      0x1e6 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
+                                        0x58d (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1e98
+ .debug_frame   0x0000000000000000       0x88 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_frame   0x0000000000000088       0xc8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(AutoGen.obj)
+ .debug_frame   0x0000000000000150      0x100 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.lib(UnicodeCollationEng.obj)
+ .debug_frame   0x0000000000000250      0x308 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/ArmVirtDxeHobLib/ArmVirtDxeHobLib/OUTPUT/ArmVirtDxeHobLib.lib(HobLib.obj)
+ .debug_frame   0x0000000000000558      0x140 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmVirtPkg/Library/FdtPL011SerialPortLib/FdtPL011SerialPortLib/OUTPUT/FdtPL011SerialPortLib.lib(FdtPL011SerialPortLib.obj)
+ .debug_frame   0x0000000000000698      0x130 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+ .debug_frame   0x00000000000007c8       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_frame   0x0000000000000800       0xb0 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+ .debug_frame   0x00000000000008b0       0x30 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+ .debug_frame   0x00000000000008e0      0x478 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+ .debug_frame   0x0000000000000d58      0x5a8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+ .debug_frame   0x0000000000001300      0x1b8 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_frame   0x00000000000014b8      0x100 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/ArmPlatformPkg/Library/PL011UartLib/PL011UartLib/OUTPUT/PL011UartLib.lib(PL011UartLib.obj)
+ .debug_frame   0x00000000000015b8       0x48 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+ .debug_frame   0x0000000000001600      0x290 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+ .debug_frame   0x0000000000001890      0x100 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+ .debug_frame   0x0000000000001990       0x38 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+ .debug_frame   0x00000000000019c8      0x150 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .debug_frame   0x0000000000001b18      0x380 /home/osboxes/fix_rttee_text/RT-TEE/edk2/Build/ArmVirtQemuKernel-AARCH64/DEBUG_GCC49/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicArmVirt/OUTPUT/BaseIoLibIntrinsicArmVirt.lib(IoLibArmVirt.obj)
